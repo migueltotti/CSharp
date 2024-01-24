@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\NotaseMoedas\NotaseMoedas\bin\Debug\net8.0\NotaseMoedas.exe
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\NotaseMoedas\NotaseMoedas\bin\Debug\net8.0\NotaseMoedas.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\NotaseMoedas\NotaseMoedas\bin\Debug\net8.0\NotaseMoedas.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\NotaseMoedas\NotaseMoedas\bin\Debug\net8.0\NotaseMoedas.dll
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\NotaseMoedas\NotaseMoedas\bin\Debug\net8.0\NotaseMoedas.pdb
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\NotaseMoedas\NotaseMoedas\obj\Debug\net8.0\NotaseMoedas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\NotaseMoedas\NotaseMoedas\obj\Debug\net8.0\NotaseMoedas.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\NotaseMoedas\NotaseMoedas\obj\Debug\net8.0\NotaseMoedas.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\NotaseMoedas\NotaseMoedas\obj\Debug\net8.0\NotaseMoedas.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\NotaseMoedas\NotaseMoedas\obj\Debug\net8.0\NotaseMoedas.dll
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\NotaseMoedas\NotaseMoedas\obj\Debug\net8.0\refint\NotaseMoedas.dll
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\NotaseMoedas\NotaseMoedas\obj\Debug\net8.0\NotaseMoedas.pdb
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\NotaseMoedas\NotaseMoedas\obj\Debug\net8.0\NotaseMoedas.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\NotaseMoedas\NotaseMoedas\obj\Debug\net8.0\ref\NotaseMoedas.dll

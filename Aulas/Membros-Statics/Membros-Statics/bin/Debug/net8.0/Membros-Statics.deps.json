@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Membros-Statics/1.0.0": {
+        "runtime": {
+          "Membros-Statics.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Membros-Statics/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

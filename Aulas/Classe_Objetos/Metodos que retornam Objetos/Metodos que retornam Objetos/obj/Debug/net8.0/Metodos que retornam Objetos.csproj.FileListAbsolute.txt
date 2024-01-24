@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Metodos que retornam Objetos\Metodos que retornam Objetos\bin\Debug\net8.0\Metodos que retornam Objetos.exe
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Metodos que retornam Objetos\Metodos que retornam Objetos\bin\Debug\net8.0\Metodos que retornam Objetos.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Metodos que retornam Objetos\Metodos que retornam Objetos\bin\Debug\net8.0\Metodos que retornam Objetos.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Metodos que retornam Objetos\Metodos que retornam Objetos\bin\Debug\net8.0\Metodos que retornam Objetos.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Metodos que retornam Objetos\Metodos que retornam Objetos\bin\Debug\net8.0\Metodos que retornam Objetos.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Metodos que retornam Objetos\Metodos que retornam Objetos\obj\Debug\net8.0\Metodos que retornam Objetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Metodos que retornam Objetos\Metodos que retornam Objetos\obj\Debug\net8.0\Metodos que retornam Objetos.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Metodos que retornam Objetos\Metodos que retornam Objetos\obj\Debug\net8.0\Metodos que retornam Objetos.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Metodos que retornam Objetos\Metodos que retornam Objetos\obj\Debug\net8.0\Metodos que retornam Objetos.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Metodos que retornam Objetos\Metodos que retornam Objetos\obj\Debug\net8.0\Metodos que retornam Objetos.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Metodos que retornam Objetos\Metodos que retornam Objetos\obj\Debug\net8.0\refint\Metodos que retornam Objetos.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Metodos que retornam Objetos\Metodos que retornam Objetos\obj\Debug\net8.0\Metodos que retornam Objetos.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Metodos que retornam Objetos\Metodos que retornam Objetos\obj\Debug\net8.0\Metodos que retornam Objetos.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Metodos que retornam Objetos\Metodos que retornam Objetos\obj\Debug\net8.0\ref\Metodos que retornam Objetos.dll

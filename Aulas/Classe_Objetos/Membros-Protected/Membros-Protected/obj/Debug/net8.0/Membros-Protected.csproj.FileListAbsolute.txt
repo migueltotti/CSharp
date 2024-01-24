@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Protected\Membros-Protected\bin\Debug\net8.0\Membros-Protected.exe
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Protected\Membros-Protected\bin\Debug\net8.0\Membros-Protected.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Protected\Membros-Protected\bin\Debug\net8.0\Membros-Protected.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Protected\Membros-Protected\bin\Debug\net8.0\Membros-Protected.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Protected\Membros-Protected\bin\Debug\net8.0\Membros-Protected.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Protected\Membros-Protected\obj\Debug\net8.0\Membros-Protected.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Protected\Membros-Protected\obj\Debug\net8.0\Membros-Protected.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Protected\Membros-Protected\obj\Debug\net8.0\Membros-Protected.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Protected\Membros-Protected\obj\Debug\net8.0\Membros-Protected.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Protected\Membros-Protected\obj\Debug\net8.0\Membros-Protected.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Protected\Membros-Protected\obj\Debug\net8.0\refint\Membros-Protected.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Protected\Membros-Protected\obj\Debug\net8.0\Membros-Protected.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Protected\Membros-Protected\obj\Debug\net8.0\Membros-Protected.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Protected\Membros-Protected\obj\Debug\net8.0\ref\Membros-Protected.dll

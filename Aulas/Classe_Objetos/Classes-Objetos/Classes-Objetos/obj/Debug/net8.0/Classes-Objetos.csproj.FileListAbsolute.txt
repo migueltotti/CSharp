@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classes-Objetos\Classes-Objetos\bin\Debug\net8.0\Classes-Objetos.exe
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classes-Objetos\Classes-Objetos\bin\Debug\net8.0\Classes-Objetos.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classes-Objetos\Classes-Objetos\bin\Debug\net8.0\Classes-Objetos.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classes-Objetos\Classes-Objetos\bin\Debug\net8.0\Classes-Objetos.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classes-Objetos\Classes-Objetos\bin\Debug\net8.0\Classes-Objetos.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classes-Objetos\Classes-Objetos\obj\Debug\net8.0\Classes-Objetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classes-Objetos\Classes-Objetos\obj\Debug\net8.0\Classes-Objetos.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classes-Objetos\Classes-Objetos\obj\Debug\net8.0\Classes-Objetos.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classes-Objetos\Classes-Objetos\obj\Debug\net8.0\Classes-Objetos.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classes-Objetos\Classes-Objetos\obj\Debug\net8.0\Classes-Objetos.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classes-Objetos\Classes-Objetos\obj\Debug\net8.0\refint\Classes-Objetos.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classes-Objetos\Classes-Objetos\obj\Debug\net8.0\Classes-Objetos.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classes-Objetos\Classes-Objetos\obj\Debug\net8.0\Classes-Objetos.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classes-Objetos\Classes-Objetos\obj\Debug\net8.0\ref\Classes-Objetos.dll

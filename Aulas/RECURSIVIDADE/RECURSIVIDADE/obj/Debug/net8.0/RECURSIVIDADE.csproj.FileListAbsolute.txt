@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Aulas\RECURSIVIDADE\RECURSIVIDADE\bin\Debug\net8.0\RECURSIVIDADE.exe
+C:\Users\User\Documents\C#\VisualStudio\Aulas\RECURSIVIDADE\RECURSIVIDADE\bin\Debug\net8.0\RECURSIVIDADE.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\RECURSIVIDADE\RECURSIVIDADE\bin\Debug\net8.0\RECURSIVIDADE.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\RECURSIVIDADE\RECURSIVIDADE\bin\Debug\net8.0\RECURSIVIDADE.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\RECURSIVIDADE\RECURSIVIDADE\bin\Debug\net8.0\RECURSIVIDADE.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\RECURSIVIDADE\RECURSIVIDADE\obj\Debug\net8.0\RECURSIVIDADE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Aulas\RECURSIVIDADE\RECURSIVIDADE\obj\Debug\net8.0\RECURSIVIDADE.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\RECURSIVIDADE\RECURSIVIDADE\obj\Debug\net8.0\RECURSIVIDADE.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Aulas\RECURSIVIDADE\RECURSIVIDADE\obj\Debug\net8.0\RECURSIVIDADE.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\RECURSIVIDADE\RECURSIVIDADE\obj\Debug\net8.0\RECURSIVIDADE.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\RECURSIVIDADE\RECURSIVIDADE\obj\Debug\net8.0\refint\RECURSIVIDADE.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\RECURSIVIDADE\RECURSIVIDADE\obj\Debug\net8.0\RECURSIVIDADE.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\RECURSIVIDADE\RECURSIVIDADE\obj\Debug\net8.0\RECURSIVIDADE.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\RECURSIVIDADE\RECURSIVIDADE\obj\Debug\net8.0\ref\RECURSIVIDADE.dll

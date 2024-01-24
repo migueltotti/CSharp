@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Heranca-Ordem_de_Execucao\Heranca-Ordem_de_Execucao\bin\Debug\net8.0\Heranca-Ordem_de_Execucao.exe
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Heranca-Ordem_de_Execucao\Heranca-Ordem_de_Execucao\bin\Debug\net8.0\Heranca-Ordem_de_Execucao.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Heranca-Ordem_de_Execucao\Heranca-Ordem_de_Execucao\bin\Debug\net8.0\Heranca-Ordem_de_Execucao.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Heranca-Ordem_de_Execucao\Heranca-Ordem_de_Execucao\bin\Debug\net8.0\Heranca-Ordem_de_Execucao.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Heranca-Ordem_de_Execucao\Heranca-Ordem_de_Execucao\bin\Debug\net8.0\Heranca-Ordem_de_Execucao.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Heranca-Ordem_de_Execucao\Heranca-Ordem_de_Execucao\obj\Debug\net8.0\Heranca-Ordem_de_Execucao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Heranca-Ordem_de_Execucao\Heranca-Ordem_de_Execucao\obj\Debug\net8.0\Heranca-Ordem_de_Execucao.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Heranca-Ordem_de_Execucao\Heranca-Ordem_de_Execucao\obj\Debug\net8.0\Heranca-Ordem_de_Execucao.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Heranca-Ordem_de_Execucao\Heranca-Ordem_de_Execucao\obj\Debug\net8.0\Heranca-Ordem_de_Execucao.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Heranca-Ordem_de_Execucao\Heranca-Ordem_de_Execucao\obj\Debug\net8.0\Heranca-Ordem_de_Execucao.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Heranca-Ordem_de_Execucao\Heranca-Ordem_de_Execucao\obj\Debug\net8.0\refint\Heranca-Ordem_de_Execucao.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Heranca-Ordem_de_Execucao\Heranca-Ordem_de_Execucao\obj\Debug\net8.0\Heranca-Ordem_de_Execucao.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Heranca-Ordem_de_Execucao\Heranca-Ordem_de_Execucao\obj\Debug\net8.0\Heranca-Ordem_de_Execucao.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Heranca-Ordem_de_Execucao\Heranca-Ordem_de_Execucao\obj\Debug\net8.0\ref\Heranca-Ordem_de_Execucao.dll

@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Arrays\Arrays\bin\Debug\net8.0\Arrays.exe
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Arrays\Arrays\bin\Debug\net8.0\Arrays.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Arrays\Arrays\bin\Debug\net8.0\Arrays.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Arrays\Arrays\bin\Debug\net8.0\Arrays.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Arrays\Arrays\bin\Debug\net8.0\Arrays.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Arrays\Arrays\obj\Debug\net8.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Arrays\Arrays\obj\Debug\net8.0\Arrays.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Arrays\Arrays\obj\Debug\net8.0\Arrays.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Arrays\Arrays\obj\Debug\net8.0\Arrays.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Arrays\Arrays\obj\Debug\net8.0\Arrays.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Arrays\Arrays\obj\Debug\net8.0\refint\Arrays.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Arrays\Arrays\obj\Debug\net8.0\Arrays.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Arrays\Arrays\obj\Debug\net8.0\Arrays.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Arrays\Arrays\obj\Debug\net8.0\ref\Arrays.dll

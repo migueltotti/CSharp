@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex\Ex\bin\Debug\net8.0\Ex.exe
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex\Ex\bin\Debug\net8.0\Ex.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex\Ex\bin\Debug\net8.0\Ex.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex\Ex\bin\Debug\net8.0\Ex.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex\Ex\bin\Debug\net8.0\Ex.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex\Ex\obj\Debug\net8.0\Ex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex\Ex\obj\Debug\net8.0\Ex.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex\Ex\obj\Debug\net8.0\Ex.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex\Ex\obj\Debug\net8.0\Ex.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex\Ex\obj\Debug\net8.0\Ex.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex\Ex\obj\Debug\net8.0\refint\Ex.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex\Ex\obj\Debug\net8.0\Ex.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex\Ex\obj\Debug\net8.0\Ex.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex\Ex\obj\Debug\net8.0\ref\Ex.dll

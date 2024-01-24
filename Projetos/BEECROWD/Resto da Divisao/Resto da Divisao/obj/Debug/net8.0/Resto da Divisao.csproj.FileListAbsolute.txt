@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\Resto da Divisao\Resto da Divisao\bin\Debug\net8.0\Resto da Divisao.exe
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\Resto da Divisao\Resto da Divisao\bin\Debug\net8.0\Resto da Divisao.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\Resto da Divisao\Resto da Divisao\bin\Debug\net8.0\Resto da Divisao.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\Resto da Divisao\Resto da Divisao\bin\Debug\net8.0\Resto da Divisao.dll
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\Resto da Divisao\Resto da Divisao\bin\Debug\net8.0\Resto da Divisao.pdb
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\Resto da Divisao\Resto da Divisao\obj\Debug\net8.0\Resto da Divisao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\Resto da Divisao\Resto da Divisao\obj\Debug\net8.0\Resto da Divisao.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\Resto da Divisao\Resto da Divisao\obj\Debug\net8.0\Resto da Divisao.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\Resto da Divisao\Resto da Divisao\obj\Debug\net8.0\Resto da Divisao.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\Resto da Divisao\Resto da Divisao\obj\Debug\net8.0\Resto da Divisao.dll
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\Resto da Divisao\Resto da Divisao\obj\Debug\net8.0\refint\Resto da Divisao.dll
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\Resto da Divisao\Resto da Divisao\obj\Debug\net8.0\Resto da Divisao.pdb
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\Resto da Divisao\Resto da Divisao\obj\Debug\net8.0\Resto da Divisao.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\Resto da Divisao\Resto da Divisao\obj\Debug\net8.0\ref\Resto da Divisao.dll

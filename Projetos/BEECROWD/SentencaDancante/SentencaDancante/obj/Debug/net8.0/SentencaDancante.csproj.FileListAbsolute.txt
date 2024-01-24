@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\SentencaDancante\SentencaDancante\bin\Debug\net8.0\SentencaDancante.exe
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\SentencaDancante\SentencaDancante\bin\Debug\net8.0\SentencaDancante.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\SentencaDancante\SentencaDancante\bin\Debug\net8.0\SentencaDancante.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\SentencaDancante\SentencaDancante\bin\Debug\net8.0\SentencaDancante.dll
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\SentencaDancante\SentencaDancante\bin\Debug\net8.0\SentencaDancante.pdb
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\SentencaDancante\SentencaDancante\obj\Debug\net8.0\SentencaDancante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\SentencaDancante\SentencaDancante\obj\Debug\net8.0\SentencaDancante.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\SentencaDancante\SentencaDancante\obj\Debug\net8.0\SentencaDancante.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\SentencaDancante\SentencaDancante\obj\Debug\net8.0\SentencaDancante.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\SentencaDancante\SentencaDancante\obj\Debug\net8.0\SentencaDancante.dll
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\SentencaDancante\SentencaDancante\obj\Debug\net8.0\refint\SentencaDancante.dll
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\SentencaDancante\SentencaDancante\obj\Debug\net8.0\SentencaDancante.pdb
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\SentencaDancante\SentencaDancante\obj\Debug\net8.0\SentencaDancante.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Projetos\BEECROWD\SentencaDancante\SentencaDancante\obj\Debug\net8.0\ref\SentencaDancante.dll

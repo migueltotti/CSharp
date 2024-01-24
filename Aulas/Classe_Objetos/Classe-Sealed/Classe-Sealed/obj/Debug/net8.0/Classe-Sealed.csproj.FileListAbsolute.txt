@@ -1,0 +1,4 @@
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Classe-Sealed\Classe-Sealed\obj\Debug\net8.0\Classe-Sealed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Classe-Sealed\Classe-Sealed\obj\Debug\net8.0\Classe-Sealed.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Classe-Sealed\Classe-Sealed\obj\Debug\net8.0\Classe-Sealed.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Classe-Sealed\Classe-Sealed\obj\Debug\net8.0\Classe-Sealed.csproj.CoreCompileInputs.cache

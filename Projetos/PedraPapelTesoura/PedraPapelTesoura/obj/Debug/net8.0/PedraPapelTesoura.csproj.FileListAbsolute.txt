@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Projetos\PedraPapelTesoura\PedraPapelTesoura\bin\Debug\net8.0\PedraPapelTesoura.exe
+C:\Users\User\Documents\C#\VisualStudio\Projetos\PedraPapelTesoura\PedraPapelTesoura\bin\Debug\net8.0\PedraPapelTesoura.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Projetos\PedraPapelTesoura\PedraPapelTesoura\bin\Debug\net8.0\PedraPapelTesoura.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Projetos\PedraPapelTesoura\PedraPapelTesoura\bin\Debug\net8.0\PedraPapelTesoura.dll
+C:\Users\User\Documents\C#\VisualStudio\Projetos\PedraPapelTesoura\PedraPapelTesoura\bin\Debug\net8.0\PedraPapelTesoura.pdb
+C:\Users\User\Documents\C#\VisualStudio\Projetos\PedraPapelTesoura\PedraPapelTesoura\obj\Debug\net8.0\PedraPapelTesoura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Projetos\PedraPapelTesoura\PedraPapelTesoura\obj\Debug\net8.0\PedraPapelTesoura.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Projetos\PedraPapelTesoura\PedraPapelTesoura\obj\Debug\net8.0\PedraPapelTesoura.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Projetos\PedraPapelTesoura\PedraPapelTesoura\obj\Debug\net8.0\PedraPapelTesoura.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Projetos\PedraPapelTesoura\PedraPapelTesoura\obj\Debug\net8.0\PedraPapelTesoura.dll
+C:\Users\User\Documents\C#\VisualStudio\Projetos\PedraPapelTesoura\PedraPapelTesoura\obj\Debug\net8.0\refint\PedraPapelTesoura.dll
+C:\Users\User\Documents\C#\VisualStudio\Projetos\PedraPapelTesoura\PedraPapelTesoura\obj\Debug\net8.0\PedraPapelTesoura.pdb
+C:\Users\User\Documents\C#\VisualStudio\Projetos\PedraPapelTesoura\PedraPapelTesoura\obj\Debug\net8.0\PedraPapelTesoura.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Projetos\PedraPapelTesoura\PedraPapelTesoura\obj\Debug\net8.0\ref\PedraPapelTesoura.dll

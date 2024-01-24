@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Sobrecarga de Metodos\Sobrecarga de Metodos\bin\Debug\net8.0\Sobrecarga de Metodos.exe
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Sobrecarga de Metodos\Sobrecarga de Metodos\bin\Debug\net8.0\Sobrecarga de Metodos.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Sobrecarga de Metodos\Sobrecarga de Metodos\bin\Debug\net8.0\Sobrecarga de Metodos.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Sobrecarga de Metodos\Sobrecarga de Metodos\bin\Debug\net8.0\Sobrecarga de Metodos.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Sobrecarga de Metodos\Sobrecarga de Metodos\bin\Debug\net8.0\Sobrecarga de Metodos.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Sobrecarga de Metodos\Sobrecarga de Metodos\obj\Debug\net8.0\Sobrecarga de Metodos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Sobrecarga de Metodos\Sobrecarga de Metodos\obj\Debug\net8.0\Sobrecarga de Metodos.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Sobrecarga de Metodos\Sobrecarga de Metodos\obj\Debug\net8.0\Sobrecarga de Metodos.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Sobrecarga de Metodos\Sobrecarga de Metodos\obj\Debug\net8.0\Sobrecarga de Metodos.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Sobrecarga de Metodos\Sobrecarga de Metodos\obj\Debug\net8.0\Sobrecarga de Metodos.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Sobrecarga de Metodos\Sobrecarga de Metodos\obj\Debug\net8.0\refint\Sobrecarga de Metodos.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Sobrecarga de Metodos\Sobrecarga de Metodos\obj\Debug\net8.0\Sobrecarga de Metodos.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Sobrecarga de Metodos\Sobrecarga de Metodos\obj\Debug\net8.0\Sobrecarga de Metodos.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Sobrecarga de Metodos\Sobrecarga de Metodos\obj\Debug\net8.0\ref\Sobrecarga de Metodos.dll

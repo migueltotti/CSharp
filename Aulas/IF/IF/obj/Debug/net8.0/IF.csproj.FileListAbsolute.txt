@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\IF\IF\bin\Debug\net8.0\IF.exe
+C:\Users\User\Documents\C#\VisualStudio\IF\IF\bin\Debug\net8.0\IF.deps.json
+C:\Users\User\Documents\C#\VisualStudio\IF\IF\bin\Debug\net8.0\IF.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\IF\IF\bin\Debug\net8.0\IF.dll
+C:\Users\User\Documents\C#\VisualStudio\IF\IF\bin\Debug\net8.0\IF.pdb
+C:\Users\User\Documents\C#\VisualStudio\IF\IF\obj\Debug\net8.0\IF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\IF\IF\obj\Debug\net8.0\IF.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\IF\IF\obj\Debug\net8.0\IF.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\IF\IF\obj\Debug\net8.0\IF.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\IF\IF\obj\Debug\net8.0\IF.dll
+C:\Users\User\Documents\C#\VisualStudio\IF\IF\obj\Debug\net8.0\refint\IF.dll
+C:\Users\User\Documents\C#\VisualStudio\IF\IF\obj\Debug\net8.0\IF.pdb
+C:\Users\User\Documents\C#\VisualStudio\IF\IF\obj\Debug\net8.0\IF.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\IF\IF\obj\Debug\net8.0\ref\IF.dll

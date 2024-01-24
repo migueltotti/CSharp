@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - FOR\loop - FOR\bin\Debug\net8.0\loop - FOR.exe
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - FOR\loop - FOR\bin\Debug\net8.0\loop - FOR.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - FOR\loop - FOR\bin\Debug\net8.0\loop - FOR.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - FOR\loop - FOR\bin\Debug\net8.0\loop - FOR.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - FOR\loop - FOR\bin\Debug\net8.0\loop - FOR.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - FOR\loop - FOR\obj\Debug\net8.0\loop - FOR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - FOR\loop - FOR\obj\Debug\net8.0\loop - FOR.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - FOR\loop - FOR\obj\Debug\net8.0\loop - FOR.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - FOR\loop - FOR\obj\Debug\net8.0\loop - FOR.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - FOR\loop - FOR\obj\Debug\net8.0\loop - FOR.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - FOR\loop - FOR\obj\Debug\net8.0\refint\loop - FOR.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - FOR\loop - FOR\obj\Debug\net8.0\loop - FOR.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - FOR\loop - FOR\obj\Debug\net8.0\loop - FOR.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - FOR\loop - FOR\obj\Debug\net8.0\ref\loop - FOR.dll

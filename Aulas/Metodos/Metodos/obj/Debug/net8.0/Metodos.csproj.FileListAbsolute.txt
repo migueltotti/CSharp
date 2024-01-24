@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Metodos\Metodos\bin\Debug\net8.0\Metodos.exe
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Metodos\Metodos\bin\Debug\net8.0\Metodos.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Metodos\Metodos\bin\Debug\net8.0\Metodos.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Metodos\Metodos\bin\Debug\net8.0\Metodos.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Metodos\Metodos\bin\Debug\net8.0\Metodos.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Metodos\Metodos\obj\Debug\net8.0\Metodos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Metodos\Metodos\obj\Debug\net8.0\Metodos.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Metodos\Metodos\obj\Debug\net8.0\Metodos.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Metodos\Metodos\obj\Debug\net8.0\Metodos.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Metodos\Metodos\obj\Debug\net8.0\Metodos.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Metodos\Metodos\obj\Debug\net8.0\refint\Metodos.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Metodos\Metodos\obj\Debug\net8.0\Metodos.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Metodos\Metodos\obj\Debug\net8.0\Metodos.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Metodos\Metodos\obj\Debug\net8.0\ref\Metodos.dll

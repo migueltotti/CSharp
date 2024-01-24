@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Virtuais\Membros-Virtuais\bin\Debug\net8.0\Membros-Virtuais.exe
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Virtuais\Membros-Virtuais\bin\Debug\net8.0\Membros-Virtuais.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Virtuais\Membros-Virtuais\bin\Debug\net8.0\Membros-Virtuais.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Virtuais\Membros-Virtuais\bin\Debug\net8.0\Membros-Virtuais.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Virtuais\Membros-Virtuais\bin\Debug\net8.0\Membros-Virtuais.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Virtuais\Membros-Virtuais\obj\Debug\net8.0\Membros-Virtuais.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Virtuais\Membros-Virtuais\obj\Debug\net8.0\Membros-Virtuais.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Virtuais\Membros-Virtuais\obj\Debug\net8.0\Membros-Virtuais.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Virtuais\Membros-Virtuais\obj\Debug\net8.0\Membros-Virtuais.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Virtuais\Membros-Virtuais\obj\Debug\net8.0\Membros-Virtuais.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Virtuais\Membros-Virtuais\obj\Debug\net8.0\refint\Membros-Virtuais.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Virtuais\Membros-Virtuais\obj\Debug\net8.0\Membros-Virtuais.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Virtuais\Membros-Virtuais\obj\Debug\net8.0\Membros-Virtuais.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Membros-Virtuais\Membros-Virtuais\obj\Debug\net8.0\ref\Membros-Virtuais.dll

@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Construtores e Destrutores\Construtores e Destrutores\bin\Debug\net8.0\Construtores e Destrutores.exe
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Construtores e Destrutores\Construtores e Destrutores\bin\Debug\net8.0\Construtores e Destrutores.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Construtores e Destrutores\Construtores e Destrutores\bin\Debug\net8.0\Construtores e Destrutores.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Construtores e Destrutores\Construtores e Destrutores\bin\Debug\net8.0\Construtores e Destrutores.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Construtores e Destrutores\Construtores e Destrutores\bin\Debug\net8.0\Construtores e Destrutores.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Construtores e Destrutores\Construtores e Destrutores\obj\Debug\net8.0\Construtores e Destrutores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Construtores e Destrutores\Construtores e Destrutores\obj\Debug\net8.0\Construtores e Destrutores.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Construtores e Destrutores\Construtores e Destrutores\obj\Debug\net8.0\Construtores e Destrutores.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Construtores e Destrutores\Construtores e Destrutores\obj\Debug\net8.0\Construtores e Destrutores.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Construtores e Destrutores\Construtores e Destrutores\obj\Debug\net8.0\Construtores e Destrutores.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Construtores e Destrutores\Construtores e Destrutores\obj\Debug\net8.0\refint\Construtores e Destrutores.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Construtores e Destrutores\Construtores e Destrutores\obj\Debug\net8.0\Construtores e Destrutores.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Construtores e Destrutores\Construtores e Destrutores\obj\Debug\net8.0\Construtores e Destrutores.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Construtores e Destrutores\Construtores e Destrutores\obj\Debug\net8.0\ref\Construtores e Destrutores.dll

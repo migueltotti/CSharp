@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop-FOREACH\loop-FOREACH\bin\Debug\net8.0\loop-FOREACH.exe
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop-FOREACH\loop-FOREACH\bin\Debug\net8.0\loop-FOREACH.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop-FOREACH\loop-FOREACH\bin\Debug\net8.0\loop-FOREACH.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop-FOREACH\loop-FOREACH\bin\Debug\net8.0\loop-FOREACH.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop-FOREACH\loop-FOREACH\bin\Debug\net8.0\loop-FOREACH.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop-FOREACH\loop-FOREACH\obj\Debug\net8.0\loop-FOREACH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop-FOREACH\loop-FOREACH\obj\Debug\net8.0\loop-FOREACH.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop-FOREACH\loop-FOREACH\obj\Debug\net8.0\loop-FOREACH.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop-FOREACH\loop-FOREACH\obj\Debug\net8.0\loop-FOREACH.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop-FOREACH\loop-FOREACH\obj\Debug\net8.0\loop-FOREACH.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop-FOREACH\loop-FOREACH\obj\Debug\net8.0\refint\loop-FOREACH.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop-FOREACH\loop-FOREACH\obj\Debug\net8.0\loop-FOREACH.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop-FOREACH\loop-FOREACH\obj\Debug\net8.0\loop-FOREACH.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop-FOREACH\loop-FOREACH\obj\Debug\net8.0\ref\loop-FOREACH.dll

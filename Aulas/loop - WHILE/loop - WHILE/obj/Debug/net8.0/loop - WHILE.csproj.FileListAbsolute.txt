@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - WHILE\loop - WHILE\bin\Debug\net8.0\loop - WHILE.exe
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - WHILE\loop - WHILE\bin\Debug\net8.0\loop - WHILE.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - WHILE\loop - WHILE\bin\Debug\net8.0\loop - WHILE.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - WHILE\loop - WHILE\bin\Debug\net8.0\loop - WHILE.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - WHILE\loop - WHILE\bin\Debug\net8.0\loop - WHILE.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - WHILE\loop - WHILE\obj\Debug\net8.0\loop - WHILE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - WHILE\loop - WHILE\obj\Debug\net8.0\loop - WHILE.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - WHILE\loop - WHILE\obj\Debug\net8.0\loop - WHILE.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - WHILE\loop - WHILE\obj\Debug\net8.0\loop - WHILE.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - WHILE\loop - WHILE\obj\Debug\net8.0\loop - WHILE.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - WHILE\loop - WHILE\obj\Debug\net8.0\refint\loop - WHILE.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - WHILE\loop - WHILE\obj\Debug\net8.0\loop - WHILE.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - WHILE\loop - WHILE\obj\Debug\net8.0\loop - WHILE.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\loop - WHILE\loop - WHILE\obj\Debug\net8.0\ref\loop - WHILE.dll

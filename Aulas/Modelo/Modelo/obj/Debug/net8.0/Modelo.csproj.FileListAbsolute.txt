@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Modelo\Modelo\bin\Debug\net8.0\Modelo.exe
+C:\Users\User\Documents\C#\VisualStudio\Modelo\Modelo\bin\Debug\net8.0\Modelo.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Modelo\Modelo\bin\Debug\net8.0\Modelo.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Modelo\Modelo\bin\Debug\net8.0\Modelo.dll
+C:\Users\User\Documents\C#\VisualStudio\Modelo\Modelo\bin\Debug\net8.0\Modelo.pdb
+C:\Users\User\Documents\C#\VisualStudio\Modelo\Modelo\obj\Debug\net8.0\Modelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Modelo\Modelo\obj\Debug\net8.0\Modelo.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Modelo\Modelo\obj\Debug\net8.0\Modelo.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Modelo\Modelo\obj\Debug\net8.0\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Modelo\Modelo\obj\Debug\net8.0\Modelo.dll
+C:\Users\User\Documents\C#\VisualStudio\Modelo\Modelo\obj\Debug\net8.0\refint\Modelo.dll
+C:\Users\User\Documents\C#\VisualStudio\Modelo\Modelo\obj\Debug\net8.0\Modelo.pdb
+C:\Users\User\Documents\C#\VisualStudio\Modelo\Modelo\obj\Debug\net8.0\Modelo.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Modelo\Modelo\obj\Debug\net8.0\ref\Modelo.dll

@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex_2\Ex_2\bin\Debug\net8.0\Ex_2.exe
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex_2\Ex_2\bin\Debug\net8.0\Ex_2.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex_2\Ex_2\bin\Debug\net8.0\Ex_2.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex_2\Ex_2\bin\Debug\net8.0\Ex_2.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex_2\Ex_2\bin\Debug\net8.0\Ex_2.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex_2\Ex_2\obj\Debug\net8.0\Ex_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex_2\Ex_2\obj\Debug\net8.0\Ex_2.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex_2\Ex_2\obj\Debug\net8.0\Ex_2.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex_2\Ex_2\obj\Debug\net8.0\Ex_2.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex_2\Ex_2\obj\Debug\net8.0\Ex_2.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex_2\Ex_2\obj\Debug\net8.0\refint\Ex_2.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex_2\Ex_2\obj\Debug\net8.0\Ex_2.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex_2\Ex_2\obj\Debug\net8.0\Ex_2.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Exercicios\Ex_2\Ex_2\obj\Debug\net8.0\ref\Ex_2.dll

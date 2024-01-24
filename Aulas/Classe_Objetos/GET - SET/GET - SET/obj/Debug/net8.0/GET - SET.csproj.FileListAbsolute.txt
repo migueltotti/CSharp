@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\GET - SET\GET - SET\bin\Debug\net8.0\GET - SET.exe
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\GET - SET\GET - SET\bin\Debug\net8.0\GET - SET.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\GET - SET\GET - SET\bin\Debug\net8.0\GET - SET.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\GET - SET\GET - SET\bin\Debug\net8.0\GET - SET.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\GET - SET\GET - SET\bin\Debug\net8.0\GET - SET.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\GET - SET\GET - SET\obj\Debug\net8.0\GET - SET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\GET - SET\GET - SET\obj\Debug\net8.0\GET - SET.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\GET - SET\GET - SET\obj\Debug\net8.0\GET - SET.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\GET - SET\GET - SET\obj\Debug\net8.0\GET - SET.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\GET - SET\GET - SET\obj\Debug\net8.0\GET - SET.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\GET - SET\GET - SET\obj\Debug\net8.0\refint\GET - SET.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\GET - SET\GET - SET\obj\Debug\net8.0\GET - SET.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\GET - SET\GET - SET\obj\Debug\net8.0\GET - SET.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\GET - SET\GET - SET\obj\Debug\net8.0\ref\GET - SET.dll

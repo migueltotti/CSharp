@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Classe-Public-Private\Classe-Public-Private\bin\Debug\net8.0\Classe-Public-Private.exe
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Classe-Public-Private\Classe-Public-Private\bin\Debug\net8.0\Classe-Public-Private.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Classe-Public-Private\Classe-Public-Private\bin\Debug\net8.0\Classe-Public-Private.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Classe-Public-Private\Classe-Public-Private\bin\Debug\net8.0\Classe-Public-Private.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Classe-Public-Private\Classe-Public-Private\bin\Debug\net8.0\Classe-Public-Private.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Classe-Public-Private\Classe-Public-Private\obj\Debug\net8.0\Classe-Public-Private.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Classe-Public-Private\Classe-Public-Private\obj\Debug\net8.0\Classe-Public-Private.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Classe-Public-Private\Classe-Public-Private\obj\Debug\net8.0\Classe-Public-Private.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Classe-Public-Private\Classe-Public-Private\obj\Debug\net8.0\Classe-Public-Private.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Classe-Public-Private\Classe-Public-Private\obj\Debug\net8.0\Classe-Public-Private.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Classe-Public-Private\Classe-Public-Private\obj\Debug\net8.0\refint\Classe-Public-Private.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Classe-Public-Private\Classe-Public-Private\obj\Debug\net8.0\Classe-Public-Private.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Classe-Public-Private\Classe-Public-Private\obj\Debug\net8.0\Classe-Public-Private.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Classe-Public-Private\Classe-Public-Private\obj\Debug\net8.0\ref\Classe-Public-Private.dll

@@ -1,0 +1,14 @@
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Indexadores de Classes\Indexadores de Classes\bin\Debug\net8.0\Indexadores de Classes.exe
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Indexadores de Classes\Indexadores de Classes\bin\Debug\net8.0\Indexadores de Classes.deps.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Indexadores de Classes\Indexadores de Classes\bin\Debug\net8.0\Indexadores de Classes.runtimeconfig.json
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Indexadores de Classes\Indexadores de Classes\bin\Debug\net8.0\Indexadores de Classes.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Indexadores de Classes\Indexadores de Classes\bin\Debug\net8.0\Indexadores de Classes.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Indexadores de Classes\Indexadores de Classes\obj\Debug\net8.0\Indexadores de Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Indexadores de Classes\Indexadores de Classes\obj\Debug\net8.0\Indexadores de Classes.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Indexadores de Classes\Indexadores de Classes\obj\Debug\net8.0\Indexadores de Classes.AssemblyInfo.cs
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Indexadores de Classes\Indexadores de Classes\obj\Debug\net8.0\Indexadores de Classes.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Indexadores de Classes\Indexadores de Classes\obj\Debug\net8.0\Indexadores de Classes.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Indexadores de Classes\Indexadores de Classes\obj\Debug\net8.0\refint\Indexadores de Classes.dll
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Indexadores de Classes\Indexadores de Classes\obj\Debug\net8.0\Indexadores de Classes.pdb
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Indexadores de Classes\Indexadores de Classes\obj\Debug\net8.0\Indexadores de Classes.genruntimeconfig.cache
+C:\Users\User\Documents\C#\VisualStudio\Aulas\Classe_Objetos\Indexadores de Classes\Indexadores de Classes\obj\Debug\net8.0\ref\Indexadores de Classes.dll
