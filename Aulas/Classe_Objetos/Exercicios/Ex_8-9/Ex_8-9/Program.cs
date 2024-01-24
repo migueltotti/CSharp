@@ -1,6 +1,7 @@
 ﻿namespace Ex_8_9
 {
-    // Implementar ordenacao por ID, remocao de contas, visualizacao de contas individuas e de todas as contas, apenas 'senha' do 'gerente' e alguma forma de mostrar todas as alteracoes e acoes realizadas no dia, apenas com acesso do 'gerente' com 'senha'
+    // Implementar ordenacao por ID, alguma forma de mostrar todas as alteracoes e acoes realizadas no dia, apenas com acesso do 'gerente' com 'senha'
+    // implementar uma classe gerente e dividir as contas pela ocupacao(Gerente, Cliente) e colocar restricoes;
     class Clientes
     {
         private int id;
@@ -85,34 +86,65 @@
             this.saldo -= valor;
         }
 
+        public void Info()
+        {
+            Console.WriteLine("Conta ID.: {0}", this.Id);
+            Console.WriteLine("Saldo....: {0}", this.Saldo);
+            Console.WriteLine("Fatura...: {0}\n", this.Fatura);
+        }
+
     }
+
+    class Gerente : Clientes
+    {
+        
+        public Gerente():base() { }
+    }
+
+    static class SENHA
+    {
+        private static string senha = "120822";
+
+        public static string Senha
+        {
+            get
+            {
+                return senha;
+            }
+            set
+            {
+                senha = value;
+            }
+        }
+    }
+
+
     internal class Program
     {
         static void Main(string[] args)
         {
             Clientes[] ContasCorrentes = new Clientes[5];
 
-            int qtde_clientes, i=0; 
-            char escolha = 'n';
+            string escolha = "";
 
             //            Console.Write("Impira a quantidade de Clientes: ");
             //            qtde_clientes = int.Parse(Console.ReadLine());
 
             //PreencherVetor(ContasCorrentes);
 
-            while(escolha != 's' && escolha != 'S')
+            while(escolha != "s" && escolha != "S")
             {
-                Console.Write("Inserir Novo Cliente [C]: \nRealizar Operacoes [O]: \nRealizar Tranferencias [T]: \nMostrar todas as Contas [M]: \nSair [S]: \n:");
-                escolha = char.Parse(Console.ReadLine());
+                Console.Write("Inserir Novo Cliente [C]: \nRealizar Operacoes [O]: \nRealizar Tranferencias [T]: \nRemocao de conta [R]: \nMostrar Contas [M]: \nSair [S]: \n:");
+                escolha = Console.ReadLine();
 
                 switch(escolha)
                 {
-                    case 'C':
-                    case 'c':
+                    case "C":
+                    case "c":
                         //AddClientes(ContasCorrentes, LeClientes());
                         if(Clientes.Qtde_Clientes < 5)
                         {
-                            ContasCorrentes.SetValue(LeClientes(), Clientes.Qtde_Clientes);
+                            ContasCorrentes.SetValue(LeClientes(ContasCorrentes), Clientes.Qtde_Clientes);
                             Console.WriteLine("Conta Adicionada!\n");
                             Clientes.Qtde_Clientes++;
                         }
@@ -121,28 +153,70 @@
                             Console.WriteLine("Quantidade de Clientes Limite Alcansada!");
                         }
                         break;
-                    case 'O':
-                    case 'o':
+                    case "O":
+                    case "o":
                         Console.Write("Insira a quantidade de operacoes realizadas no dia: ");
                         int qtde_op = int.Parse(Console.ReadLine());
                         Op(ContasCorrentes, qtde_op);
                         break;
-                    case 'T':
-                    case 't':
+                    case "T":
+                    case "t":
                         TR(ContasCorrentes);
                         Console.WriteLine("Transferencia Concluida!\n");
                         break;
-                    case 'M':
-                    case 'm':
-                        for(int j = 0; j < Clientes.Qtde_Clientes; j++)
+                    case "R":
+                    case "r":
+                        RemoverCliente(ContasCorrentes);
+                        Console.WriteLine("Conta removida com sucesso!");
+                        break;
+                    case "M":
+                    case "m":
+                        Console.Write("Selecione sua Ocupacao.\nCliente [C]/ Gerente [G]: ");
+                        string ocupacao = Console.ReadLine();
+
+                        switch (ocupacao)
                         {
-                            Console.WriteLine("Conta ID.: {0}", ContasCorrentes[j].Id);
-                            Console.WriteLine("Saldo....: {0}", ContasCorrentes[j].Saldo);
-                            Console.WriteLine("Fatura...: {0}\n", ContasCorrentes[j].Fatura);
+                            case "C":
+                            case "c":
+                                int pos = -1;
+
+                                while(pos < 0)
+                                {
+                                    Console.Write("Informe seu ID: ");
+                                    int ID = int.Parse(Console.ReadLine());
+
+                                    pos = ProcuraID(ContasCorrentes, ID);
+                                    // pos == -1: nao encontrado
+                                    // por > -1: encontrado
+                                }
+                                Console.WriteLine();
+                                ContasCorrentes[pos].Info();
+                                break;
+                            case "G":
+                            case "g":
+                                string senha = "";
+                                while(senha != SENHA.Senha)
+                                {
+                                    Console.Write("Insira a senha: ");
+                                    senha = Console.ReadLine();
+
+                                    if(senha  == SENHA.Senha)
+                                    {
+                                        Console.WriteLine();
+                                        for (int i = 0; i < Clientes.Qtde_Clientes; i++)
+                                        {
+                                            ContasCorrentes[i].Info();
+                                        }
+                                    }
+                                }
+                                break;
+                            default:
+                                Console.WriteLine("Opcao Incorreta!");
+                                break;
                         }
                         break;
                     default:
-                        if(escolha != 's')
+                        if(escolha != "s")
                         {
                             Console.WriteLine("Codigo Incorreto!!\n");
                         }                        
@@ -163,22 +237,51 @@
             }
         }
 
-        public static Clientes LeClientes()
+        public static int ProcuraID(Clientes[] vetorC, int ID)
+        {
+            int ret = -1; // ID nao encontrado
+
+            for(int i = 0; i < Clientes.Qtde_Clientes; i++)
+            {
+                if(ID == vetorC[i].Id) // ID encontrado
+                {
+                    ret = i; 
+                    i = Clientes.Qtde_Clientes;
+                }
+            }
+
+            return ret;
+        }
+
+        public static Clientes LeClientes(Clientes[] vetorC)
         {
             Clientes C;
+            int verificaID;
+            bool achou = false;
 
             C = new Clientes();
 
-            Console.Write("Informe um novo ID: ");
-            C.Id = int.Parse(Console.ReadLine());
+            while (achou == false)
+            {
+                Console.Write("Informe um novo ID: ");
+                C.Id = int.Parse(Console.ReadLine());
 
-            Console.Write("Infome o saldo: ");
-            C.Saldo = double.Parse(Console.ReadLine());
+                verificaID = ProcuraID(vetorC, C.Id);
+
+                if (verificaID < 0)
+                {
+                    achou = true;
+                    Console.Write("Infome o saldo: ");
+                    C.Saldo = double.Parse(Console.ReadLine());
+                }
+                else
+                {
+                    Console.WriteLine("ID ja cadastrado!");
+                }
+            }
 
             return C;
         }
-
-
 
         // nao consegui pensar em algo para ordenar aqui
         public static void AddClientes(Clientes[] ContasCorrentes, Clientes NovoCLiente)
@@ -198,6 +301,49 @@
                 else if (ContasCorrentes.Length - 1 == i)
                 {
                     ContasCorrentes[i] = NovoCLiente;
+                }
+            }
+        }
+
+        public static void RemoverCliente(Clientes[] vetorC)
+        {
+            int ID=0;
+            bool achou = false;
+
+            Console.Write("Insira o ID da conta que deseja remover: ");
+            ID = int.Parse(Console.ReadLine());
+
+            while (achou != true)
+            {
+                for (int i = 0; i < Clientes.Qtde_Clientes; i++)
+                {
+                    if (ID == vetorC[i].Id)
+                    {
+                        achou = true;
+
+                        if (i == Clientes.Qtde_Clientes - 1) // ultima posicao do vetor
+                        {
+                            //vetorC[i].Id = 0;
+                            //vetorC[i].Saldo = 0;
+                            //vetorC[i].Fatura = 0;
+
+                            Clientes.Qtde_Clientes--;
+                        }
+                        else
+                        {
+                            for(int j = i; j < Clientes.Qtde_Clientes - 1; j++)
+                            {
+                                vetorC[j] = vetorC[j+1];
+                            }
+                            Clientes.Qtde_Clientes--;
+                        }
+                        
+                    }
+                }
+
+                if(achou == false)
+                {
+                    Console.WriteLine("ID nao encontrado! Tente novamente");
                 }
             }
         }
