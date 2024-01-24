@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Aulas\ColecaoDictionary\ColecaoDictionary\bin\Debug\net8.0\ColecaoDictionary.exe
+C:\Users\User\Documents\C#\CSharp\Aulas\ColecaoDictionary\ColecaoDictionary\bin\Debug\net8.0\ColecaoDictionary.deps.json
+C:\Users\User\Documents\C#\CSharp\Aulas\ColecaoDictionary\ColecaoDictionary\bin\Debug\net8.0\ColecaoDictionary.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Aulas\ColecaoDictionary\ColecaoDictionary\bin\Debug\net8.0\ColecaoDictionary.dll
+C:\Users\User\Documents\C#\CSharp\Aulas\ColecaoDictionary\ColecaoDictionary\bin\Debug\net8.0\ColecaoDictionary.pdb
+C:\Users\User\Documents\C#\CSharp\Aulas\ColecaoDictionary\ColecaoDictionary\obj\Debug\net8.0\ColecaoDictionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Aulas\ColecaoDictionary\ColecaoDictionary\obj\Debug\net8.0\ColecaoDictionary.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\ColecaoDictionary\ColecaoDictionary\obj\Debug\net8.0\ColecaoDictionary.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Aulas\ColecaoDictionary\ColecaoDictionary\obj\Debug\net8.0\ColecaoDictionary.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\ColecaoDictionary\ColecaoDictionary\obj\Debug\net8.0\ColecaoDictionary.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Aulas\ColecaoDictionary\ColecaoDictionary\obj\Debug\net8.0\ColecaoDictionary.dll
+C:\Users\User\Documents\C#\CSharp\Aulas\ColecaoDictionary\ColecaoDictionary\obj\Debug\net8.0\refint\ColecaoDictionary.dll
+C:\Users\User\Documents\C#\CSharp\Aulas\ColecaoDictionary\ColecaoDictionary\obj\Debug\net8.0\ColecaoDictionary.pdb
+C:\Users\User\Documents\C#\CSharp\Aulas\ColecaoDictionary\ColecaoDictionary\obj\Debug\net8.0\ColecaoDictionary.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\ColecaoDictionary\ColecaoDictionary\obj\Debug\net8.0\ref\ColecaoDictionary.dll

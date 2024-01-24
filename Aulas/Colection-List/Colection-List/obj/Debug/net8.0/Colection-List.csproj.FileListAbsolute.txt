@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Aulas\Colection-List\Colection-List\bin\Debug\net8.0\Colection-List.exe
+C:\Users\User\Documents\C#\CSharp\Aulas\Colection-List\Colection-List\bin\Debug\net8.0\Colection-List.deps.json
+C:\Users\User\Documents\C#\CSharp\Aulas\Colection-List\Colection-List\bin\Debug\net8.0\Colection-List.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Aulas\Colection-List\Colection-List\bin\Debug\net8.0\Colection-List.dll
+C:\Users\User\Documents\C#\CSharp\Aulas\Colection-List\Colection-List\bin\Debug\net8.0\Colection-List.pdb
+C:\Users\User\Documents\C#\CSharp\Aulas\Colection-List\Colection-List\obj\Debug\net8.0\Colection-List.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Aulas\Colection-List\Colection-List\obj\Debug\net8.0\Colection-List.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\Colection-List\Colection-List\obj\Debug\net8.0\Colection-List.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Aulas\Colection-List\Colection-List\obj\Debug\net8.0\Colection-List.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\Colection-List\Colection-List\obj\Debug\net8.0\Colection-List.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Aulas\Colection-List\Colection-List\obj\Debug\net8.0\Colection-List.dll
+C:\Users\User\Documents\C#\CSharp\Aulas\Colection-List\Colection-List\obj\Debug\net8.0\refint\Colection-List.dll
+C:\Users\User\Documents\C#\CSharp\Aulas\Colection-List\Colection-List\obj\Debug\net8.0\Colection-List.pdb
+C:\Users\User\Documents\C#\CSharp\Aulas\Colection-List\Colection-List\obj\Debug\net8.0\Colection-List.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\Colection-List\Colection-List\obj\Debug\net8.0\ref\Colection-List.dll

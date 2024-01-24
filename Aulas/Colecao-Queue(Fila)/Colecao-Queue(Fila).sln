@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colecao-Queue(Fila)", "Colecao-Queue(Fila)\Colecao-Queue(Fila).csproj", "{3DCD8714-3605-4434-B35A-9414949B1CD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DCD8714-3605-4434-B35A-9414949B1CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCD8714-3605-4434-B35A-9414949B1CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCD8714-3605-4434-B35A-9414949B1CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCD8714-3605-4434-B35A-9414949B1CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A75FE0E-AB06-424D-B686-F3F1A4CB2E24}
+	EndGlobalSection
+EndGlobal

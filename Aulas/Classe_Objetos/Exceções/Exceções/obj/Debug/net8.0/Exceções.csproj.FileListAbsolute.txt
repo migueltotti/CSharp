@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Aulas\Classe_Objetos\Exceções\Exceções\bin\Debug\net8.0\Exceções.exe
+C:\Users\User\Documents\C#\CSharp\Aulas\Classe_Objetos\Exceções\Exceções\bin\Debug\net8.0\Exceções.deps.json
+C:\Users\User\Documents\C#\CSharp\Aulas\Classe_Objetos\Exceções\Exceções\bin\Debug\net8.0\Exceções.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Aulas\Classe_Objetos\Exceções\Exceções\bin\Debug\net8.0\Exceções.dll
+C:\Users\User\Documents\C#\CSharp\Aulas\Classe_Objetos\Exceções\Exceções\bin\Debug\net8.0\Exceções.pdb
+C:\Users\User\Documents\C#\CSharp\Aulas\Classe_Objetos\Exceções\Exceções\obj\Debug\net8.0\Exceções.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Aulas\Classe_Objetos\Exceções\Exceções\obj\Debug\net8.0\Exceções.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\Classe_Objetos\Exceções\Exceções\obj\Debug\net8.0\Exceções.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Aulas\Classe_Objetos\Exceções\Exceções\obj\Debug\net8.0\Exceções.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\Classe_Objetos\Exceções\Exceções\obj\Debug\net8.0\Exceções.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Aulas\Classe_Objetos\Exceções\Exceções\obj\Debug\net8.0\Exceções.dll
+C:\Users\User\Documents\C#\CSharp\Aulas\Classe_Objetos\Exceções\Exceções\obj\Debug\net8.0\refint\Exceções.dll
+C:\Users\User\Documents\C#\CSharp\Aulas\Classe_Objetos\Exceções\Exceções\obj\Debug\net8.0\Exceções.pdb
+C:\Users\User\Documents\C#\CSharp\Aulas\Classe_Objetos\Exceções\Exceções\obj\Debug\net8.0\Exceções.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\Classe_Objetos\Exceções\Exceções\obj\Debug\net8.0\ref\Exceções.dll

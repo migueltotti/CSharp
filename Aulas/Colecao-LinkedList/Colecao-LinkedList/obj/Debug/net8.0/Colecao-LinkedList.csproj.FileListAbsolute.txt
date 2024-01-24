@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-LinkedList\Colecao-LinkedList\bin\Debug\net8.0\Colecao-LinkedList.exe
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-LinkedList\Colecao-LinkedList\bin\Debug\net8.0\Colecao-LinkedList.deps.json
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-LinkedList\Colecao-LinkedList\bin\Debug\net8.0\Colecao-LinkedList.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-LinkedList\Colecao-LinkedList\bin\Debug\net8.0\Colecao-LinkedList.dll
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-LinkedList\Colecao-LinkedList\bin\Debug\net8.0\Colecao-LinkedList.pdb
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-LinkedList\Colecao-LinkedList\obj\Debug\net8.0\Colecao-LinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-LinkedList\Colecao-LinkedList\obj\Debug\net8.0\Colecao-LinkedList.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-LinkedList\Colecao-LinkedList\obj\Debug\net8.0\Colecao-LinkedList.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-LinkedList\Colecao-LinkedList\obj\Debug\net8.0\Colecao-LinkedList.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-LinkedList\Colecao-LinkedList\obj\Debug\net8.0\Colecao-LinkedList.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-LinkedList\Colecao-LinkedList\obj\Debug\net8.0\Colecao-LinkedList.dll
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-LinkedList\Colecao-LinkedList\obj\Debug\net8.0\refint\Colecao-LinkedList.dll
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-LinkedList\Colecao-LinkedList\obj\Debug\net8.0\Colecao-LinkedList.pdb
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-LinkedList\Colecao-LinkedList\obj\Debug\net8.0\Colecao-LinkedList.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-LinkedList\Colecao-LinkedList\obj\Debug\net8.0\ref\Colecao-LinkedList.dll

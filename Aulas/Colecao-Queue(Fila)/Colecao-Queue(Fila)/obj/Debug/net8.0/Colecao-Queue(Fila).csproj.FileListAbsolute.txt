@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-Queue(Fila)\Colecao-Queue(Fila)\bin\Debug\net8.0\Colecao-Queue(Fila).exe
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-Queue(Fila)\Colecao-Queue(Fila)\bin\Debug\net8.0\Colecao-Queue(Fila).deps.json
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-Queue(Fila)\Colecao-Queue(Fila)\bin\Debug\net8.0\Colecao-Queue(Fila).runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-Queue(Fila)\Colecao-Queue(Fila)\bin\Debug\net8.0\Colecao-Queue(Fila).dll
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-Queue(Fila)\Colecao-Queue(Fila)\bin\Debug\net8.0\Colecao-Queue(Fila).pdb
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-Queue(Fila)\Colecao-Queue(Fila)\obj\Debug\net8.0\Colecao-Queue(Fila).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-Queue(Fila)\Colecao-Queue(Fila)\obj\Debug\net8.0\Colecao-Queue(Fila).AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-Queue(Fila)\Colecao-Queue(Fila)\obj\Debug\net8.0\Colecao-Queue(Fila).AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-Queue(Fila)\Colecao-Queue(Fila)\obj\Debug\net8.0\Colecao-Queue(Fila).csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-Queue(Fila)\Colecao-Queue(Fila)\obj\Debug\net8.0\Colecao-Queue(Fila).sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-Queue(Fila)\Colecao-Queue(Fila)\obj\Debug\net8.0\Colecao-Queue(Fila).dll
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-Queue(Fila)\Colecao-Queue(Fila)\obj\Debug\net8.0\refint\Colecao-Queue(Fila).dll
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-Queue(Fila)\Colecao-Queue(Fila)\obj\Debug\net8.0\Colecao-Queue(Fila).pdb
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-Queue(Fila)\Colecao-Queue(Fila)\obj\Debug\net8.0\Colecao-Queue(Fila).genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\Colecao-Queue(Fila)\Colecao-Queue(Fila)\obj\Debug\net8.0\ref\Colecao-Queue(Fila).dll

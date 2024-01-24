@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\C#\\VisualStudio\\Aulas\\Classe_Objetos\\Interfaces\\Interfaces\\Interfaces.csproj": {}
+    "C:\\Users\\User\\Documents\\C#\\CSharp\\Aulas\\Classe_Objetos\\Interfaces\\Interfaces\\Interfaces.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\C#\\VisualStudio\\Aulas\\Classe_Objetos\\Interfaces\\Interfaces\\Interfaces.csproj": {
+    "C:\\Users\\User\\Documents\\C#\\CSharp\\Aulas\\Classe_Objetos\\Interfaces\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\C#\\VisualStudio\\Aulas\\Classe_Objetos\\Interfaces\\Interfaces\\Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\C#\\CSharp\\Aulas\\Classe_Objetos\\Interfaces\\Interfaces\\Interfaces.csproj",
         "projectName": "Interfaces",
-        "projectPath": "C:\\Users\\User\\Documents\\C#\\VisualStudio\\Aulas\\Classe_Objetos\\Interfaces\\Interfaces\\Interfaces.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\C#\\CSharp\\Aulas\\Classe_Objetos\\Interfaces\\Interfaces\\Interfaces.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\C#\\VisualStudio\\Aulas\\Classe_Objetos\\Interfaces\\Interfaces\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\C#\\CSharp\\Aulas\\Classe_Objetos\\Interfaces\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
