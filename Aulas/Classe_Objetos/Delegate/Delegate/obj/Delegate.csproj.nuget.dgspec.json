@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\C#\\VisualStudio\\Aulas\\Classe_Objetos\\Delegate\\Delegate\\Delegate.csproj": {}
+    "C:\\Users\\User\\Documents\\C#\\CSharp\\Aulas\\Classe_Objetos\\Delegate\\Delegate\\Delegate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\C#\\VisualStudio\\Aulas\\Classe_Objetos\\Delegate\\Delegate\\Delegate.csproj": {
+    "C:\\Users\\User\\Documents\\C#\\CSharp\\Aulas\\Classe_Objetos\\Delegate\\Delegate\\Delegate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\C#\\VisualStudio\\Aulas\\Classe_Objetos\\Delegate\\Delegate\\Delegate.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\C#\\CSharp\\Aulas\\Classe_Objetos\\Delegate\\Delegate\\Delegate.csproj",
         "projectName": "Delegate",
-        "projectPath": "C:\\Users\\User\\Documents\\C#\\VisualStudio\\Aulas\\Classe_Objetos\\Delegate\\Delegate\\Delegate.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\C#\\CSharp\\Aulas\\Classe_Objetos\\Delegate\\Delegate\\Delegate.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\C#\\VisualStudio\\Aulas\\Classe_Objetos\\Delegate\\Delegate\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\C#\\CSharp\\Aulas\\Classe_Objetos\\Delegate\\Delegate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
