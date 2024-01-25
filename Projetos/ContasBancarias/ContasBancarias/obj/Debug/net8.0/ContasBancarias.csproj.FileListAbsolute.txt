@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Projetos\ContasBancarias\ContasBancarias\obj\Debug\net8.0\ContasBancarias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Projetos\ContasBancarias\ContasBancarias\obj\Debug\net8.0\ContasBancarias.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Projetos\ContasBancarias\ContasBancarias\obj\Debug\net8.0\ContasBancarias.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Projetos\ContasBancarias\ContasBancarias\obj\Debug\net8.0\ContasBancarias.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Projetos\ContasBancarias\ContasBancarias\obj\Debug\net8.0\ContasBancarias.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Projetos\ContasBancarias\ContasBancarias\bin\Debug\net8.0\ContasBancarias.exe
+C:\Users\User\Documents\C#\CSharp\Projetos\ContasBancarias\ContasBancarias\bin\Debug\net8.0\ContasBancarias.deps.json
+C:\Users\User\Documents\C#\CSharp\Projetos\ContasBancarias\ContasBancarias\bin\Debug\net8.0\ContasBancarias.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Projetos\ContasBancarias\ContasBancarias\bin\Debug\net8.0\ContasBancarias.dll
+C:\Users\User\Documents\C#\CSharp\Projetos\ContasBancarias\ContasBancarias\bin\Debug\net8.0\ContasBancarias.pdb
+C:\Users\User\Documents\C#\CSharp\Projetos\ContasBancarias\ContasBancarias\obj\Debug\net8.0\ContasBancarias.dll
+C:\Users\User\Documents\C#\CSharp\Projetos\ContasBancarias\ContasBancarias\obj\Debug\net8.0\refint\ContasBancarias.dll
+C:\Users\User\Documents\C#\CSharp\Projetos\ContasBancarias\ContasBancarias\obj\Debug\net8.0\ContasBancarias.pdb
+C:\Users\User\Documents\C#\CSharp\Projetos\ContasBancarias\ContasBancarias\obj\Debug\net8.0\ContasBancarias.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Projetos\ContasBancarias\ContasBancarias\obj\Debug\net8.0\ref\ContasBancarias.dll
