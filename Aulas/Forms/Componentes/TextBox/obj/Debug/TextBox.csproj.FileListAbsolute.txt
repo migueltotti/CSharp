@@ -1,0 +1,10 @@
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Componentes\TextBox\bin\Debug\TextBox.exe.config
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Componentes\TextBox\bin\Debug\TextBox.exe
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Componentes\TextBox\bin\Debug\TextBox.pdb
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Componentes\TextBox\obj\Debug\TextBox.csproj.AssemblyReference.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Componentes\TextBox\obj\Debug\TextBox.F_Principal.resources
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Componentes\TextBox\obj\Debug\TextBox.Properties.Resources.resources
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Componentes\TextBox\obj\Debug\TextBox.csproj.GenerateResource.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Componentes\TextBox\obj\Debug\TextBox.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Componentes\TextBox\obj\Debug\TextBox.exe
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Componentes\TextBox\obj\Debug\TextBox.pdb

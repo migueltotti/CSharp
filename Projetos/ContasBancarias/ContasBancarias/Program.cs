@@ -70,13 +70,13 @@ namespace ContasBancarias
         {
             switch (Tipo_Op)
             {
-                case "C":
-                case "c":
-                    this.fatura += valor;
+                case "S":
+                case "s":
+                    this.saldo -= valor;
                     break;
                 case "D":
                 case "d":
-                    this.saldo -= valor;
+                    this.saldo += valor;
                     break;
             }
         }
@@ -296,7 +296,7 @@ namespace ContasBancarias
                     achou = true;
                     for (i = 0; i < qtde; i++)
                     {
-                        Console.Write("Infome o tipo da operadao [C, D]: ");
+                        Console.Write("Infome o tipo da operadao:\nSaque [s] / Deposito [d]: ");
                         string tipoOp = Console.ReadLine();
                         Console.Write("Valor da operacao: ");
                         int valor = int.Parse(Console.ReadLine());

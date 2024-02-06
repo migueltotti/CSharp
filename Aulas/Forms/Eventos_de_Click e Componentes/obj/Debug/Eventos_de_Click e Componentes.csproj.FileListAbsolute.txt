@@ -1,0 +1,10 @@
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Eventos_de_Click e Componentes\bin\Debug\Eventos_de_Click e Componentes.exe.config
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Eventos_de_Click e Componentes\bin\Debug\Eventos_de_Click e Componentes.exe
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Eventos_de_Click e Componentes\bin\Debug\Eventos_de_Click e Componentes.pdb
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Eventos_de_Click e Componentes\obj\Debug\Eventos_de_Click e Componentes.csproj.AssemblyReference.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Eventos_de_Click e Componentes\obj\Debug\Eventos_de_Click_e_Componentes.Form1.resources
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Eventos_de_Click e Componentes\obj\Debug\Eventos_de_Click_e_Componentes.Properties.Resources.resources
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Eventos_de_Click e Componentes\obj\Debug\Eventos_de_Click e Componentes.csproj.GenerateResource.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Eventos_de_Click e Componentes\obj\Debug\Eventos_de_Click e Componentes.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Eventos_de_Click e Componentes\obj\Debug\Eventos_de_Click e Componentes.exe
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Eventos_de_Click e Componentes\obj\Debug\Eventos_de_Click e Componentes.pdb

@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2D1FD5D6-7688-4215-9267-B338F2F47DBD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Novo_Forms</RootNamespace>
+    <AssemblyName>Novo_Forms</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_CheckBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_CheckBox.Designer.cs">
+      <DependentUpon>F_CheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_CheckedListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_CheckedListBox.Designer.cs">
+      <DependentUpon>F_CheckedListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_ComboBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_ComboBox.Designer.cs">
+      <DependentUpon>F_ComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_DateTimePicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_DateTimePicker.Designer.cs">
+      <DependentUpon>F_DateTimePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_FilhoCheckBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_FilhoCheckBox.Designer.cs">
+      <DependentUpon>F_FilhoCheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_LinkLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_LinkLabel.Designer.cs">
+      <DependentUpon>F_LinkLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_ListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_ListBox.Designer.cs">
+      <DependentUpon>F_ListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_ListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_ListView.Designer.cs">
+      <DependentUpon>F_ListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Veiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Veiculos.Designer.cs">
+      <DependentUpon>F_Veiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_CheckBox.resx">
+      <DependentUpon>F_CheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_CheckedListBox.resx">
+      <DependentUpon>F_CheckedListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_ComboBox.resx">
+      <DependentUpon>F_ComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_DateTimePicker.resx">
+      <DependentUpon>F_DateTimePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_FilhoCheckBox.resx">
+      <DependentUpon>F_FilhoCheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_LinkLabel.resx">
+      <DependentUpon>F_LinkLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_ListBox.resx">
+      <DependentUpon>F_ListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_ListView.resx">
+      <DependentUpon>F_ListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Veiculos.resx">
+      <DependentUpon>F_Veiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
