@@ -27,7 +27,7 @@ namespace Novo_Forms
 
         private void ll_calculadora_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("calc.exe");
+            System.Diagnostics.Process.Start("\"C:\\Users\\User\\Documents\\C#\\CSharp\\Projetos\\Calculadora\\Calculadora\\bin\\Debug\\Calculadora.exe\"");
             // esse comando permite comecar, dar inicio a um processo (site) ou *programa* definido
         }
 
