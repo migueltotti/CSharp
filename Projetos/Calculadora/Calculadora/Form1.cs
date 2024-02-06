@@ -19,6 +19,8 @@ namespace Calculadora
         Stack<string> StackNum = new Stack<string>();
         Stack<string> StackOp = new Stack<string>();
 
+        List<string> Historico = new List<string>();
+
         public F_Principal()
         {
             InitializeComponent();
@@ -76,17 +78,42 @@ namespace Calculadora
 
         private void btn_dot_Click(object sender, EventArgs e)
         {
-            tb_display.Text += ".";
+            tb_display.Text += ",";
         }
 
         private void btn_equal_Click(object sender, EventArgs e)
         {
-            foreach (char t in tb_display.Text)
+            string txt = string.Empty;
+
+            if (tb_display.Text.Last() == '+' || tb_display.Text.Last() == '-' || tb_display.Text.Last() == 'x' || tb_display.Text.Last() == '÷' || tb_display.Text.Last() == '^' || tb_display.Text.Last() == '√')
             {
-                QueueDisplay.Enqueue(t.ToString());
+                MessageBox.Show("Erro de formatacao;\n'Nao eh possivel terminacao vazia ou com operador!'");
+                tb_display.Clear();
+                return;
+            }
+            else
+            {
+                foreach (char t in tb_display.Text)
+                {
+                    if (t == '+' || t == '-' || t == 'x' || t == '÷' || t == '^' || t == '√')
+                    {
+                        QueueDisplay.Enqueue(txt);
+                        txt = string.Empty;
+                        QueueDisplay.Enqueue(t.ToString());
+                    }
+                    else
+                    {
+                        txt += t;
+                    }
+                }
+
+
+                QueueDisplay.Enqueue(txt);
             }
 
             Calculadora(QueueDisplay, StackNum, StackOp);
+
+            Historico.Add(tb_display.Text + " = " + StackNum.Peek());
 
             tb_display.Text = StackNum.Pop();
 
@@ -94,7 +121,8 @@ namespace Calculadora
             StackOp.Clear();
             QueueDisplay.Clear();
 
-           //MessageBox.Show(Display.Dequeue() + " " + Display.Dequeue() + " " + Display.Dequeue() + " " + Display.Dequeue());
+            //MessageBox.Show(QueueDisplay.Dequeue() + " " + QueueDisplay.Dequeue() + " " + QueueDisplay.Dequeue());
+            //MessageBox.Show(QueueDisplay.Count.ToString());
         }
 
         private void btn_add_Click(object sender, EventArgs e)
@@ -140,21 +168,28 @@ namespace Calculadora
             }
         }
 
+        private void btn_historico_Click(object sender, EventArgs e)
+        {
+            F_Historico f_Historico = new F_Historico(Historico);
+
+            f_Historico.ShowDialog();
+        }
+
         private void Calculadora(Queue<string> QueueDisplay, Stack<string> StackNum, Stack<string> StackOp)
         {
-            while (QueueDisplay.Count > 0)
+            while (QueueDisplay.Count > 0) // 5 + 5 X 3 ^ 2
             {
                 if (QueueDisplay.First() == "+" || QueueDisplay.First() == "-" || QueueDisplay.First() == "x" || QueueDisplay.First() == "÷" || QueueDisplay.First() == "^" || QueueDisplay.First() == "√")
                 {
-                    if(StackOp.Count == 0 || !(StackOp.Peek() == "√" || StackOp.Peek() == "^" || (QueueDisplay.First() == "+" || StackOp.Peek() == "-") || (QueueDisplay.First() == "-" || StackOp.Peek() == "+")))
+                    if(StackOp.Count == 0 || !(StackOp.Peek() == "√" || StackOp.Peek() == "^" || (QueueDisplay.First() == "+" && StackOp.Peek() == "-") || (QueueDisplay.First() == "-" && StackOp.Peek() == "+") || StackOp.Peek() == "÷" || StackOp.Peek() == "x"))
                     {
                         // entrar no StackOp
                         StackOp.Push(QueueDisplay.Dequeue());
                     }
-                    else if (!(StackOp.Peek() == "÷" || StackOp.Peek() == "x" || QueueDisplay.First() == StackOp.Peek() || (QueueDisplay.First() == "+" || StackOp.Peek() == "-") || (QueueDisplay.First() == "-" || StackOp.Peek() == "+")))
+                    /*else if (!(StackOp.Peek() == "÷" || StackOp.Peek() == "x" || QueueDisplay.First() == StackOp.Peek() || (QueueDisplay.First() == "+" && StackOp.Peek() == "-") || (QueueDisplay.First() == "-" && StackOp.Peek() == "+")))
                     {
                         StackOp.Push(QueueDisplay.Dequeue());
-                    }
+                    }*/
                     else
                     {
                         Calculo(StackNum, StackOp);

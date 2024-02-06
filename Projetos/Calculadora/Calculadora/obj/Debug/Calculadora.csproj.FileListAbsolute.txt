@@ -8,3 +8,4 @@ C:\Users\User\Documents\C#\CSharp\Projetos\Calculadora\Calculadora\obj\Debug\Cal
 C:\Users\User\Documents\C#\CSharp\Projetos\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
 C:\Users\User\Documents\C#\CSharp\Projetos\Calculadora\Calculadora\obj\Debug\Calculadora.exe
 C:\Users\User\Documents\C#\CSharp\Projetos\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\User\Documents\C#\CSharp\Projetos\Calculadora\Calculadora\obj\Debug\Calculadora.F_Historico.resources
