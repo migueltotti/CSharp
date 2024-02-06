@@ -62,10 +62,26 @@ namespace Novo_Forms
 
         private void btn_obter_Click(object sender, EventArgs e)
         {
+            Obter();
+        }
+
+        private void lv_produtos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // evento acionado sempre que o indice do listview eh mudado
+
+            if (lv_produtos.SelectedIndices.Count > 0) // existem itens selecionados
+            {
+                Obter();
+            }
+        }
+
+        private void Obter()
+        {
             // o indice 0 em SelectedItem, uma colecao, significa que ele vai pegar o primeiro item selecionado, primeira posicao da colecao
             // como a opcao de multiplos itens selecionados eh FALSE o unico item selecionado sepre sera o primeiro
 
             // Subitems[0] significa que ele vai receber o valor de 'Id', que eh o primeiro subitem de um determinado item
+
             tb_id.Text = lv_produtos.SelectedItems[0].SubItems[0].Text;
             tb_produto.Text = lv_produtos.SelectedItems[0].SubItems[1].Text;
             tb_qtde.Text = lv_produtos.SelectedItems[0].SubItems[2].Text;

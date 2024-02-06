@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_Principal));
             this.btn_inserir = new System.Windows.Forms.Button();
             this.lb_texto = new System.Windows.Forms.Label();
             this.tb_veiculo = new System.Windows.Forms.TextBox();
@@ -44,7 +46,17 @@
             this.labelLinkLabelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.maskedTextBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.monthCalendarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.MenuNotificacoes = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.tsmi_restaurar = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmi_mensagem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmi_fechar = new System.Windows.Forms.ToolStripMenuItem();
+            this.numericUpDownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
+            this.MenuNotificacoes.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_inserir
@@ -145,7 +157,11 @@
             this.dateTimePickerToolStripMenuItem,
             this.labelLinkLabelToolStripMenuItem,
             this.listBoxToolStripMenuItem,
-            this.listViewToolStripMenuItem});
+            this.listViewToolStripMenuItem,
+            this.maskedTextBoxToolStripMenuItem,
+            this.monthCalendarToolStripMenuItem,
+            this.numericUpDownToolStripMenuItem,
+            this.pictureBoxToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -153,21 +169,21 @@
             // checkBoxToolStripMenuItem
             // 
             this.checkBoxToolStripMenuItem.Name = "checkBoxToolStripMenuItem";
-            this.checkBoxToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.checkBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.checkBoxToolStripMenuItem.Text = "CheckBox";
             this.checkBoxToolStripMenuItem.Click += new System.EventHandler(this.checkBoxToolStripMenuItem_Click);
             // 
             // checkedListBoxToolStripMenuItem
             // 
             this.checkedListBoxToolStripMenuItem.Name = "checkedListBoxToolStripMenuItem";
-            this.checkedListBoxToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.checkedListBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.checkedListBoxToolStripMenuItem.Text = "CheckedListBox";
             this.checkedListBoxToolStripMenuItem.Click += new System.EventHandler(this.checkedListBoxToolStripMenuItem_Click);
             // 
             // comboBoxToolStripMenuItem
             // 
             this.comboBoxToolStripMenuItem.Name = "comboBoxToolStripMenuItem";
-            this.comboBoxToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.comboBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.comboBoxToolStripMenuItem.Text = "ComboBox";
             this.comboBoxToolStripMenuItem.Click += new System.EventHandler(this.comboBoxToolStripMenuItem_Click);
             // 
@@ -199,6 +215,69 @@
             this.listViewToolStripMenuItem.Text = "ListView";
             this.listViewToolStripMenuItem.Click += new System.EventHandler(this.listViewToolStripMenuItem_Click);
             // 
+            // maskedTextBoxToolStripMenuItem
+            // 
+            this.maskedTextBoxToolStripMenuItem.Name = "maskedTextBoxToolStripMenuItem";
+            this.maskedTextBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.maskedTextBoxToolStripMenuItem.Text = "MaskedTextBox";
+            this.maskedTextBoxToolStripMenuItem.Click += new System.EventHandler(this.maskedTextBoxToolStripMenuItem_Click);
+            // 
+            // monthCalendarToolStripMenuItem
+            // 
+            this.monthCalendarToolStripMenuItem.Name = "monthCalendarToolStripMenuItem";
+            this.monthCalendarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.monthCalendarToolStripMenuItem.Text = "MonthCalendar";
+            this.monthCalendarToolStripMenuItem.Click += new System.EventHandler(this.monthCalendarToolStripMenuItem_Click);
+            // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.ContextMenuStrip = this.MenuNotificacoes;
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "Programa";
+            this.notifyIcon1.Visible = true;
+            // 
+            // MenuNotificacoes
+            // 
+            this.MenuNotificacoes.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmi_restaurar,
+            this.tsmi_mensagem,
+            this.tsmi_fechar});
+            this.MenuNotificacoes.Name = "contextMenuStrip1";
+            this.MenuNotificacoes.Size = new System.Drawing.Size(134, 70);
+            this.MenuNotificacoes.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.MenuNotificacoes_ItemClicked);
+            // 
+            // tsmi_restaurar
+            // 
+            this.tsmi_restaurar.Name = "tsmi_restaurar";
+            this.tsmi_restaurar.Size = new System.Drawing.Size(180, 22);
+            this.tsmi_restaurar.Text = "Restaurar";
+            // 
+            // tsmi_mensagem
+            // 
+            this.tsmi_mensagem.Name = "tsmi_mensagem";
+            this.tsmi_mensagem.Size = new System.Drawing.Size(180, 22);
+            this.tsmi_mensagem.Text = "Mensagem";
+            // 
+            // tsmi_fechar
+            // 
+            this.tsmi_fechar.Name = "tsmi_fechar";
+            this.tsmi_fechar.Size = new System.Drawing.Size(180, 22);
+            this.tsmi_fechar.Text = "Fechar";
+            // 
+            // numericUpDownToolStripMenuItem
+            // 
+            this.numericUpDownToolStripMenuItem.Name = "numericUpDownToolStripMenuItem";
+            this.numericUpDownToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.numericUpDownToolStripMenuItem.Text = "NumericUpDown";
+            this.numericUpDownToolStripMenuItem.Click += new System.EventHandler(this.numericUpDownToolStripMenuItem_Click);
+            // 
+            // pictureBoxToolStripMenuItem
+            // 
+            this.pictureBoxToolStripMenuItem.Name = "pictureBoxToolStripMenuItem";
+            this.pictureBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pictureBoxToolStripMenuItem.Text = "PictureBox";
+            this.pictureBoxToolStripMenuItem.Click += new System.EventHandler(this.pictureBoxToolStripMenuItem_Click);
+            // 
             // F_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -220,6 +299,7 @@
             this.Text = "Lista de Veiculos";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.MenuNotificacoes.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -243,6 +323,15 @@
         private System.Windows.Forms.ToolStripMenuItem labelLinkLabelToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listBoxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listViewToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem maskedTextBoxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem monthCalendarToolStripMenuItem;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private System.Windows.Forms.ContextMenuStrip MenuNotificacoes;
+        private System.Windows.Forms.ToolStripMenuItem tsmi_restaurar;
+        private System.Windows.Forms.ToolStripMenuItem tsmi_mensagem;
+        private System.Windows.Forms.ToolStripMenuItem tsmi_fechar;
+        private System.Windows.Forms.ToolStripMenuItem numericUpDownToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pictureBoxToolStripMenuItem;
     }
 }
 

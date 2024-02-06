@@ -17,3 +17,8 @@ C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Novo_Forms\obj\Debug\Novo_Forms.F_
 C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Novo_Forms\obj\Debug\Novo_Forms.F_LinkLabel.resources
 C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Novo_Forms\obj\Debug\Novo_Forms.F_ListBox.resources
 C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Novo_Forms\obj\Debug\Novo_Forms.F_ListView.resources
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Novo_Forms\obj\Debug\Novo_Forms.F_MaskedTextBox.resources
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Novo_Forms\obj\Debug\Novo_Forms.F_MonthCalendar.resources
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Novo_Forms\obj\Debug\Novo_Forms.F_NotifyIcon_ContextMenuStrip.resources
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Novo_Forms\obj\Debug\Novo_Forms.F_NumericUpDown.resources
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Novo_Forms\obj\Debug\Novo_Forms.F_PictureBox.resources
