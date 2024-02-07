@@ -130,11 +130,41 @@
     <Compile Include="F_PictureBox.Designer.cs">
       <DependentUpon>F_PictureBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_ProgressBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_ProgressBar.Designer.cs">
+      <DependentUpon>F_ProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_RadioButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_RadioButton.Designer.cs">
+      <DependentUpon>F_RadioButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_TrackBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_TrackBar.Designer.cs">
+      <DependentUpon>F_TrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_TreeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_TreeView.Designer.cs">
+      <DependentUpon>F_TreeView.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_Veiculos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="F_Veiculos.Designer.cs">
       <DependentUpon>F_Veiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_WebBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_WebBrowser.Designer.cs">
+      <DependentUpon>F_WebBrowser.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -180,8 +210,23 @@
     <EmbeddedResource Include="F_PictureBox.resx">
       <DependentUpon>F_PictureBox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="F_ProgressBar.resx">
+      <DependentUpon>F_ProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_RadioButton.resx">
+      <DependentUpon>F_RadioButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_TrackBar.resx">
+      <DependentUpon>F_TrackBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_TreeView.resx">
+      <DependentUpon>F_TreeView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_Veiculos.resx">
       <DependentUpon>F_Veiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_WebBrowser.resx">
+      <DependentUpon>F_WebBrowser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

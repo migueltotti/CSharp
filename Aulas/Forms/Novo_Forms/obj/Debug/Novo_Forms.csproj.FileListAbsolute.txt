@@ -22,3 +22,8 @@ C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Novo_Forms\obj\Debug\Novo_Forms.F_
 C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Novo_Forms\obj\Debug\Novo_Forms.F_NotifyIcon_ContextMenuStrip.resources
 C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Novo_Forms\obj\Debug\Novo_Forms.F_NumericUpDown.resources
 C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Novo_Forms\obj\Debug\Novo_Forms.F_PictureBox.resources
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Novo_Forms\obj\Debug\Novo_Forms.F_ProgressBar.resources
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Novo_Forms\obj\Debug\Novo_Forms.F_RadioButton.resources
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Novo_Forms\obj\Debug\Novo_Forms.F_TrackBar.resources
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Novo_Forms\obj\Debug\Novo_Forms.F_TreeView.resources
+C:\Users\User\Documents\C#\CSharp\Aulas\Forms\Novo_Forms\obj\Debug\Novo_Forms.F_WebBrowser.resources
