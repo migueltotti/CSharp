@@ -71,6 +71,16 @@ namespace Novo_Forms.Properties {
         }
         
         /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lovepik_cartoon_car_png_image_400177154_wh860 {
+            get {
+                object obj = ResourceManager.GetObject("lovepik_cartoon_car_png_image_400177154_wh860", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Miguel Totti de Oliveira.
         /// </summary>
         internal static string Nome_D {

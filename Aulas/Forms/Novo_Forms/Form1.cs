@@ -189,5 +189,54 @@ namespace Novo_Forms
 
             f_WebBrowser.ShowDialog();
         }
+
+        private void splitContainerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_SplitContainer f_SplitContainer = new F_SplitContainer();
+
+            f_SplitContainer.ShowDialog();
+        }
+
+        private void tabControlToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_TabControl f_TabControl = new F_TabControl();
+
+            f_TabControl.ShowDialog();
+        }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            F_TableLayoutPanel f_TableLayoutPanel = new F_TableLayoutPanel();
+
+            f_TableLayoutPanel.ShowDialog();
+        }
+
+        private void toolStripContainerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_ToolStripContainer f_ToolStripContainer = new F_ToolStripContainer();
+
+            f_ToolStripContainer.ShowDialog();
+        }
+
+        private void toolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            F_BackGroundWorker f_BackGroundWorker = new F_BackGroundWorker();
+
+            f_BackGroundWorker.ShowDialog();
+        }
+
+        private void toolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            F_Timer f_Timer = new F_Timer();
+
+            f_Timer.ShowDialog();
+        }
+
+        private void toolStripMenuItem7_Click(object sender, EventArgs e)
+        {
+            F_SQLite f_SQLite = new F_SQLite();
+
+            f_SQLite.ShowDialog();
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -12,6 +13,8 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,8 +36,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.EF6.1.0.118.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.Linq.1.0.118.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -51,6 +70,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_BackGroundWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_BackGroundWorker.Designer.cs">
+      <DependentUpon>F_BackGroundWorker.cs</DependentUpon>
     </Compile>
     <Compile Include="F_CheckBox.cs">
       <SubType>Form</SubType>
@@ -142,6 +167,48 @@
     <Compile Include="F_RadioButton.Designer.cs">
       <DependentUpon>F_RadioButton.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_SelecionarToolStrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_SelecionarToolStrip.Designer.cs">
+      <DependentUpon>F_SelecionarToolStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_SplitContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_SplitContainer.Designer.cs">
+      <DependentUpon>F_SplitContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_SQLite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_SQLite.Designer.cs">
+      <DependentUpon>F_SQLite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_TabControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_TabControl.Designer.cs">
+      <DependentUpon>F_TabControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_TableLayoutPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_TableLayoutPanel.Designer.cs">
+      <DependentUpon>F_TableLayoutPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Timer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Timer.Designer.cs">
+      <DependentUpon>F_Timer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_ToolStripContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_ToolStripContainer.Designer.cs">
+      <DependentUpon>F_ToolStripContainer.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_TrackBar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,6 +237,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_BackGroundWorker.resx">
+      <DependentUpon>F_BackGroundWorker.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="F_CheckBox.resx">
       <DependentUpon>F_CheckBox.cs</DependentUpon>
@@ -216,6 +286,27 @@
     <EmbeddedResource Include="F_RadioButton.resx">
       <DependentUpon>F_RadioButton.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="F_SelecionarToolStrip.resx">
+      <DependentUpon>F_SelecionarToolStrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_SplitContainer.resx">
+      <DependentUpon>F_SplitContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_SQLite.resx">
+      <DependentUpon>F_SQLite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_TabControl.resx">
+      <DependentUpon>F_TabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_TableLayoutPanel.resx">
+      <DependentUpon>F_TableLayoutPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Timer.resx">
+      <DependentUpon>F_Timer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_ToolStripContainer.resx">
+      <DependentUpon>F_ToolStripContainer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_TrackBar.resx">
       <DependentUpon>F_TrackBar.cs</DependentUpon>
     </EmbeddedResource>
@@ -238,6 +329,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -257,5 +349,18 @@
   <ItemGroup>
     <None Include="Resources\documento-de-texto.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lovepik-cartoon-car-png-image_400177154_wh860.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este projeto faz referência a pacotes do NuGet que não estão presentes neste computador. Use a Restauração de Pacotes do NuGet para baixá-los.  Para obter mais informações, consulte http://go.microsoft.com/fwlink/?LinkID=322105. O arquivo ausente é {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
 </Project>

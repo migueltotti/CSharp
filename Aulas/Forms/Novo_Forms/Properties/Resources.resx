@@ -121,6 +121,9 @@
   <data name="documento_de_texto" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\documento-de-texto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="lovepik_cartoon_car_png_image_400177154_wh860" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lovepik-cartoon-car-png-image_400177154_wh860.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Nome_D" xml:space="preserve">
     <value>Miguel Totti de Oliveira</value>
     <comment>Nome do Desenvolvedor</comment>
