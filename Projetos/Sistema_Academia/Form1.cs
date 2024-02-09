@@ -86,7 +86,8 @@ namespace Sistema_Academia
                 if (Globais.nivel >= 2)
                 {
                     // PROCEDIMENTOS
-
+                    F_GestaoUsuarios f_GestaoUsuarios = new F_GestaoUsuarios();
+                    f_GestaoUsuarios.ShowDialog();
                 }
                 else
                 {

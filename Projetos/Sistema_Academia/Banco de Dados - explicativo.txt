@@ -45,4 +45,4 @@ no retorno do dataTable ( == 1 -> usuario encontrado ; != 1 -> usuario nao encon
 
 
 // Formas de Inserir Dados no Banco de Dados
-1 - criar uma classe e criar uma funcao na classe do Banco de Dados que vai adicionar os valores para dentro do banco de dados
+1 - criar uma classe para gravar as informacoes e criar uma funcao na classe do Banco de Dados que vai adicionar os valores para dentro do banco de dados
