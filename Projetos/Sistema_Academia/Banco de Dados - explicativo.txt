@@ -1,0 +1,48 @@
+Apos realizar a instalacao do System.Data.SQLite, precisamos criar um bando de dados pelo
+software do SQLite.
+
+Depois de Criado o Banco de Dados precisamos criar as tables.
+Primeiramente cliclamos duas vezes no icone do banco_de_dados no lado esquerdo, clicados em 'table' e clicamos em 'criar_table',
+damos um nome para a table e logo apos isso vamos criar as colunas, clicando no icone criar coluna que esta acima do nome.
+
+As colunas devem seguir padroes:
+* inicio de nome *
+N_ : para um campo numerico
+T_ : para texto
+Bool_ : para booleano
+...
+
+Configuracoes da Coluna:
+* Primary Key* - chave primaria e eh oq diferencia as linha/ um conjunto de informacoes de outro
+--> pode ser 'autoincrement' caso seja um campo integer
+--> se for texto pode ser 'namedsort' vai ordenar por ordem alfabetica
+
+Apos finalizar a criacao de uma Table com as Colunas basta clicar no icone quadrado verde com um 'check' que fara um comit
+ para o banco de daos
+
+Podemos criar 'usuarios' no banco de dados diretamente pelo software do SQLite, basta clicar no icone do banco_de_dados,
+cliclar na aba de 'Data' e clicar no botao quadrado verde com '+' para inserir as informacoes. Depois que finalizado a insercao
+das informacoes basta cliclar no icone quadrado verde com um 'check'  para dar um comit.
+
+///
+Podemos fazer todas essas operacoes utilizando programacao/ escrever linhas de codigo clicando no banco de dados e depois
+na aba de 'Open SQL Editor' que sera aberto uma caixa de texto para realizar "Querys"
+e para rodar basta clicar no botao de play azul
+//
+
+
+// Formas de utilizar o banco de dados:
+1 - criar uma classe dentro do programa e implementar metodos para realizar operacoes usando banco de dados
+2 - 
+
+
+* Metodo 1:
+-> buscar elementos dentro do banco de dados: criar um metodo generico na classe do banco de dados que vai 
+retornar uma datatable com as informacoes
+
+em uma janela de login para verificar se o usuario foi encontrado basta verificarmos quantas rows existem 
+no retorno do dataTable ( == 1 -> usuario encontrado ; != 1 -> usuario nao encontrado)
+
+
+// Formas de Inserir Dados no Banco de Dados
+1 - criar uma classe e criar uma funcao na classe do Banco de Dados que vai adicionar os valores para dentro do banco de dados
