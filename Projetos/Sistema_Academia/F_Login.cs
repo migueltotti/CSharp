@@ -42,7 +42,7 @@ namespace Sistema_Academia
             // para passar strings como campos de filtragem no WHERE precisamos colocalos entre aspas simples ('')
             string sql = "SELECT * FROM tb_usuarios WHERE T_USERNAME='"+username+"' AND T_SENHAUSUARIO='"+senha+"'";
 
-            dataTable = Banco.Consulta(sql);
+            dataTable = Banco.DQL(sql);
 
             // encontrou o username e a senha digitada
             // podemos criar uma verificacao mais profunda e ver se a senha e o username sao iguais mas n existe necessidade pq o banco de dados ja faz isso

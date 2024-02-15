@@ -78,6 +78,12 @@
     <Compile Include="F_GestaoUsuarios.Designer.cs">
       <DependentUpon>F_GestaoUsuarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_Horarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Horarios.Designer.cs">
+      <DependentUpon>F_Horarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="F_GestaoUsuarios.resx">
       <DependentUpon>F_GestaoUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Horarios.resx">
+      <DependentUpon>F_Horarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="F_Login.resx">
       <DependentUpon>F_Login.cs</DependentUpon>

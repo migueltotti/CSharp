@@ -37,6 +37,7 @@
             this.pb_ledLogado = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.alunosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.novoAlunoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novoUsuárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
@@ -46,7 +47,7 @@
             this.lOGINToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logOnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logOFFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.novoAlunoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.horarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ledLogado)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -133,6 +134,13 @@
             this.alunosToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
             this.alunosToolStripMenuItem.Text = "Alunos";
             // 
+            // novoAlunoToolStripMenuItem
+            // 
+            this.novoAlunoToolStripMenuItem.Name = "novoAlunoToolStripMenuItem";
+            this.novoAlunoToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.novoAlunoToolStripMenuItem.Text = "Novo Aluno";
+            this.novoAlunoToolStripMenuItem.Click += new System.EventHandler(this.novoAlunoToolStripMenuItem_Click);
+            // 
             // usuáriosToolStripMenuItem
             // 
             this.usuáriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -165,7 +173,8 @@
             // manutençãoToolStripMenuItem
             // 
             this.manutençãoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bandoDeDadosToolStripMenuItem});
+            this.bandoDeDadosToolStripMenuItem,
+            this.horarToolStripMenuItem});
             this.manutençãoToolStripMenuItem.Name = "manutençãoToolStripMenuItem";
             this.manutençãoToolStripMenuItem.Size = new System.Drawing.Size(86, 20);
             this.manutençãoToolStripMenuItem.Text = "Manutenção";
@@ -173,9 +182,9 @@
             // bandoDeDadosToolStripMenuItem
             // 
             this.bandoDeDadosToolStripMenuItem.Name = "bandoDeDadosToolStripMenuItem";
-            this.bandoDeDadosToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.bandoDeDadosToolStripMenuItem.Text = "Bando de Dados";
-            this.bandoDeDadosToolStripMenuItem.Click += new System.EventHandler(this.bandoDeDadosToolStripMenuItem_Click);
+            this.bandoDeDadosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.bandoDeDadosToolStripMenuItem.Text = "Banco de Dados";
+            this.bandoDeDadosToolStripMenuItem.Click += new System.EventHandler(this.bancoDeDadosToolStripMenuItem_Click);
             // 
             // lOGINToolStripMenuItem
             // 
@@ -200,12 +209,12 @@
             this.logOFFToolStripMenuItem.Text = "LogOFF";
             this.logOFFToolStripMenuItem.Click += new System.EventHandler(this.logOFFToolStripMenuItem_Click);
             // 
-            // novoAlunoToolStripMenuItem
+            // horarToolStripMenuItem
             // 
-            this.novoAlunoToolStripMenuItem.Name = "novoAlunoToolStripMenuItem";
-            this.novoAlunoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.novoAlunoToolStripMenuItem.Text = "Novo Aluno";
-            this.novoAlunoToolStripMenuItem.Click += new System.EventHandler(this.novoAlunoToolStripMenuItem_Click);
+            this.horarToolStripMenuItem.Name = "horarToolStripMenuItem";
+            this.horarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.horarToolStripMenuItem.Text = "Horários";
+            this.horarToolStripMenuItem.Click += new System.EventHandler(this.horarToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -249,6 +258,7 @@
         private System.Windows.Forms.ToolStripMenuItem manutençãoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bandoDeDadosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem novoAlunoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem horarToolStripMenuItem;
     }
 }
 
