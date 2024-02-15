@@ -14,10 +14,21 @@ namespace Sistema_Academia
 
         public static string versao = "1.0";
         public static Boolean logado = false;
-        public static int nivel = 0; 
+        public static int nivel = 0;
         // niveis de acesso:
         // Basico: 1
         // Gerente: 2
         // MASTER: 3
+
+        // Campos Banco de Dados tb_usuarios:
+        /*
+         N_IDUSUARIO
+         T_NOMEUSUARIO
+         T_USERNAME
+         T_SENHAUSUARIO
+         T_STATUSUSUARIO
+         N_NIVELUSUARIO
+        */
+
     }
 }

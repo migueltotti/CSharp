@@ -92,6 +92,7 @@ namespace Sistema_Academia
                 throw ex;
             }
         }
+
         ///////// Funcoes do FORM F_GestaoUsuarios
 
         public static DataTable ObterTodosUsuariosIdNome()
@@ -122,6 +123,31 @@ namespace Sistema_Academia
             }
         }
 
+        public static void AtualizarDadosUsuario(Usuario user)
+        {
+            SQLiteDataAdapter dataAdapter = null;
+            DataTable dataTable = new DataTable();
+
+            try
+            {
+                var vcon = ConexaoBanco();
+
+                var cmd = vcon.CreateCommand();
+                // criar um comando de texto SQL para alterar (UPDATE) os valores (SET) na table 'tb_usuarios' ONDE (WHERE) id for igual ao informado, SEM O WHERE O UPDATE SERA REALIZADO EM TODAS AS ROWS DO BANCO DE DADOS
+                cmd.CommandText = "UPDATE tb_usuarios SET T_NOMEUSUARIO='"+user.nome+ "', T_USERNAME='"+user.username+ "', T_SENHAUSUARIO='"+user.senha+ "', T_STATUSUSUARIO='"+user.status+ "',  N_NIVELUSUARIO="+user.nivel+" WHERE N_IDUSUARIO="+user.id;
+
+                // executar a Query
+                cmd.ExecuteNonQuery();
+
+                vcon.Close();
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public static DataTable ObterDadosUsuario(string id)
         {
             SQLiteDataAdapter dataAdapter = null;
@@ -133,7 +159,6 @@ namespace Sistema_Academia
 
                 var cmd = vcon.CreateCommand();
                 cmd.CommandText = "SELECT * FROM tb_usuarios WHERE N_IDUSUARIO='"+id+"'";
-                // as '' substitiui o nome por outro definido. NAO SUBSTITUI O NOME NO BANCO DE DADOS E SIM AONDE ELE SERA UTILIZADO QUANDO ESTE METODO SERA CHAMADO
 
                 dataAdapter = new SQLiteDataAdapter(cmd.CommandText, vcon);
 
@@ -142,6 +167,31 @@ namespace Sistema_Academia
                 vcon.Close();
 
                 return dataTable;
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public static void DeletarUsuario(string ID)
+        {
+            SQLiteDataAdapter dataAdapter = null;
+            DataTable dataTable = new DataTable();
+
+            try
+            {
+                var vcon = ConexaoBanco();
+
+                var cmd = vcon.CreateCommand();
+                // criar um comando de texto SQL para DELETAR um usuario do banco de dados
+                cmd.CommandText = "DELETE FROM tb_usuarios WHERE N_IDUSUARIO=" + ID;
+
+                // executar a Query
+                cmd.ExecuteNonQuery();
+
+                vcon.Close();
 
             }
             catch (Exception ex)
