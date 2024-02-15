@@ -46,3 +46,42 @@ no retorno do dataTable ( == 1 -> usuario encontrado ; != 1 -> usuario nao encon
 
 // Formas de Inserir Dados no Banco de Dados
 1 - criar uma classe para gravar as informacoes e criar uma funcao na classe do Banco de Dados que vai adicionar os valores para dentro do banco de dados
+
+
+
+
+
+
+// Comandos SQL - Banco de Dados:
+SELECT - seleciona 
+UPDATE - altera
+DELETE - deleta
+
+FROM - de qual table a operacao sera feita
+
+as ... - altera o nome momentaneamente, apenas para aquela query da table ou da coluna
+
+CASE
+    WHEN     THEN
+END - cria condicoes no WHEN para quando tal coisa for igual a algo, THEN o valor especificado sera mostrado na query
+
+inner join - serve para inserir informacoes de outras table nos locais aonde as colunas funcionam como 'foreing keys'
+
+
+// exemplo:
+SELECT 
+     tbt.N_IDTURMA as 'ID TURMAS',
+     tbt.T_DSCTURMA as 'Desc. Turma',
+     tbt.N_MAXALUNOS as 'Max. Alunos',
+     tbh.T_DSCHORARIO as 'Horario',
+     tbp.T_NOMEPROFESSOR as 'Professor',
+     CASE 
+         WHEN tbt.T_STATUS = 'A' THEN 'Ativa'
+         WHEN tbt.T_STATUS = 'P' THEN 'Paralisada'
+         WHEN tbt.T_STATUS = 'C' THEN 'Cancelada'
+     END as 'Status'
+FROM 
+    tb_turmas as tbt
+inner join
+    tb_horarios as tbh on tbh.N_IDHORARIO = tbt.N_IDHORARIOS,
+    tb_professores as tbp on tbp.N_IDPROFESSOR = tbt.N_IDPROFESSOR
