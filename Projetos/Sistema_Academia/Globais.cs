@@ -19,6 +19,9 @@ namespace Sistema_Academia
         // Basico: 1
         // Gerente: 2
         // MASTER: 3
+        public static string caminho = System.Environment.CurrentDirectory;
+        public static string nome_Banco = "Banco_Academia.db";
+        public static string caminho_Banco = caminho + @"\BancoDeDados\";
 
         // Campos Banco de Dados tb_usuarios:
         /*

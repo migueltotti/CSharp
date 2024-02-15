@@ -17,11 +17,14 @@ namespace Sistema_Academia
         private static SQLiteConnection _connection;
 
 
+
+        /////// FUNCOES GENERICAS
+
         // * passo 3: criar um metodo para realizar a conexao com o banco e retornar a conexao
         private static SQLiteConnection ConexaoBanco()
         {
             // passo 3.1: instanciar uma conexao definindo o caminho para o arquivo aonde esta o banco de dados + '\\nome_do_banco_de_dados'
-            _connection = new SQLiteConnection("Data Source = C:\\Users\\User\\Documents\\C#\\CSharp\\Projetos\\Sistema_Academia\\BancoDeDados\\Banco_Academia");
+            _connection = new SQLiteConnection("Data Source =" + Globais.caminho_Banco + Globais.nome_Banco);
             
             // passo 3.2: abrir a conexao do banco de dados
             _connection.Open();
@@ -30,43 +33,10 @@ namespace Sistema_Academia
             return _connection;
         }
 
-        // * passo 4: criar um metodo que vai obter os dados de todos os usuarios e retornar uma colecao do tipo 'DataTable' para o sistema
-        public static DataTable ObterTodosUsuarios()
-        {
-            // passo 4.1: criar um SQLiteDataAdapter e um DataTable e definir como null
-            SQLiteDataAdapter dataAdapter = null;
-            DataTable dataTable = new DataTable();
-
-            try
-            {
-                var vcon = ConexaoBanco();
-
-                // passo 4.2: criar um comando a partir de um texto que sera rodado pelo banco de dados e retornara todos os usuarios
-                var cmd = vcon.CreateCommand();
-                // passo 4.2.1: cria a linha de comando para receber tudo da table
-                cmd.CommandText = "SELECT * FROM tb_usuarios";
-
-                // passo 4.2.2: (ponte) recebe todas as informacoes usando a linha de comando definida no cmd e da conexao com o banco de dados
-                dataAdapter = new SQLiteDataAdapter(cmd.CommandText, vcon);
-
-                // passo 4.2.3: armazena as informacoes retiradas do banco de dados
-                dataAdapter.Fill(dataTable);
-
-                // passo 4.2.4: fechar a conexao com o banco
-                vcon.Close();
-
-                // passo 4.2.5: retorna todos os usuarios
-                return dataTable;
-                
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
-
-        // * passo 5: criar um metodo para consulta no banco de dados que retorna uma DataTabel
-        public static DataTable Consulta(string sql)
+        
+        // * passo 4: criar um metodo para consulta no banco de dados que retorna uma DataTabel
+        // Consulta de dados do banco de dados
+        public static DataTable DQL(string sql) // Data Query Language
         {
             SQLiteDataAdapter dataAdapter = null;
             DataTable dataTable = new DataTable();
@@ -76,7 +46,7 @@ namespace Sistema_Academia
                 var vcon = ConexaoBanco();
 
                 var cmd = vcon.CreateCommand();
-                
+
                 cmd.CommandText = sql;
 
                 dataAdapter = new SQLiteDataAdapter(cmd.CommandText, vcon);
@@ -84,6 +54,72 @@ namespace Sistema_Academia
 
                 vcon.Close();
 
+                return dataTable;
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        // Manipulacao dos dados no banco de dados
+        public static void DML(string q, string msgOK=null, string msgErro=null) // Data Manipulation Language (Insert, Delete, Update)
+        {
+            SQLiteDataAdapter dataAdapter = null;
+            DataTable dataTable = new DataTable();
+
+            try
+            {
+                var vcon = ConexaoBanco();
+
+                var cmd = vcon.CreateCommand();
+                cmd.CommandText = q;
+                cmd.ExecuteNonQuery();
+
+                vcon.Close();
+
+                if (msgOK != null)
+                {
+                    MessageBox.Show(msgOK);
+                }
+            }
+            catch (Exception ex)
+            {
+                if(msgErro != null)
+                {
+                    MessageBox.Show(msgErro + "\n" + ex.Message);
+                }
+                throw ex;
+            }
+        }
+
+        // * passo 5: criar um metodo que vai obter os dados de todos os usuarios e retornar uma colecao do tipo 'DataTable' para o sistema
+        public static DataTable ObterTodosUsuarios()
+        {
+            // passo 5.1: criar um SQLiteDataAdapter e um DataTable e definir como null
+            SQLiteDataAdapter dataAdapter = null;
+            DataTable dataTable = new DataTable();
+
+            try
+            {
+                var vcon = ConexaoBanco();
+
+                // passo 5.2: criar um comando a partir de um texto que sera rodado pelo banco de dados e retornara todos os usuarios
+                var cmd = vcon.CreateCommand();
+                // passo 5.2.1: cria a linha de comando para receber tudo da table
+                cmd.CommandText = "SELECT * FROM tb_usuarios";
+
+                // passo 5.2.2: (ponte) recebe todas as informacoes usando a linha de comando definida no cmd e da conexao com o banco de dados
+                dataAdapter = new SQLiteDataAdapter(cmd.CommandText, vcon);
+
+                // passo 5.2.3: armazena as informacoes retiradas do banco de dados
+                dataAdapter.Fill(dataTable);
+
+                // passo 5.2.4: fechar a conexao com o banco
+                vcon.Close();
+
+                // passo 5.2.5: retorna todos os usuarios
                 return dataTable;
                 
             }
