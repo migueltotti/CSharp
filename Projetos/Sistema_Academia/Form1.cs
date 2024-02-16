@@ -119,5 +119,12 @@ namespace Sistema_Academia
 
             AbreForm(3, f_Professores);
         }
+
+        private void turmasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_GestaoTurmas f_GestaoTurmas = new F_GestaoTurmas();
+
+            AbreForm(2, f_GestaoTurmas);
+        }
     }
 }

@@ -22,3 +22,7 @@ C:\Users\User\Documents\C#\CSharp\Projetos\Sistema_Academia\obj\Debug\Sistema_Ac
 C:\Users\User\Documents\C#\CSharp\Projetos\Sistema_Academia\obj\Debug\Sistema_Academia.F_GestaoUsuarios.resources
 C:\Users\User\Documents\C#\CSharp\Projetos\Sistema_Academia\obj\Debug\Sistema_Academia.F_Horarios.resources
 C:\Users\User\Documents\C#\CSharp\Projetos\Sistema_Academia\obj\Debug\Sistema_Academia.F_Professores.resources
+C:\Users\User\Documents\C#\CSharp\Projetos\Sistema_Academia\obj\Debug\Sistema_Academia.F_GestaoTurmas.resources
+C:\Users\User\Documents\C#\CSharp\Projetos\Sistema_Academia\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\User\Documents\C#\CSharp\Projetos\Sistema_Academia\bin\Debug\itextsharp.dll
+C:\Users\User\Documents\C#\CSharp\Projetos\Sistema_Academia\bin\Debug\itextsharp.xml
