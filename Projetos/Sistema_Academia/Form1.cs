@@ -112,5 +112,12 @@ namespace Sistema_Academia
 
             AbreForm(3, f_Horarios);
         }
+
+        private void professoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_Professores f_Professores = new F_Professores();
+
+            AbreForm(3, f_Professores);
+        }
     }
 }
