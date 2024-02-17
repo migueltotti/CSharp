@@ -96,14 +96,9 @@ namespace Sistema_Academia
 
         private void novoAlunoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (Globais.logado == true)
-            {
-                // PROCEDIMENTOS
-            }
-            else
-            {
-                MessageBox.Show("É necessário ter um usuário logado!");
-            }
+            F_NovoAluno f_NovoAluno = new F_NovoAluno();
+
+            AbreForm(2, f_NovoAluno);
         }
 
         private void horarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -125,6 +120,13 @@ namespace Sistema_Academia
             F_GestaoTurmas f_GestaoTurmas = new F_GestaoTurmas();
 
             AbreForm(2, f_GestaoTurmas);
+        }
+
+        private void gestãoDeAToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_GestaoAlunos f_GestaoAlunos = new F_GestaoAlunos();
+
+            AbreForm(2, f_GestaoAlunos);
         }
     }
 }

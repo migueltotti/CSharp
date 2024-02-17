@@ -170,6 +170,7 @@ namespace Sistema_Academia
             n_numAlunos.Value = 0;
             cb_status.SelectedIndex = -1; // limpar
             cb_horario.SelectedIndex = -1; // limpar
+            tb_vagas.Clear();
             tb_dscTurma.Focus();
 
             modo = 2; // definir modo de insersao
@@ -296,36 +297,94 @@ namespace Sistema_Academia
             Document doc = new Document(PageSize.A4);
             PdfWriter escritorPDF = PdfWriter.GetInstance(doc, arquivoPDF);
 
-            string dados = "";
+            // adicionando imagens no pdf
+            iTextSharp.text.Image logo = iTextSharp.text.Image.GetInstance(Globais.caminho + @"\logo_PDF.jpg");
+            logo.ScaleToFit(140F, 120F);
+            logo.Alignment = Element.ALIGN_LEFT;
+            //logo.SetAbsolutePosition(100F, 700F); // X, -Y -> Y de baixo para cima (0 eh bem la embaixo no documento)
+            // podemos setar a posicao da imagem usando o Alignment ou SetAbsolutePosition
 
             // paragrafo 1
 
+            string dados = "";
             Paragraph paragrafo1 = new Paragraph(dados, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 20, (int)System.Drawing.FontStyle.Bold));
 
             paragrafo1.Alignment = Element.ALIGN_CENTER;
-            paragrafo1.Add("Gerenciamento de Academia\n");
-
-            paragrafo1.Font = new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 14, (int)System.Drawing.FontStyle.Italic);
-            paragrafo1.Add("Curso de C#\n");
-
-            string txt = "Turmas";
-            paragrafo1.Font = new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 12, (int)System.Drawing.FontStyle.Regular);
-            paragrafo1.Add(txt+"\n");
+            paragrafo1.Add("Relatório de Turmas\n\n");
 
             // paragrafo 2
 
-            Paragraph paragrafo2 = new Paragraph(dados, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 12, (int)System.Drawing.FontStyle.Bold));
+            Paragraph paragrafo2 = new Paragraph(dados, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 12, (int)System.Drawing.FontStyle.Regular));
 
             paragrafo2.Alignment = Element.ALIGN_LEFT;
-            txt = "Texto do Segundo paragrafo";
-            paragrafo2.Font = new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 12, (int)System.Drawing.FontStyle.Regular);
-            paragrafo2.Add(txt);
+            paragrafo2.Font = new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 12, (int)System.Drawing.FontStyle.Bold);
+            paragrafo2.Add("\nSistema de Gerenciamento de Academia - 1.0v");
+
+            // Adicionando Tabelas no PDF
+
+            PdfPTable tabela = new PdfPTable(3); // 3 colunas
+            tabela.DefaultCell.FixedHeight = 20;
+
+            /*
+            // podemos adicionar celulas na tabela e edita-las
+            PdfPCell celula1 = new PdfPCell();
+            celula1.Colspan = 3; // linha 1 mesclada
+            ///celula1.Rotation = 90;
+            celula1.AddElement(logo);
+            tabela.AddCell(celula1);
+            
+
+            // ou apenas adicionar celular sem edicao, apenas com o nome
+            // quando atingir o numero maximo de colunas, a proxima celula inserida sera numa proxima linha
+            tabela.AddCell("Codigo");
+            tabela.AddCell("Produto");
+            tabela.AddCell("Preco");
+
+            tabela.AddCell("01");
+            tabela.AddCell("Mouse");
+            tabela.AddCell("25,00");
+
+            tabela.AddCell("02");
+            tabela.AddCell("Teclado");
+            tabela.AddCell("65,00");
+
+            PdfPCell celula2 = new PdfPCell(new Phrase("tabela de precos"));
+            //celula2.Phrase.Add("tabela de precos");
+            celula2.Colspan = 3; // linha 1 mesclada
+            celula2.Rotation = 0;
+            celula2.FixedHeight = 40;
+            celula2.HorizontalAlignment = Element.ALIGN_CENTER;
+            celula2.VerticalAlignment = Element.ALIGN_MIDDLE;
+            tabela.AddCell(celula2);
+            */
+            
+            // insersao simples das celulas na tabela, sem nenhuma edicao
+            tabela.AddCell("ID Turma");
+            tabela.AddCell("Turma");
+            tabela.AddCell("Horário");
+
+            // preenchendo as tabelas a partir das tables retornadas pela query que presenche os dados do DGV
+            DataTable dtTurmas = Banco.DQL(queryDGV);
+            for(int i = 0; i < dtTurmas.Rows.Count; i++)
+            {
+                tabela.AddCell(dtTurmas.Rows[i].Field<Int64>("ID").ToString());
+                tabela.AddCell(dtTurmas.Rows[i].Field<string>("Turma"));
+                tabela.AddCell(dtTurmas.Rows[i].Field<string>("Horario"));
+            }
 
             doc.Open();
+            doc.Add(logo);
             doc.Add(paragrafo1);
+            doc.Add(tabela);
             doc.Add(paragrafo2);
             doc.Close();
 
+            // perguntar se o usuario quer abrir o PDF apos cria-lo
+            DialogResult res = MessageBox.Show("Deseja abrir o PDF?", "Abrir PDF?", MessageBoxButtons.YesNo);
+            if (res == DialogResult.Yes)
+            {
+                System.Diagnostics.Process.Start(Globais.caminho + @"\turmas.pdf");
+            }
         }
     }
 }
