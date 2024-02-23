@@ -22,6 +22,7 @@ namespace Sistema_Academia
         public static string caminho = System.Environment.CurrentDirectory;
         public static string nome_Banco = "Banco_Academia.db";
         public static string caminho_Banco = caminho + @"\BancoDeDados\";
+        public static string caminho_Fotos = caminho + @"\Fotos\";
 
         // Campos Banco de Dados tb_usuarios:
         /*

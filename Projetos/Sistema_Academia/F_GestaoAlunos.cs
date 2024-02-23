@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Sistema_Academia
 {
@@ -154,6 +155,13 @@ namespace Sistema_Academia
         {
             if (MessageBox.Show("Confirmar Exclusao?", "Exclusao?", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
+                // faz a verificacao se o aluno possue foto ou nao
+                if (File.Exists(pb_foto.ImageLocation)) // verifica se o picturebox contem o caminho da foto
+                {
+                    File.Delete(pb_foto.ImageLocation);
+                }
+
+
                 string vqueryExcluirAluno = String.Format(@"
                     DELETE FROM
                         tb_alunos
@@ -176,6 +184,7 @@ namespace Sistema_Academia
             if(dgv.SelectedRows.Count > 0)
             {
                 idSelecionado = dgv.Rows[dgv.SelectedRows[0].Index].Cells[0].Value.ToString();
+                //tb_nome.Text = dgv.Rows[dgv.SelectedRows[0].Index].Cells[1].Value.ToString();
                 string vqueryCampos = String.Format(@"
                     SELECT 
                         *
@@ -191,10 +200,18 @@ namespace Sistema_Academia
                 mtb_telefone.Text = dt.Rows[0].Field<string>("T_TELEFONE");
                 cb_status.SelectedValue = dt.Rows[0].Field<string>("T_STATUS");
                 cb_turmas.SelectedValue = dt.Rows[0].Field<Int64>("N_IDTURMA");
-                
+
+                // vamos pegar os dados do CAMINHO da foto armazenado dentro do banco de dados e ai sim acessar e mostrar a foto
+                pb_foto.ImageLocation = dt.Rows[0].Field<string>("T_FOTO");
+
                 // sempre que um aluno for selecionado a variavel turmaAtual sera preenchida e depois utilizada para verificar se a turma foi alterada ou nao
                 turmaAtual = cb_turmas.Text;
             }
+        }
+
+        private void btn_imprimirCarteirinha_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
