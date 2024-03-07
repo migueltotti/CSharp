@@ -19,7 +19,11 @@ namespace Sistema_Academia
         // Basico: 1
         // Gerente: 2
         // MASTER: 3
-        public static string caminho = System.Environment.CurrentDirectory;
+
+        // essa forma de obter o caminho do executavel do sistema tera q ser susbtituido por um que faca a mesma coisa porem quando o usuario instalar o aplicativo ele pegar o caminho do executavel automaticamente
+        //public static string caminho = System.Environment.CurrentDirectory;
+
+        public static string caminho = System.AppDomain.CurrentDomain.BaseDirectory.ToString();
         public static string nome_Banco = "Banco_Academia.db";
         public static string caminho_Banco = caminho + @"\BancoDeDados\";
         public static string caminho_Fotos = caminho + @"\Fotos\";

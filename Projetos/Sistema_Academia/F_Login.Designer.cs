@@ -53,7 +53,6 @@
             this.tb_username.Name = "tb_username";
             this.tb_username.Size = new System.Drawing.Size(167, 20);
             this.tb_username.TabIndex = 1;
-            this.tb_username.Text = "m.totti";
             // 
             // tb_senha
             // 
@@ -63,7 +62,6 @@
             this.tb_senha.PasswordChar = '*';
             this.tb_senha.Size = new System.Drawing.Size(167, 20);
             this.tb_senha.TabIndex = 3;
-            this.tb_senha.Text = "120822";
             // 
             // label2
             // 

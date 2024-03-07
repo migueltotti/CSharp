@@ -37,54 +37,59 @@ namespace Sistema_Academia
             dgv_alunos.Columns[0].Width = 50;
             dgv_alunos.Columns[1].Width = 180;
 
-            tb_nome.Text = dgv_alunos.Rows[dgv_alunos.SelectedRows[0].Index].Cells[1].Value.ToString();
+            if (dgv_alunos.Rows.Count > 0)
+            {
 
-            // Popular ComboBox Turmas - Query Especial
 
-            // || = operador de CONCATENACAO no SQLite
-            // - = operador de subtracao
-            string queryTurmas = @"
-                SELECT
-                    tbt.N_IDTURMA,
-                    ('Vagas: '|| (
-                                    (tbt.N_MAXALUNOS)-(
-                                                    SELECT  
-                                                        count(tba.N_IDALUNO)
-                                                    FROM
-                                                        tb_alunos as tba
-                                                    WHERE
-                                                        tba.T_STATUS = 'A' AND tba.N_IDTURMA = tbt.N_IDTURMA
-                                                  )
-                                 ) || ' / Turma: ' || T_DSCTURMA
-                    ) as 'Turma'
-                FROM
-                    tb_turmas as tbt
-                ORDER BY
-                    tbt.N_IDTURMA
-            ";
-            // (Vagas: max_alunos - alunos_na_turma / Turma: nome_turma)
+                tb_nome.Text = dgv_alunos.Rows[dgv_alunos.SelectedRows[0].Index].Cells[1].Value.ToString();
 
-            cb_turmas.Items.Clear();
-            cb_turmas.DataSource = Banco.DQL(queryTurmas);
-            cb_turmas.DisplayMember = "Turma";
-            cb_turmas.ValueMember = "N_IDTURMA";
+                // Popular ComboBox Turmas - Query Especial
 
-            // Populando ComboBox Status (A-Ativo, B-Bloqueado, C-Cancelado)
+                // || = operador de CONCATENACAO no SQLite
+                // - = operador de subtracao
+                string queryTurmas = @"
+                    SELECT
+                        tbt.N_IDTURMA,
+                        ('Vagas: '|| (
+                                        (tbt.N_MAXALUNOS)-(
+                                                        SELECT  
+                                                            count(tba.N_IDALUNO)
+                                                        FROM
+                                                            tb_alunos as tba
+                                                        WHERE
+                                                            tba.T_STATUS = 'A' AND tba.N_IDTURMA = tbt.N_IDTURMA
+                                                      )
+                                     ) || ' / Turma: ' || T_DSCTURMA
+                        ) as 'Turma'
+                    FROM
+                        tb_turmas as tbt
+                    ORDER BY
+                        tbt.N_IDTURMA
+                ";
+                // (Vagas: max_alunos - alunos_na_turma / Turma: nome_turma)
 
-            Dictionary<string, string> st = new Dictionary<string, string>();
+                cb_turmas.Items.Clear();
+                cb_turmas.DataSource = Banco.DQL(queryTurmas);
+                cb_turmas.DisplayMember = "Turma";
+                cb_turmas.ValueMember = "N_IDTURMA";
 
-            st.Add("A", "Ativo");
-            st.Add("B", "Bloqueado");
-            st.Add("C", "Cancelado");
+                // Populando ComboBox Status (A-Ativo, B-Bloqueado, C-Cancelado)
 
-            cb_status.Items.Clear();
-            cb_status.DataSource = new BindingSource(st, null);
-            cb_status.DisplayMember = "Value";
-            cb_status.ValueMember = "Key";
+                Dictionary<string, string> st = new Dictionary<string, string>();
 
-            turma = cb_turmas.Text;
-            turmaAtual = cb_turmas.Text;
-            idSelecionado = dgv_alunos.Rows[dgv_alunos.SelectedRows[0].Index].Cells[0].Value.ToString();
+                st.Add("A", "Ativo");
+                st.Add("B", "Bloqueado");
+                st.Add("C", "Cancelado");
+
+                cb_status.Items.Clear();
+                cb_status.DataSource = new BindingSource(st, null);
+                cb_status.DisplayMember = "Value";
+                cb_status.ValueMember = "Key";
+
+                turma = cb_turmas.Text;
+                turmaAtual = cb_turmas.Text;
+                idSelecionado = dgv_alunos.Rows[dgv_alunos.SelectedRows[0].Index].Cells[0].Value.ToString();
+            }
         }
 
         private void btn_salvarEdicoes_Click(object sender, EventArgs e)
