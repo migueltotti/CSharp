@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Exercicios-Propostos\Exercicio_5\bin\Debug\net8.0\Exercicio_5.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Exercicios-Propostos\Exercicio_5\bin\Debug\net8.0\Exercicio_5.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Exercicios-Propostos\Exercicio_5\bin\Debug\net8.0\Exercicio_5.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Exercicios-Propostos\Exercicio_5\bin\Debug\net8.0\Exercicio_5.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Exercicios-Propostos\Exercicio_5\bin\Debug\net8.0\Exercicio_5.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Exercicios-Propostos\Exercicio_5\obj\Debug\net8.0\Exercicio_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Exercicios-Propostos\Exercicio_5\obj\Debug\net8.0\Exercicio_5.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Exercicios-Propostos\Exercicio_5\obj\Debug\net8.0\Exercicio_5.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Exercicios-Propostos\Exercicio_5\obj\Debug\net8.0\Exercicio_5.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Exercicios-Propostos\Exercicio_5\obj\Debug\net8.0\Exercicio_5.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Exercicios-Propostos\Exercicio_5\obj\Debug\net8.0\Exercicio_5.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Exercicios-Propostos\Exercicio_5\obj\Debug\net8.0\refint\Exercicio_5.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Exercicios-Propostos\Exercicio_5\obj\Debug\net8.0\Exercicio_5.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Exercicios-Propostos\Exercicio_5\obj\Debug\net8.0\Exercicio_5.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Exercicios-Propostos\Exercicio_5\obj\Debug\net8.0\ref\Exercicio_5.dll

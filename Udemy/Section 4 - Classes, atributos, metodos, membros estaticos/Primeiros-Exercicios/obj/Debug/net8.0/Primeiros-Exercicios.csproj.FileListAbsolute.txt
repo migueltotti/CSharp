@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Primeiros-Exercicios\bin\Debug\net8.0\Primeiros-Exercicios.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Primeiros-Exercicios\bin\Debug\net8.0\Primeiros-Exercicios.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Primeiros-Exercicios\bin\Debug\net8.0\Primeiros-Exercicios.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Primeiros-Exercicios\bin\Debug\net8.0\Primeiros-Exercicios.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Primeiros-Exercicios\bin\Debug\net8.0\Primeiros-Exercicios.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Primeiros-Exercicios\obj\Debug\net8.0\Primeiros-Exercicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Primeiros-Exercicios\obj\Debug\net8.0\Primeiros-Exercicios.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Primeiros-Exercicios\obj\Debug\net8.0\Primeiros-Exercicios.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Primeiros-Exercicios\obj\Debug\net8.0\Primeiros-Exercicios.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Primeiros-Exercicios\obj\Debug\net8.0\Primeiros-Exercicios.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Primeiros-Exercicios\obj\Debug\net8.0\Primeiros-Exercicios.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Primeiros-Exercicios\obj\Debug\net8.0\refint\Primeiros-Exercicios.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Primeiros-Exercicios\obj\Debug\net8.0\Primeiros-Exercicios.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Primeiros-Exercicios\obj\Debug\net8.0\Primeiros-Exercicios.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 4 - Classes, atributos, metodos, membros estaticos\Primeiros-Exercicios\obj\Debug\net8.0\ref\Primeiros-Exercicios.dll

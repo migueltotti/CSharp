@@ -1,0 +1,60 @@
+Classes e Objetos
+
+Object:
+- classe generica, toda classe eh um subconjunto da classe Object
+- possue os seguintes medotos:
+	* GetType - retorna o tipo do objeto
+	* Equals - compara se o objeto eh igual ao outro
+	* GetHashCode - retorna um codigo hash do objeto
+	* ToString - converte o objeto para string
+
+-> override string ToString(){}
+	- metodo que vai retornar uma string de nossa escolha sempre que o objeto for impresso na tela. 
+	- fazemos isso para modularizar uma chamada, uma acao envolvendo aquele objeto
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+Construtores:
+
+- podemos iniciar valores das propriedades de uma classe quando instanciada com uma sintaxe alternativa e nao necessariamente necessitando de um construtor daquela classe.
+- so funciona se existir um construtor padrao sem atribuicao alguma na classe
+	Classe Produto: (nome, valor, quantidade)
+
+	Produto p = new Produto {
+		nome = "TV",
+		valor = 800,
+		quantadade = 2
+	};
+
+ou
+	Produto p = new Produto() {
+		nome = "TV",
+		valor = 800,
+		quantadade = 2
+	};
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+Encapsulamento:
+
+- Membros private:
+	-> forma 'manual' de implementar (pouco utilizada)
+- utilizamos membros private quando queremos reduzir a capacidade de manipulacao de algumas propriedades fora da classe.
+- metodos sao criados para poder acessar ou alterar os valores das propriedades private:
+	Get...(){} -> retorna o valor
+	Set...(){} -> 'seta', altera o valor
+- utilizar metodos para fazer essas operacoes permite que possamos limitar o acesso a  aquela propriedades ou ate definir outras condicoes dentro dos metodos.
+
+
+-> Properties:
+- sao formas de tratar uma variavel/atributo da classe como uma propriedade para utilizar as funcoes de get e set de forma mais amigavel (mais utilizada)
+	public _tipo_ _Nome_{
+		get {}
+		set {}
+	}
+	
+	- dentro das chaves estarao as funcoes para retornar ou alterar valores das propriedades/variaveis
+
+
+
+	
