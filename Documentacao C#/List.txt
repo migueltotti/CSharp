@@ -1,0 +1,49 @@
+List:
+
+- conjunto mais utilizado e mais comum no mercado.
+- estrutura de dados:
+	* Homogenea (dados do mesmo tipo)
+	* Ordenada (elementos sao acessados por posicoes)
+	* Inicia vazia, e seus elementos sao alocados sob demanda (alocacao dinamica)
+	* Cada elemento ocupa um 'no' da lista
+- tamanho variavel
+- facilidade para realizar insercoes e delecoes
+
+- classe: List
+- Namespace: System.Generics.Collection
+
+- declaracao com instanciacao:
+	List<_tipodado_> _nomedalista_ = new List<_tipodado_>();
+
+- tambem podemos ja instanciar com alguns valores:
+	List<string> list = new List<string> { "Miguel", "Cachorro", "Casamento" }
+
+////////////////// Metodos ///////////////////////
+
+.Add(): insere elementos sempre apos o final da lista
+
+.Insert(): insere elementos em uma determinada posicao da lista
+
+.Count: retorna a quantidade de elementos na lista
+
+.Find(): retorna o primeiro valor encontrado que satisfaz a uma predicado (condicao)
+	-> essa condicao pode ser feita utilizando uma funcao com retorno bool ou usando lambda (x => x != 10, isso indica que a funcao vai procurar o primeiro elemento que o valor dele seja diferente de 10 \ => : tal que)
+
+.FindLast(): mesma coisa que o .Find() porem retorna a ultima ocorrencia
+
+.FindIndex(): retorna o index do primeiro valor encontrado que satisfaz um predicado (condicao)
+
+.FindLastIndex(): retorna o index da ultima ocorrencia do valor encontrado que satisfaz um predicado (condicao)
+
+.FindAll(): retorna uma nova lista com os elementos filtrados por um predicado (condicao -> funcao ou lambda)
+
+.Remove
+
+
+
+
+
+
+
+
+	

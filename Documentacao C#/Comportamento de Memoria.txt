@@ -72,3 +72,37 @@ Nullable:
 	
 	- tenta atribuir o valor de x em y. Caso x seja null vai atribuir o valor 0.00
 
+/////////////////////////////////////////////////////////////////////////////////////
+
+Boxing:
+
+- processo de conversao de um objeto tipo valor para um objeto tipo referencia compativel.
+
+	int x = 20;
+	Object obj = x;
+
+- quando fazemos 'obj' receber o valor de 'x' estamos forcando a instanciacao de uma memoria com o valor 20 e assim 'obj' vai apontar para essa memoria
+- temos que tomar cuidade pois essa conversao implica em mais memoria sendo alocada.
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+Unboxing:
+
+- processo contrario ao Boxing.
+- processo de conversao de um objeto tipo referencia para um objeto do tipo valor compativel;
+
+	int x = 20;
+	Object obj = x;
+	int y = (int) obj;
+
+- quando fazemos receber o valor inteiro de 'obj' estamos criando a variavel 'y' no stack e inserindo o valor da memoria que 'obj' estava referenciando para varaivel 'y'.
+- nao ha alocacao de memoria no heap;
+
+
+
+
+
+
+
+

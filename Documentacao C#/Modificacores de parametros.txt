@@ -1,0 +1,60 @@
+/////////////////////////////////////////////////////////////////////////////////////////////                  EVITAR USAR REF E OUT (code smells)                ////////
+/////////////////////////////////////////////////////////////////////////////////////
+
+Parametros 'params':
+
+- podemos utilizar o parametro params nos parametros da funcao para indicar que podem ser inseridos varios valores daquele mesmo tipo.
+	public int Soma(params int[] num){
+	
+	}
+
+	- essa funcao faz a soma dos n valores que entrarem nela, podem ser 2, 3, 4, 1000000...
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+Parametros 'ref':
+
+- utilizar 'ref _variavel_' como argumento na chamada de uma funcao, sera passado o endereco daquela variavel, uma referencia. Diferente de quando passamos uma variavel normal, apenas uma copia do valor.
+- isso permite que possamos alterar o valor de uma variavel fora da funcao void
+- na funcao o parametro de entrada tbm deve conter 'ref _varaivel_'
+
+	public void Calcular(ref num){
+		num = num * 3;
+	}
+
+	main(){
+		int a = 10;
+		Calcular(ref a);
+		Console.WriteLine(a); // a == 30
+	}
+- utilizar ref exige que a variavel tenha sido iniciada
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+Parametros 'out':
+
+- semelhante ao ref, porem ela serve apenas como variavel de saida.
+- podemos utilizar quando queremos criar uma funcao com retorno porem que retorne mais de um valor.
+
+	public void Triple(int num, out int result){
+		result = num * 3;
+	}
+
+	main(){
+		int a = 10;
+		int result;
+		Calcular(a, out result);
+		Console.WriteLine(result) // result == 30
+	}
+- utilizar out nao exige que a variavel tenha sido inicada
+
+
+
+
+
+
+
+
+
+
+
