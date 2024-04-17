@@ -54,7 +54,14 @@ Encapsulamento:
 	}
 	
 	- dentro das chaves estarao as funcoes para retornar ou alterar valores das propriedades/variaveis
+	- para utilizar valores que serao passados como parametro para a propriedade e depois armazenados em alguma varaivel utilizamos 'value' para mexer com o parametro passado
 
+-> AutoProperties:
+- podemos declarar as propriedades de get e set, caso nao tenham nenhuma instrucao mais elaborada, diretamente na declaracao da variavel.
+	public string Nome {get; set;}
+	public double Prco {get; private set;}
+
+	- a utilizacao do 'private set' indica que o valor daquela variavel nao pode ser alterado por outro arquivo ou classe, apenas com isntrucoes da propria classe
 
 
 	

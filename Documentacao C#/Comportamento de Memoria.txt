@@ -1,0 +1,74 @@
+Tipo Referencia:
+
+- classes sao do tipo referencia. A varaivel quando instanciada de uma classe serve como um ponteiro para um endereco de memoria que armazena as informacoes daquela classe. Portanto a varivel carrega o endereco de memoria e nao o conteudo. 
+- toda variavel onde o tipo eh uma classe sao ponteiros.
+- quando um 'ponteiro' recebe o valor "null" quer dizer que nao aponta para nada.
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+Tipo Valor:
+
+- structs sao do tipo valor, sao tratadas como caixas.
+
+	double x, y;
+	x = 10;
+	y = x;
+
+- o exemplo acima mostra que o valor de x foi COPIADO para dentro de y, caso o valor em y seja alterado o valor em x se mantera o mesmo.
+- exemplos de structs sao os tipos basicos
+- structs podem ser representados como classes, porem com algumas funcoes restritas:
+	struct _Nome_
+	{
+		propriedades
+
+		metodos
+	}
+- pela struct ser um tipo valor, quando vamos utiliza-la no programa nao precisamos isntanciar um objeto da classe, podemos simplismente atribuir valores para a varaivel da struct e utiliza-los, ja que estes serao passados por valor e nao por referencia que nem em classes.
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+Valores Padrao:
+
+- sempre que alocamos (new) qualquer tipo struturado (classes, structs, arrays...), sao atribuidos valores padroes para os elementos:
+	-> numeros = 0;
+	-> bool = False;
+	-> char = caracter codigo 0;
+	-> objeto = null;
+- quando uma variavel e declarada porem nao instanciada ou iniciada ela entra em estado de 'nao atribuida' e o compilador nao permite que ela seja utilizada.
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+Garbage Collector:
+
+- processo que automatiza o gerenciamento de memoria de um programa em execucao
+- desaloca os objetos alocados dinamicamente (heap) que nao estao mais sendo utilizados.
+-> desalocacao por Garbage Collector:
+	- assim que todas um objeto nao possuem mais referencia eles seram desalocados da memoria
+-> desalocacao por Escopo:
+	- varaives locais sao desalocadas assim que seu escopo local sai da execcao
+	- isso serve para funcoes, metodos, if, else, for...
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+Nullable:
+
+- recurso do C# que permite tipos valor (structs) receber valor null
+- utilizado para preencher campos de banco de dados que possam ser nulos, dados e parametros opcionais.
+
+	Nullable<tipo_dado> _nome = null;
+	tipo_dado? _nome = null;
+
+- as duas formas indicam que aquele tipo eh opcional, pode ter valor ou ser nulo
+-> metoros Nullable:
+	* .GetValeuOrDefault(); => pega o valor da variavel ou o valor padrao daquele tipo caso ao tenha valor definido.
+	* .HasValeu(); => retorna True caso possua valor, Falso caso nao possua
+	* .Value(); => retorna o valor caso possua, se nao possuir valor ele emite um erro.
+
+-> Operador de coalescencia nula: (??)
+	- permite que possamos atribuir valores de uma variavel nullable em uma tipo valor.
+	double? x = null;
+	double y = x ?? 0.00;
+	
+	- tenta atribuir o valor de x em y. Caso x seja null vai atribuir o valor 0.00
+

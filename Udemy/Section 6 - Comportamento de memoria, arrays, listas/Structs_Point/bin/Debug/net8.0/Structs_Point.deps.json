@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Structs_Point/1.0.0": {
+        "runtime": {
+          "Structs_Point.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Structs_Point/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

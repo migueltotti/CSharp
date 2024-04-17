@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Structs\Structs_Point\bin\Debug\net8.0\Structs_Point.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Structs\Structs_Point\bin\Debug\net8.0\Structs_Point.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Structs\Structs_Point\bin\Debug\net8.0\Structs_Point.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Structs\Structs_Point\bin\Debug\net8.0\Structs_Point.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Structs\Structs_Point\bin\Debug\net8.0\Structs_Point.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Structs\Structs_Point\obj\Debug\net8.0\Structs_Point.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Structs\Structs_Point\obj\Debug\net8.0\Structs_Point.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Structs\Structs_Point\obj\Debug\net8.0\Structs_Point.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Structs\Structs_Point\obj\Debug\net8.0\Structs_Point.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Structs\Structs_Point\obj\Debug\net8.0\Structs_Point.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Structs\Structs_Point\obj\Debug\net8.0\Structs_Point.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Structs\Structs_Point\obj\Debug\net8.0\refint\Structs_Point.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Structs\Structs_Point\obj\Debug\net8.0\Structs_Point.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Structs\Structs_Point\obj\Debug\net8.0\Structs_Point.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Structs\Structs_Point\obj\Debug\net8.0\ref\Structs_Point.dll

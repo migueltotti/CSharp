@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Nullable\bin\Debug\net8.0\Nullable.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Nullable\bin\Debug\net8.0\Nullable.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Nullable\bin\Debug\net8.0\Nullable.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Nullable\bin\Debug\net8.0\Nullable.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Nullable\bin\Debug\net8.0\Nullable.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Nullable\obj\Debug\net8.0\Nullable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Nullable\obj\Debug\net8.0\Nullable.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Nullable\obj\Debug\net8.0\Nullable.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Nullable\obj\Debug\net8.0\Nullable.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Nullable\obj\Debug\net8.0\Nullable.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Nullable\obj\Debug\net8.0\Nullable.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Nullable\obj\Debug\net8.0\refint\Nullable.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Nullable\obj\Debug\net8.0\Nullable.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Nullable\obj\Debug\net8.0\Nullable.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Nullable\obj\Debug\net8.0\ref\Nullable.dll
