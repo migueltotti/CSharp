@@ -55,7 +55,21 @@ namespace List
             }
             Console.WriteLine("\n");
 
-            list.RemoveAll(x => x[0] == 'M');
+            /*list.RemoveAll(x => x[0] == 'M');
+            foreach (string item in list)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("\n");
+
+            list.RemoveAt(2);
+            foreach (string item in list)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("\n"); */
+
+            list.RemoveRange(0, 2);
             foreach (string item in list)
             {
                 Console.WriteLine(item);

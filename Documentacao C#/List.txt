@@ -18,7 +18,7 @@ List:
 - tambem podemos ja instanciar com alguns valores:
 	List<string> list = new List<string> { "Miguel", "Cachorro", "Casamento" }
 
-////////////////// Metodos ///////////////////////
+/////////////////////////////////////  Metodos //////////////////////////////////////
 
 .Add(): insere elementos sempre apos o final da lista
 
@@ -35,10 +35,15 @@ List:
 
 .FindLastIndex(): retorna o index da ultima ocorrencia do valor encontrado que satisfaz um predicado (condicao)
 
-.FindAll(): retorna uma nova lista com os elementos filtrados por um predicado (condicao -> funcao ou lambda)
+.FindAll(): retorna uma nova lista com os elementos filtrados por um predicado (condicao -> funcao bool ou lambda)
 
-.Remove
+.Remove(): remove um item da lista com base num valor especifico informado
 
+.RemoveAll(): remove todas as ocorrencias de valores que satizfazem um predicado (condicao -> funcao bool ou lambda)
+
+.RemoveAt(): remove um elemento com base na posicao dele na lista
+
+.RemoveRange(p, n): remove um total de 'n' elementos a partir de uma determinada posicao 'p'
 
 
 

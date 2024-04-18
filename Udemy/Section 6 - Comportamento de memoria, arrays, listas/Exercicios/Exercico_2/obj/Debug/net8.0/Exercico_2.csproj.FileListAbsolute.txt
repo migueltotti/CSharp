@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Exercicios\Exercico_2\bin\Debug\net8.0\Exercico_2.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Exercicios\Exercico_2\bin\Debug\net8.0\Exercico_2.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Exercicios\Exercico_2\bin\Debug\net8.0\Exercico_2.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Exercicios\Exercico_2\bin\Debug\net8.0\Exercico_2.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Exercicios\Exercico_2\bin\Debug\net8.0\Exercico_2.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Exercicios\Exercico_2\obj\Debug\net8.0\Exercico_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Exercicios\Exercico_2\obj\Debug\net8.0\Exercico_2.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Exercicios\Exercico_2\obj\Debug\net8.0\Exercico_2.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Exercicios\Exercico_2\obj\Debug\net8.0\Exercico_2.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Exercicios\Exercico_2\obj\Debug\net8.0\Exercico_2.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Exercicios\Exercico_2\obj\Debug\net8.0\Exercico_2.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Exercicios\Exercico_2\obj\Debug\net8.0\refint\Exercico_2.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Exercicios\Exercico_2\obj\Debug\net8.0\Exercico_2.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Exercicios\Exercico_2\obj\Debug\net8.0\Exercico_2.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 6 - Comportamento de memoria, arrays, listas\Exercicios\Exercico_2\obj\Debug\net8.0\ref\Exercico_2.dll
