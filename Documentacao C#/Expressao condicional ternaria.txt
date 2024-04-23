@@ -1,0 +1,13 @@
+Expressao condicional ternaria:
+
+- estrutura opcional do if-else, mais curta.
+- sintaxe:
+	(condicao) ? valor_se_verdadeiro : valor_se_falso;
+
+- exemplo:
+	double preco = 15.50;
+	double desconto;
+
+	desconto = (preco <= 20) ? preco * 0.1 : preco * 0.05;
+	
+	// desconto = preco * 0.1 => 1.55;

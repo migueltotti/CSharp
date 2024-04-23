@@ -1,0 +1,115 @@
+DateTime
+
+-namespace System;
+- representa um INSTANTE
+- eh um tipo valor
+- armazena 1 tick (100 nanosegundos) desde a meia noite do dia 1 de janeiro do ano 1 da era comum
+
+- para usar precisamos instanciar um objeto da Struct DateTime
+
+	DateTime d1 = DateTime.Now; // retorna a data com o horario exato daquela aplicacao
+
+- construtores e formas de instanciacao:
+
+	* ... = new DateTime(Ano, Mes, Dia);
+	* ... = new DateTime(Ano, Mes, Dia, Horas, Minutos, Segundos);
+	* ... = new DateTime(Ano, Mes, Dia, Horas, Minutos, Segundos, Milesimos);
+
+	* = DateTime.Now; // pega a data e o horario atual da tua maquina
+	* = DateTime.Today; // pega apenas a data atual com o horario em 00:00:00
+	* = DateTime.UtcNow; // pega a data e o horario atual na GMT (Londres)
+
+- usando DateTime.Parse() para converter strings em tipos DateTime:
+
+	* ... = DateTime.Parse("2024-04-23");
+	* ... = DateTime.Parse("2024-04-23 16:30:26");
+
+	* ... = DateTime.Parse("2024/04/23");
+	* ... = DateTime.Parse("2024/04/23 16:30:26");
+
+	// os dois tipos de formatacao sao suportados
+
+- usando DateTime.ParseExact() para uma formatacao mais personalisada:
+
+	* ... = DateTime.ParseExact("2024-04-23 16:30:26", "yyyy-MM-dd HH:mm:ss");
+	* ... = DateTime.ParseExact("2024/04/23 16:30:26", "yyyy/MM/dd HH:mm:ss");
+
+- Propriedades:
+	DateTime d = new DateTime(...,...,...,...,...);	
+
+	* d.Date; // pega apenas a data com o horario zerado
+	* d.Day; // pega apenas o dia
+	* d.DayOfWeek; // pega o dia da semana
+	* d.DayOfYear; // pega o dia do ano
+	* d.Hour; // pega a hora
+	* d.Kind; // pega o tipo da data/hora (global ou local ou nao especificado)
+	* d.Milisecond: // pega o milisegundo
+	* d.Minute; // pega o minuto
+	* d.Month; // pegga o mes
+	* d.Second; // pega o segundo
+	* d.Ticks; // retorna a quantidade de ticks
+	* d.TimeOfDay; // retorna apenas o horario completo
+	* d.Year; // retorna o ano
+
+- Formatacao de saida:
+
+	* d.ToLongDateString(); // retorna a data escrita de forma diferente, mais longa
+	* d.ToLongTimeString(); // retorna a hora escrita de forma diferente, mais longa
+	* d.ToShortDateString(); // retorna a data em formato resumido
+	* d.ToShortTimeString(); // retorna apenas a hora e minuto
+	* d.ToString(); // formato normal 
+	* d.ToString("yyyy-MM-dd HH:mm:ss"); // formatacao especifica 
+	* d.ToString("yyyy-MM-dd HH:mm:ss.fff"); // formatacao especifica com miliseuundos
+
+- Operacoes com DateTime:
+
+	DateTime x = ...
+
+	* DateTime y = x.Add(TimeSpan);
+	* DateTime y = x.AddDays(double);
+	* DateTime y = x.AddHours(double);
+	* DateTime y = x.AddMinutes(double);
+	* DateTime y = x.AddMilliseconds(double);
+	* DateTime y = x.AddYears(int);
+	* DateTime y = x.AddMonths(int);
+	* DateTime y = x.AddSecods(double);
+	* DateTime y = x.AddTicks(long);
+	
+	// Adiciona uma quantidade de dia, mes, ano, segundos, ticks... e coloca na variavel DateTime y;
+
+	* DateTime y = x.Subtract(TimeSpan);
+	* DateTime y = x.Subtract(DateTime);
+	
+	// subtrai uma quantidade de tempo do DateTime x
+
+	
+- DateTimeKind, importancia e aplicacoes:
+
+	* local (fuso horario do sistema)
+	* Utc (fuso horario GMT (Greenwich Mean Time)
+	* Unspecified
+
+	- Armazenar uma informacao de data em formato UTC para, texto: Banco de Dados / Json / XML
+	- Quando precisar eh so instanciar localmente
+
+	- Conversao:
+		
+		* myDate.ToLocalTime()
+		* myDate.ToUniversalTime()
+
+- Padrao ISO 8601:
+
+	"yyyy-MM-ddTHH:mm:ssZ"
+
+	Z indica que esta o padrao ISO 8601
+	-> a data que for inserida com a terminacao Z vai automaticamete ser ajustada para o fuso horario da sua maquina
+
+	ex: DateTime d1 = new DateTime("2000-08-15T13:05:58Z")
+
+	    Console.WriteLine(d1) // 2000-08-15 10:05:58 
+
+		                   -> 3 horas a menos do GMD, horario da minha maquina que esta no fuso de Brasilia (-3 GMD)
+
+
+	- quando queremos passar um DateTime para string utilizando o padrao ISO 8601 mantendo a data inicial inserida, devemos primeiro passar para .ToUniversalTime() e depois .ToString()
+	- isso apenas quando uma informacao de DateTime jja tiver sido inserida ou armazenada em algum local no sistema com o padrao da ISO 8601	

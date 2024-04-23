@@ -1,0 +1,9 @@
+Inferencia de tipo 'var':
+
+- var eh um tipo de dado que eh inferido quando aquela variavel recebe um valor
+	var x = 10;
+	var y = 20.0;
+	var z = "Miguel";
+
+	// x eh do tipo int, y eh do tipo double e z eh do tipo string
+- cuidado ao usar, pode haver discuidos com o uso de var.

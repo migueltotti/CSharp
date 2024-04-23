@@ -1,0 +1,60 @@
+TimeSpan
+
+- repensenta uma DURACAO
+- eh um tipo valor
+
+- declaracao e construtores:
+
+	TimeSpan t1 = new TimeSpan() // 00:00:00
+	TimeSpan t2 = new TimeSpan(900000000L) // 00:01:30 - novecentos milhoes de ticks (nanosegundoss)
+	TimeSpan t3 = new TimeSpan(2, 11, 21) // 02:11:21
+	TimeSpan t4 = new TimeSpan(1, 2, 11, 21) // 1.02:11:21
+	TimeSpan t5 = new TimeSpan(1, 2, 11, 21, 321) // 1.02:11:21.321
+
+- instanciando utilizando .From:
+
+	TimeSpan t6 = TimeSpan.FromDays(1.5); // 1 dia e meio - 1.12:00:00
+	TimeSpan t7 = TimeSpan.FromHours(1.5); // 1 hora e meia - 01:30:00
+	TimeSpan t8 = TimeSpan.FromMinutes(1.5); // 1 minuto e mei0 - 00:01:30
+	TimeSpan t9 = TimeSpan.FromSeconds(1.5); // 1 segundo e mei0 - 00:00:01.5000000
+	TimeSpan t10 = TimeSpan.FromMilliseconds(1); // 1 milisegundo - 00:00:00.0010000
+	TimeSpan t11 = TimeSpan.FromTicks(900000000L); // quantidade de ticks em tipo 'long' - 00:01:30
+
+- Operacoes:
+
+	TimeSpan t1 = TimeSpan.MaxValue; 
+	TimeSpan t2 = TimeSpan.MinValue;
+	TimeSpan t3 = TimeSpan.Zero;
+	
+// retorna os valores inteiro de um TimeSpan recebido ou instanciado
+	t.Days;
+	t.Hours;
+	t.Minutes;
+	t.Milliseconds;
+	t.Seconds;
+	t.Ticks;
+
+// retorna os valores quebrados de um TimeSpan recebido ou instanciado
+	t.TotalDays; 
+	t.TotalHours;
+	t.TotalMinutes;
+	t.TotalSeconds;
+	t.TotalMilliseconds;
+	
+	// quantos dias cabem naquele TimeSpan inserido...
+
+	
+	TimeSpan t1 = new TimeSpan(1, 30, 10);
+	TimeSpan t2 = new TimeSpan(0, 10, 5);
+
+	TimeSpan sum = t1.Add(t2);
+	TimeSpan dif = t1.Subtract(t2);
+	TimeSpan mult = t2.Multiply(2.0);
+	TimeSpan div = t2.Divide(2.0);
+
+	Console.WriteLine(t1); // 01:30:10
+	Console.WriteLine(t2); // 00:10:05
+	Console.WriteLine(sum); // 01:40:15
+	Console.WriteLine(dif); // 01:20:05
+	Console.WriteLine(mult); // 00:20:10
+	Console.WriteLine(div); // 00:05:02.5000000

@@ -1,0 +1,24 @@
+Strings
+
+//////////////////////////////// funcoes importantes ////////////////////////////////
+
+.ToUpper() - retorna uma string com todos os caracteres em maiusculo
+
+.ToLower() - retorna uma string com todos os caracteres em minusculo
+
+.Trim() - retorna uma string com os espaços em branco excluidos antes do primeiro caracter e depois do ultimo caracter
+
+.IndexOf(string s) - retorna o indice da primeira ocorrencia de uma string informada
+
+.LastIndexOf(string s) - retorna o indice da utlima ocorrencia de uma string informada
+
+.Substring(int n) : .Substring(int n, int m) - retorna uma sub-string, uma string tirando alguns elementos, a partir de um certo indice 'n' informado. Podemos definir qual o tamanho (quantidade de caracteres) da substring que queremos inserindo um segundo parametro 'm' na funcao.
+
+.Split(string a) - retorna varias strings separadas pelo caracter informado. Comum usar o caracter " " para cortar e separar as palavras ou caracteres e armazenar em um vetor ou lista
+ 
+.Replace(string/char a, string/char b) - retorna uma string com todos as ocorrencias de string 'a' trocadas pela string 'b' 
+
+String.IsNullOrEmpty(string a) - retorna True se a string 'a' for nula ou vazia, False se for o contrario
+
+String.IsNullOrWhiteSpace(string a) - retorna True se a string 'a' for nula ou eh apenas espaco em branco, False se for o contrario
+
