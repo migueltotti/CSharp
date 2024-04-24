@@ -1,0 +1,69 @@
+Git e GitHub
+
+- repositorio : projeto controlado pelo git
+- repositorio remoto : copia oficial armazenada no servidor
+- repositorio local : copia do repositorio para cada pessoa trabalhar individualmente na sua maquina
+
+///////////////////// Chave SSH /////////////////////
+
+- gerar uma chave SSH da maquina para inserir no GitHub:
+	* Abra o GitBash e execute um dos dois comandos:
+
+	ssh-keygen -t ed25519 -C "your_email@example.com"
+ 
+
+	 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+	* Entre no arquivo criado contendo a chave SSH e abra a chave publica pelo bloco de notas.
+	* Entre na conta do GitHub -> Settings -> SSH and GPG keys -> New -> Inserir um nome e a chave SSH.
+
+///////////////////// Comandos /////////////////////
+
+- git init = vai tornar aquela pasta um repositorio git
+
+
+
+- git add . = vai salvar todos os arquivos em uma area chamada 'stage'
+
+- git status = mostra os arquivos que foram salvos na area 'stage'
+
+- git log = mostra o historioco das versoes ja comitadas e salvas pelo git naquele projeto. Explicacao 1.
+
+- git log --oneline = mostra resumidamente o historio de versoes. Codigo do commit, HEAD/main/origin, descricao do commit
+
+- git commit -m "Titulo commit" = vai salvar aquela versao no meu repositorio git, vem depois do git add
+
+- git branch -M main = garante que o a "branch" principal do nosso projeto tera nome 'main'
+
+- git push = vai salvar os commits/versao do projeto da branch 'main' no repositorio remoto. Esse comando eh usado quando nao eh o primeiro push feito para o repositorio remoto
+
+- git push -u origin main = vai salvar os commits/versao do projeto da branch 'main' no repositorio remoto. Esse comando eh usado quando esse eh o primeiro push feito para o repositorio remoto
+
+
+
+/// Conectar um repositorio local ao repositorio remoto ///
+
+- git remote add origin git@github.com:migueltotti/AulaGitUdemy.git
+
+* se ja existe uma pasta com alguma versao de algo e queremos conectar ao repositorio remoto devemos dar o comando "git branch -M main" depois do comando para conectar *
+
+
+
+/// Clonar um repositorio existente ///
+
+Entrar no repositorio no GitHub -> Code -> Copiar a chave SSH -> GitBash na pasta que deseja salvar o repositorio -> comandos:
+
+- git clone 'chave SSH copiada'
+
+
+
+
+
+
+////// Explicacao mais detalhada das funcoes //////
+
+1) Quando aquele repositorio local esta conectado a um repositorio remoto, quando digitado o comando 'git log', vai mostar as versoes ja commitadas no git e do lado vai aparecer em vermelho "origin/main, origin/HEAD" que indica que esta eh a versao mais atualizada armazenada pelo git no GitHub REMOTAMENTE.
+   Tambem vai aparecer em azul-bebe e verde claro "HEAD -> main", isso significa que esta eh a versao mais recente comitada LOCALMENTE.
+   Quando as duas aparecerem juntas em um commit quer dizer que a versao mais atualizada localmente eh a mesma remotamente.
+
+
