@@ -4,6 +4,14 @@ Git e GitHub
 - repositorio remoto : copia oficial armazenada no servidor
 - repositorio local : copia do repositorio para cada pessoa trabalhar individualmente na sua maquina
 
+- Arquivo .gitignore : eh um arquivo que contem informacoes que nao devem ser salvas/rastreadas pelo git, geralmente fica salvo na pagina principal do projeto porem tambem eh util criar arquivos .gitignore por subpastas para arquivos muito grandes que tenham muitas areas do desenvolvimento de software juntas
+	-> casos comuns de arquivos que nao devem ser salvos:
+	* arquivos compilados
+	* arquivos de bibliotecas externas
+	* arquivos de configuracao da su IDE
+	* arquivos de configuracao do seu sistema
+	
+
 ///////////////////// Chave SSH /////////////////////
 
 - gerar uma chave SSH da maquina para inserir no GitHub:
@@ -22,8 +30,11 @@ Git e GitHub
 - git init = vai tornar aquela pasta um repositorio git
 
 
+- git add nome_arquivo = vai salvar o arquivo informado na area de 'stage'
 
 - git add . = vai salvar todos os arquivos em uma area chamada 'stage'
+
+- git reset = retira todos os arquivos da area de stage
 
 - git status = mostra os arquivos que foram salvos na area 'stage'
 
@@ -35,9 +46,18 @@ Git e GitHub
 
 - git branch -M main = garante que o a "branch" principal do nosso projeto tera nome 'main'
 
+- git checkout codigo_commit/nome_branch = vai pegar todo o historio daquele comit e trazer de volta temporariamente, isso "muda" os arquivos temporariamente. Para voltar para o ultimo commit basta dar 'git checkout main'
+	-> git checkout HEAD~N (N eh um valor inteiro) vai voltar as versoes n vezes do commit mais recente.
+	-> NAO MODIFICAR OS ARQUIVOS FORA DO main!!!!!, caso isso aconteca devemos seguir os seguintes comandos:
+	git reset
+	git clean -df
+	git checkout -- .
+
 - git push = vai salvar os commits/versao do projeto da branch 'main' no repositorio remoto. Esse comando eh usado quando nao eh o primeiro push feito para o repositorio remoto
 
 - git push -u origin main = vai salvar os commits/versao do projeto da branch 'main' no repositorio remoto. Esse comando eh usado quando esse eh o primeiro push feito para o repositorio remoto
+
+- git diff nome_arquivo = vai mostrar a diferenca, oq mudou no arquivo (graficamente), "Source Control"
 
 
 
@@ -54,6 +74,12 @@ Git e GitHub
 Entrar no repositorio no GitHub -> Code -> Copiar a chave SSH -> GitBash na pasta que deseja salvar o repositorio -> comandos:
 
 - git clone 'chave SSH copiada'
+
+
+/// Sequencia de operacoes do git e GitHub ///
+
+Arquivos novos, modificados ou deletados --> Staged --> Commited --remotamente--> Pushed
+		 
 
 
 
