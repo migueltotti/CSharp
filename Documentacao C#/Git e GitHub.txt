@@ -10,10 +10,14 @@ Git e GitHub
 	* arquivos de bibliotecas externas
 	* arquivos de configuracao da su IDE
 	* arquivos de configuracao do seu sistema
+
+- Branch : ramificacao do repositorio, main eh a branch principal.
+	Quando uma nova branch eh criada dentro de uma ja existente, ela aponta para o ultimo commit realizado na main. 
 	
 
 ///////////////////// Chave SSH /////////////////////
 
+- a chave SSH permite selecionar quais maquinas teram acesso ao meu GitHub, tornando a experiencia de push e pull mais simples.
 - gerar uma chave SSH da maquina para inserir no GitHub:
 	* Abra o GitBash e execute um dos dois comandos:
 
@@ -25,12 +29,32 @@ Git e GitHub
 	* Entre no arquivo criado contendo a chave SSH e abra a chave publica pelo bloco de notas.
 	* Entre na conta do GitHub -> Settings -> SSH and GPG keys -> New -> Inserir um nome e a chave SSH.
 
+	* Inserir a chave SSH ao ssh-agent
+	GitBash aberto -> eval "$(ssh-agent -s)" -> ssh-add ~/.ssh/id_ed25519 _> digitar uma "frase senha"
+
+	-> isso faz com que toda vez que formos clonar um repositorio temos que inserir a "frase senha" para maior seguranca
+
+///////////////////// Tokens /////////////////////
+
+- A autentificacao via tokens esta aliada com o metodo de clonagem https do GithHub. Usar tokens permite uma melhor configuracao das permissoes que cada usuario tera acerca daquele repositorio
+- gerar um token:
+	* Abrir o GitHub e clicar no seu perfil -> Settings -> Developer settings -> Personal access tokens -> tokens (classic) -> Generate new Tokens -> Generate new Tokens classic -> Inserir um nome, tempo de expiracao e permissoes
+
+	* Aberto o GitHub, quando formos clonar um repositorio usando hhtps devemos fechar a janela que abre para inserir o username, depois inserir o username pelo GitBash e a senha que for pedida sera o token. 
+	* Para nao precisar colocar o token toda vez podemos guardar ele pelo git:
+	GitBash aberto -> git config credential.helper store -> git config --global credential.helper store. 
+	- Depois disso qualquer outro repositorio a ser clonado sera automaticamente inserido o token deixando mais rapido o processo.
+	
+
+	!! Assim que a pagina for fechada os tokens nao seram mais disponiveis, por isso faca a copia dele e ja insira no GitBash !!
+
+
 ///////////////////// Comandos /////////////////////
 
 - git init = vai tornar aquela pasta um repositorio git
 
 
-- git add nome_arquivo = vai salvar o arquivo informado na area de 'stage'
+- git add <nome_arquivo> = vai salvar o arquivo informado na area de 'stage'
 
 - git add . = vai salvar todos os arquivos em uma area chamada 'stage'
 
@@ -44,21 +68,67 @@ Git e GitHub
 
 - git commit -m "Titulo commit" = vai salvar aquela versao no meu repositorio git, vem depois do git add
 
+- git commit --amend -m "Novo titutlo commit" = altera o titulo do ultimo commit realizado
+
+- git restore <nome_arquivo> = vai desfazer as ultimas mudancas realizadas em um arquivo descartando todas elas desde o ultimo save.
+
+- git reset --soft <codigo_commit> = retorna para um commit anterior, ele vai desfazer os commits apos o commit indicado e vai colocar todas as mudancas dos commits dentro da stage area, ou seja, arquivos que ja foram reconhecidos, rastreados e salvos pelo git. Explicacao 2.
+
+- git reset --mix ou git reset <codigo_commit> = faz a mesma coisa que o --soft porem ele apenas coloca todas as mudancas na nossa arvore de trabalho e nao sao reconhecidos pelo git, ou seja, estao fora da stage area
+
+- git reset --hard <codigo_commit> = retorna para um commit anterior mas EXCLUI todas as alteracoes dos commits depois do commit informado (DELETAR COMMITS). 
+!! ACAO DESTRURIVA !!
+
 - git branch -M main = garante que o a "branch" principal do nosso projeto tera nome 'main'
 
-- git checkout codigo_commit/nome_branch = vai pegar todo o historio daquele comit e trazer de volta temporariamente, isso "muda" os arquivos temporariamente. Para voltar para o ultimo commit basta dar 'git checkout main'
+- git checkout <codigo_commit/nome_branch> = troca de branch. Vai pegar todo o historio daquele comit e trazer de volta temporariamente, isso "muda" os arquivos temporariamente. Para voltar para o ultimo commit basta dar 'git checkout main'
 	-> git checkout HEAD~N (N eh um valor inteiro) vai voltar as versoes n vezes do commit mais recente.
 	-> NAO MODIFICAR OS ARQUIVOS FORA DO main!!!!!, caso isso aconteca devemos seguir os seguintes comandos:
 	git reset
 	git clean -df
 	git checkout -- .
 
+- git checkout -b <nome_new_branch> = vai criar uma nova branch.
+
+- git checkout -d <nome_branch> = vai deletar a branch informada
+
+- git checkout -v = mostra os ultimos commit feitos em cada branch
+
+- git merge <nome_branch> = vai mesclar as alteracoes da branch informada com a branch em que estamos
+
+- git fecth origin <nome_branch_remota> = vai baixar o conteudo/versoes do repositorio remoto porem nao vai mesclar com o seu repositorio local. Podemos usar o git diff origin/<nome_branch_remota> apos o git fetch para ver as mudancas 
+
+- git stash = fizemos alteracoes em uma branch e vamo criar uma nova branch a partir desta ja existente porem nao queremos que essas alteracoes (que nao foram ainda adicionadas a stage area) vao para a nova branch, para isso utilizamso o git stach que vai arquivar essas alteracoes feitas e assim podemos criar uma nova branch.
+
+- git stash list = mostra as alteracoes que foram arquivadas
+
+- git stash pop = traz de volta as alteracoes arquivadas e exclui as alteracoes mais recentes feitas apos o arquivamento
+
+- git stach apply = traz de volta as alteracoes arquivadas e salva as alteracoes mais recentes feitas apos o arquivamento, o contrario do 'pop'
+
 - git push = vai salvar os commits/versao do projeto da branch 'main' no repositorio remoto. Esse comando eh usado quando nao eh o primeiro push feito para o repositorio remoto
 
-- git push -u origin main = vai salvar os commits/versao do projeto da branch 'main' no repositorio remoto. Esse comando eh usado quando esse eh o primeiro push feito para o repositorio remoto
+- git push -u origin main = vai salvar os commits/versao do projeto da branch 'main' no repositorio remoto. Esse comando eh usado quando esse eh o primeiro push feito para o repositorio remoto. Ele vai conectar o main do repositorio local com o origin main do repositorio local
+
+- git push -f origin <nome_branch> = envia FORCADAMENTE o historico local/versoes locais salvas para o repositorio remoto EXCLUINDO PERMANENTEMENTE o historico remoto salvo no GitHub 
+!!! ACAO DESTRUTIVA !!!
+
+- git pull =  vai baixar todas as versoes de um repositorio remoto para o repositorio local da maquina. Ele eh a juncao do 'git fetch + git merge' 
 
 - git diff nome_arquivo = vai mostrar a diferenca, oq mudou no arquivo (graficamente), "Source Control"
 
+- rm -rf .git = remove o versionamento daquela pasta
+	-> ou podemos apenas excluir a pasta git da pasta
+
+
+/// Descartar alteracoes nao salvas e voltar para o ultimo commit realizado ///
+
+Durante nosso projeto existem momento em que mudamos algumas coisas, ou varias, e nao esta dando certo e queremos descartar todas essas mudancas e voltar para um estado anterio do nosso projeto, para isso podemos usar a ultima versao commitada do projeto:
+
+	git status : vai verificar as mudancas
+	git reset : vai tirar as alteracoes da area de stage, caso tenha adicionado
+	git clean -df : vai limpar todas as alteracoes feitas no projeto
+	git checkout -- . : volta o projeto para uma versao anterior commitada salva pelo git
 
 
 /// Conectar um repositorio local ao repositorio remoto ///
@@ -66,14 +136,27 @@ Git e GitHub
 - git remote add origin git@github.com:migueltotti/AulaGitUdemy.git
 
 * se ja existe uma pasta com alguma versao de algo e queremos conectar ao repositorio remoto devemos dar o comando "git branch -M main" depois do comando para conectar *
+* caso ja estivermos na branch main, nao eh preciso realizar o comando acima *
 
 
+/// Apontar o projeto para outro repositorio remoto ///
+
+- git remote set-url origin 'chave SSH ou chave HTTPS'
+
+Apontar para outro repositorio leva todo o historio do git daquele projeto.
+Quando fazemos isso, a coneccao com o antigo repositorio eh perdida.
 
 /// Clonar um repositorio existente ///
 
-Entrar no repositorio no GitHub -> Code -> Copiar a chave SSH -> GitBash na pasta que deseja salvar o repositorio -> comandos:
+Entrar no repositorio no GitHub -> Code -> Copiar a chave SSH ou HTTPS -> GitBash na pasta que deseja salvar o repositorio -> comandos:
 
-- git clone 'chave SSH copiada'
+- git clone 'chave SSH copiada' 
+- git clone 'chave HTTPS copiada' 
+
+
+/// Clonar uma branch especifica de um repositorio existente ///
+
+- git clone 'chave SSH copiada ou chave HTTPS copiada' --branch <nome_branch> --single-branch
 
 
 /// Sequencia de operacoes do git e GitHub ///
@@ -81,8 +164,28 @@ Entrar no repositorio no GitHub -> Code -> Copiar a chave SSH -> GitBash na past
 Arquivos novos, modificados ou deletados --> Staged --> Commited --remotamente--> Pushed
 		 
 
+/// Problemas de merge (push ou pull) ///
+
+Quando trabalhamos com varias pessoas no mesmo projeto usando o mesmo repositorio e mais de uma pessoa faz alteracoes nas mesmas linhas de codigo e dao um commit, isso gera um problema. O git nao sabe qual das duas versoes, com alteracoes nos mesmos luagres, escolher para ser salva no repositorio remoto. Para isso nos precisamos escolher manualmente qual das versoes deve ser salva pelo proprio ambiente de edicao de codigo e fazer um novo commit.
 
 
+/// Conflito de push ///
+
+Quando existem mais versoes no repositorio remoto que no local e salvamos localmente mais algumas versoes e tentamos dar um push ele apresentara um erro informando que o repositorio local esta desatualizado em relacao ao remoto. Para isso devemos dar:
+	git pull para atualizar o repositorio local, permitindo que ele mescle as versoes locais com as remotas
+	git push para salvar no remoto 
+
+
+////// Editor VIM //////
+
+O editor VIM abre quando tentamos fazer:
+	- commit sem mensagem
+	- merge de tres vias
+
+comandos:
+	- i : habilita modo de edicao
+	- <ESQ> :wq <ENTER> : sai do VIM salvando as alteracoes
+	- <ESQ> :q! <ENTER> : sai do VIM sem salvar
 
 
 
@@ -91,5 +194,7 @@ Arquivos novos, modificados ou deletados --> Staged --> Commited --remotamente--
 1) Quando aquele repositorio local esta conectado a um repositorio remoto, quando digitado o comando 'git log', vai mostar as versoes ja commitadas no git e do lado vai aparecer em vermelho "origin/main, origin/HEAD" que indica que esta eh a versao mais atualizada armazenada pelo git no GitHub REMOTAMENTE.
    Tambem vai aparecer em azul-bebe e verde claro "HEAD -> main", isso significa que esta eh a versao mais recente comitada LOCALMENTE.
    Quando as duas aparecerem juntas em um commit quer dizer que a versao mais atualizada localmente eh a mesma remotamente.
+
+2) O git reset --soft <HEAD~1> pode ser utilizado para realizar alteracoes simples que deveriam ser feitas no ultimo commit porem foram esquecidas, assim vamos desfazer aquele ultimo commit e manter as alteracoes dentro da area de stage permitindo que facamos alteracoes e depois dar o commit novamente
 
 
