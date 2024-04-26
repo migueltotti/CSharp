@@ -175,6 +175,16 @@ Quando existem mais versoes no repositorio remoto que no local e salvamos localm
 	git pull para atualizar o repositorio local, permitindo que ele mescle as versoes locais com as remotas
 	git push para salvar no remoto 
 
+//////////////// Convensoes de commit ////////////////
+
+tipo de commit:		    Descricao:
+	feat	 -	Adiciona uma funcionalidade ao projeto		
+	fix	 -		Corrige um bug ou problema no projeto
+	docs	 -		Altera a documentacao do projeto. Ex.: README, comentarios, codumentacao...
+	style	 -		Realiza mudancas na aparencia, sem alterar a funcionalidade		
+	refactor -		Realiza mudancas no codigo que nao alteram a funcionalidade 
+	test	 -		Adiciona ou modifica testes no projeto
+
 
 ////// Editor VIM //////
 
