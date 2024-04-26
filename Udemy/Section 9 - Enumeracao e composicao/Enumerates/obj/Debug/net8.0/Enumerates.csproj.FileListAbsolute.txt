@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 9 - Enumeracao e composicao\Enumerates\bin\Debug\net8.0\Enumerates.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 9 - Enumeracao e composicao\Enumerates\bin\Debug\net8.0\Enumerates.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 9 - Enumeracao e composicao\Enumerates\bin\Debug\net8.0\Enumerates.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 9 - Enumeracao e composicao\Enumerates\bin\Debug\net8.0\Enumerates.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 9 - Enumeracao e composicao\Enumerates\bin\Debug\net8.0\Enumerates.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 9 - Enumeracao e composicao\Enumerates\obj\Debug\net8.0\Enumerates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 9 - Enumeracao e composicao\Enumerates\obj\Debug\net8.0\Enumerates.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 9 - Enumeracao e composicao\Enumerates\obj\Debug\net8.0\Enumerates.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 9 - Enumeracao e composicao\Enumerates\obj\Debug\net8.0\Enumerates.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 9 - Enumeracao e composicao\Enumerates\obj\Debug\net8.0\Enumerates.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 9 - Enumeracao e composicao\Enumerates\obj\Debug\net8.0\Enumerates.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 9 - Enumeracao e composicao\Enumerates\obj\Debug\net8.0\refint\Enumerates.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 9 - Enumeracao e composicao\Enumerates\obj\Debug\net8.0\Enumerates.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 9 - Enumeracao e composicao\Enumerates\obj\Debug\net8.0\Enumerates.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 9 - Enumeracao e composicao\Enumerates\obj\Debug\net8.0\ref\Enumerates.dll

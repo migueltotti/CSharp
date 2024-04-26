@@ -1,0 +1,23 @@
+Enumerates
+
+- eh um tipo especial que serve para especificar de forma literam um conjunto de constantes relacionadas
+- palavra chave em C#: enum
+	-> eh um tipo valor
+- melhor semantica, codigo mais legivel e auxiliado pelo compilador
+
+- declaracao:
+	enum <NomeEnum> {}
+	enum <NomeEnum> : tipo_valor {}
+
+	esse : tipo_valor diz que cada valor do Enum sera um inteiro, eh uma heranca, derivado do tipo int.
+
+- acessando um valor do enum:
+	<NomeEnum>.<valorEnum>
+
+- Para o tipo original: use casting
+	OrderStatus os1 = (OrderStatus)2;
+	int n1 = (int)OrderStatus.Processing;
+
+- conversao string - enum:
+	string txt = OrderStatus.PendingPayment.ToString();
+	OrderStatus os = Enum.Parse<OrderStatus>("Delivered");
