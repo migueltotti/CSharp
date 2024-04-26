@@ -1,0 +1,42 @@
+Heranca
+
+- Tipo de associacao que permite que uma classe herde dados e comportamemtos de outra
+- Vantagens: Reuso, Polimorfismo
+- Sintaxe: : (estende), base (referencia para a superclasse)
+- Definicoe importantes:
+	* Relacao "eh-um"
+	* Generalizacao / especializacao
+	* Superclasse (classe base) / subclasse(classe derivada)
+	* Heranca / extensao
+	* Heranca eh uma associacao entre classes (e nao entre objetos)
+
+Implementacao:
+- Classe:
+	... class Civic : Car {}
+	
+	-> a classe Civic esta herdando todas as propriedades e metodos da classe Car.
+
+- Construtores de classe:
+	public Civic(prop_1, prop_2, prop_3, prop1) : base(prop_1, prop_2, prop_3)
+{
+	Prop1 = prop1;
+} 
+
+	-> as propriedades prop_1, prop_2, prop_3 pertencem a classe Car e prop1 a classe Civic. Para realizar a atribuicao correta usando heranca precisamos colocar ": base()" depois do final dos argumento da classe derivada e especificar dentro dos parenteses quais propriedades, qual metodo construtor vai ser usado e assim as propriedades da classe Pai ja seram atribuidas automaticamente, sem precisar de implementacao no construtor da classe derivada.
+
+/////////// Casting ///////////
+
+Upcasting:
+- casting da subclasse pra superclasse
+- totalmente aceita pelo compilador
+- uso comum: polimorfismo
+
+DownCasting:
+- casting da superclasse pra subclasse
+- nao eh aceita pelo compilador, precisamos usar (Nome_Subclasse)
+- palavra as , is
+- uso comum: metodos que recebem parametros genericos (ex: Equals(Object obj))
+
+-> Palavra chave 'is':
+	- Ela eh usada para verificar se aquele objeto eh de um tipo/classe especificado.
+		

@@ -18,7 +18,18 @@ Object:
 	- sb.AppendLine(conteudo); : adiciona o conteudo com quebra de linha no StringBuilder
 
 /////////////////////////////////////////////////////////////////////////////////////
+Modificadores de Acesso:
+		     |	propria classe 	subclasses do  	classes do   subclasses fora   classes fora	
+		     |			  assembly       assembly      do assembly      do assembly
+-----------------------------------------------------------------------------------------------------
+- public	     |	       x              x              x              x                 x 
+- protected internal |	       x              x              x              x                 
+- internal           |	       x              x              x              
+- protected          |	       x              x                             x
+- private protected  |	       x              
+- private            | 	       x  
 
+/////////////////////////////////////////////////////////////////////////////////////
 Construtores:
 
 - podemos iniciar valores das propriedades de uma classe quando instanciada com uma sintaxe alternativa e nao necessariamente necessitando de um construtor daquela classe.
