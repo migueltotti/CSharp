@@ -38,5 +38,29 @@ DownCasting:
 - uso comum: metodos que recebem parametros genericos (ex: Equals(Object obj))
 
 -> Palavra chave 'is':
-	- Ela eh usada para verificar se aquele objeto eh de um tipo/classe especificado.
+	- Ela eh usada para verificar se aquele objeto eh de um tipo/classe especificado. True or False.
+
+-> Palavra chave 'as':
+	- Ela eh usada como uma sintaxe alternativa para typecasting. 
+	- variavel_ = outravariavel_ as tipo_ 
+	ao inves de usar: variavel_ = (tipo_)outravariavel_
+
+////////// Sobreposicao de metodos ///////////
+
+Podemos alterar a funcionalidade de um metodo de uma superclasse para uma subclasse especifica utilizando 'virtual' e 'override'
+
+- virtual: permite que ela seja alterada em classes derivadas. Quando alterada/reemplementada, so mudara a funcionalidade apenas na classe que aquele metodo for alterado.
+
+- override: uma sobreescrita do metodo, vamos utilizar override para indicar que aquele metodo da superclasse sera alterado/reemplementado na subclasse. Entao quando chamado o metodo no programa pela subclasse, o real metodo que sera executado sera o override e nao o virtual (original da superclasse).
+
+- Palavra chave 'base': quando queremos manter a funcionalidade de um metodo da superclasse em uma subclasse e tambem adicionar alguma funcionalidade a mais. "base.Nome_Metodo()" serve para chamar o metodo da superclasse, dai a partir disso podemos adicionar mais coisas no metodo depois/antes do metodo virtual acontecer.
+
+/////////// sealed //////////////
+
+- Utilizado em Classes: evita que a classe seja herdada
+	Namespace Course {
+		sealed class SavingsAccount { (...)
+
+- Utilizado em Metodos: evita que metodos sobreescritos sejam sobreescritos novamentente em outras classes derivadas a esta.
+	-> so funciona com metodos que ja foram sobreescritos de uma superclasse.
 		

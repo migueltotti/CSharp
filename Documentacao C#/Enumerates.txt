@@ -20,4 +20,4 @@ Enumerates
 
 - conversao string - enum:
 	string txt = OrderStatus.PendingPayment.ToString();
-	OrderStatus os = Enum.Parse<OrderStatus>("Delivered");
+	OrderStatus os = Enum.Parse<OrderStatus>("string");

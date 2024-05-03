@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Criando_Excecoes_Personalizadas\bin\Debug\net8.0\Criando_Excecoes_Personalizadas.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Criando_Excecoes_Personalizadas\bin\Debug\net8.0\Criando_Excecoes_Personalizadas.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Criando_Excecoes_Personalizadas\bin\Debug\net8.0\Criando_Excecoes_Personalizadas.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Criando_Excecoes_Personalizadas\bin\Debug\net8.0\Criando_Excecoes_Personalizadas.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Criando_Excecoes_Personalizadas\bin\Debug\net8.0\Criando_Excecoes_Personalizadas.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Criando_Excecoes_Personalizadas\obj\Debug\net8.0\Criando_Excecoes_Personalizadas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Criando_Excecoes_Personalizadas\obj\Debug\net8.0\Criando_Excecoes_Personalizadas.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Criando_Excecoes_Personalizadas\obj\Debug\net8.0\Criando_Excecoes_Personalizadas.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Criando_Excecoes_Personalizadas\obj\Debug\net8.0\Criando_Excecoes_Personalizadas.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Criando_Excecoes_Personalizadas\obj\Debug\net8.0\Criando_Excecoes_Personalizadas.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Criando_Excecoes_Personalizadas\obj\Debug\net8.0\Criando_Excecoes_Personalizadas.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Criando_Excecoes_Personalizadas\obj\Debug\net8.0\refint\Criando_Excecoes_Personalizadas.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Criando_Excecoes_Personalizadas\obj\Debug\net8.0\Criando_Excecoes_Personalizadas.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Criando_Excecoes_Personalizadas\obj\Debug\net8.0\Criando_Excecoes_Personalizadas.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Criando_Excecoes_Personalizadas\obj\Debug\net8.0\ref\Criando_Excecoes_Personalizadas.dll

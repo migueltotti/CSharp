@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Directory-DirectoryIndo\Directory-DirectoryIndo\bin\Debug\net8.0\Directory-DirectoryIndo.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Directory-DirectoryIndo\Directory-DirectoryIndo\bin\Debug\net8.0\Directory-DirectoryIndo.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Directory-DirectoryIndo\Directory-DirectoryIndo\bin\Debug\net8.0\Directory-DirectoryIndo.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Directory-DirectoryIndo\Directory-DirectoryIndo\bin\Debug\net8.0\Directory-DirectoryIndo.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Directory-DirectoryIndo\Directory-DirectoryIndo\bin\Debug\net8.0\Directory-DirectoryIndo.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Directory-DirectoryIndo\Directory-DirectoryIndo\obj\Debug\net8.0\Directory-DirectoryIndo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Directory-DirectoryIndo\Directory-DirectoryIndo\obj\Debug\net8.0\Directory-DirectoryIndo.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Directory-DirectoryIndo\Directory-DirectoryIndo\obj\Debug\net8.0\Directory-DirectoryIndo.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Directory-DirectoryIndo\Directory-DirectoryIndo\obj\Debug\net8.0\Directory-DirectoryIndo.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Directory-DirectoryIndo\Directory-DirectoryIndo\obj\Debug\net8.0\Directory-DirectoryIndo.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Directory-DirectoryIndo\Directory-DirectoryIndo\obj\Debug\net8.0\Directory-DirectoryIndo.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Directory-DirectoryIndo\Directory-DirectoryIndo\obj\Debug\net8.0\refint\Directory-DirectoryIndo.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Directory-DirectoryIndo\Directory-DirectoryIndo\obj\Debug\net8.0\Directory-DirectoryIndo.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Directory-DirectoryIndo\Directory-DirectoryIndo\obj\Debug\net8.0\Directory-DirectoryIndo.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Directory-DirectoryIndo\Directory-DirectoryIndo\obj\Debug\net8.0\ref\Directory-DirectoryIndo.dll

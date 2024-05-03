@@ -1,0 +1,180 @@
+Manipulacao de Arquivos
+
+//////////////////////////// File, FileInfo ///////////////////////////
+
+- Namespace Sytem.IO
+- Realiza operacoes com arquivos (creat, copy, delete, move, open, etc.) e ajuda na criacao de objetos FileStream.
+
+- File:
+	* static members (simples, mas realiza verificacao de seguranca para cada operacao)
+	* um pouco mais lenta em relacao ao 'FileInfo'
+	* utilizacao: programas simples
+
+- FileInfo:
+	* instance members
+	* utilizacao: programas mais complexos e que necessitam de melhor performance
+	* Quando instanciado vai armazenar as 'informacoes' de um arquivo passado por caminho.
+
+- IOExecption:
+	* DirectoryNotFoundException
+	* DriveNotFoundException
+	* EndofStreamException
+	* FileLoadException
+	* FileNotFoundException
+	* PathTooLongException
+	* PipeException
+
+//////////////////////////// FileStream / StreamReader ///////////////////////////
+
+FileStream:
+	- Disponibiliza uma stream (sequencia de dados) associada a um arquivo, permitindo operacoes de leitura e escrita.
+	- Suporte a dados binarios
+	- Instanciacao:
+		* A partir de um arquivo e ai podemos realizar as operacoes de leitura (entrada) ou escrita (saida)
+		* Varios construtores
+		* File / FileInfo
+
+- StreamReader:
+	- Eh uma stream (sequencia de dados) capaz de ler caracteres a partir de uma stream binaria (ex.: FileStream)
+	- Suporte a dados no formato de texto
+	- Instanciacao:
+		* A partir de um objeto FileStream e ai podemos realizar a operacao de leitura
+		* Varios construtores
+		* File / FileInfo
+
+- Ex.:
+	fs = new FileStream(path, FileMode.Open);
+	sr = new StreamReader(fs);
+	string line = sr.ReadLine();
+	Console.WriteLine(line);
+
+	// esse programa vai pegar um arquivo por um caminho 'path' com a caracteristica de apenas abri-lo (FileMode.Open) e assim instanciar um objeto que vai ler a informacao do arquivo, depois ler uma linha dele e apresentar na tela.
+
+- Podemos utilizar a classe File para encurtar a implementacao de acessar um arquivo pelo FileStream e SreamReader:
+
+	sr = File.OpenText(path);
+	while (!sr.EndOfStream)
+	{
+    		string line = sr.ReadLine();
+    		Console.WriteLine(line);
+	}
+
+	// Dessa forma eu ja instancio automaticamente um FileStream e fecho-o no final da execucao do programa.
+	// Para ler todas as linhas de um arquivo podemos utilizar um while com a condicao de que o stream (fluxo de dados) nao tenha acabado
+
+/// *** IMPORTANTE *** /// 
+- As streams instanciadas sao externas, conversa com o sistema operacional e logo nao sao gerenciadas pelo CLR do .NET assim eh preciso FECHAR AS STREAMS antes do programa acabar
+
+	if ( sr != null ) sr.Close();
+	if ( fs != null ) fs.Close();
+
+
+//////////////////////////// FileStream / StreamWriter ////////////////////////////
+
+- Eh uma stream capaz de escrever caracteres a partir de uma stream binaria (ex. FileStream)
+- Suporte a dados no formato de texto
+- Instanciacao:
+	* A partir de um objeto FileStream e ai podemos realizar a operacao de escrita
+	* Varios constutores
+	* File / FileInfo
+		-> CreatText(path)
+		-> AppendText(String)
+- Ex.: Escrevendo em um arquivo
+	string[] lines = File.ReadAllLines(sourcepath);
+
+	using (StreamWriter sw = File.AppendText(targetpath))
+	{
+    		foreach (string line in lines)
+    		{
+        		sw.WriteLine(line.ToUpper());
+    		}
+	}
+
+	// primeiramente utilizamos o metodo 'ReadAllLines(sourcepath)' da classe 'File' para armazenar todas as linhas em um vetor de string.
+	// Depois foi criado uma variavel da classe 'StreamWriter' que vai receber um metodo AppendText(targetpath) da classe 'File' para armazenar em um outro arquivo (no final do arquivo)
+	// Depois foi passado pelo vetor inteiro, pegando cada linha e escrevendo todas dentro da varaivel sw, assim quando o programa acabar o arquivo 'file2' tera adicionado no final as linhas armazenadas no vetor que foram retiradas do arquivo 'file1'
+
+
+//////////////////////////// using block ////////////////////////////
+
+- Sintaxe simplificada que garante que os objetos IDisposable serao fechados.
+- objetos IDisposable NAO sao gerenciados pelo CLR. Eles precisam ser manualmente fechados.
+	Exemplos: Font, FileStream, StreamReader, StreamWriter
+- Implementacao:
+	using (FileStream fs = new FileStream(path, FileMode.Open))
+	{
+    		using (StreamReader sr = new StreamReader(fs))
+    		{
+		
+    		}
+	}
+
+	// quando usado o bloco 'using', depois que tudo dentro das chaves acontecer o FileStream e o StreamReader ser fechado AUTOMATICAMENTE
+
+- Eh possivel utilizar o metodo para resumir junto com o bloco using:
+	using (StreamReader sr = File.OpenText(path))
+	{
+    		while (!sr.EndOfStream)
+    		{
+        		string line = sr.ReadLine();
+        		Console.WriteLine(line);
+    		}
+	}
+
+//////////////////////////// Directory / DirectoryInfo ////////////////////////////
+
+- Namespace System.IO
+- Operacoes com pastas (creat, enumerate, get files, etc.)
+
+- Directory:
+	* static members static members (simples, mas realiza verificacao de seguranca para cada operacao)
+	* um pouco mais lenta
+
+- DirectoryInfo: 
+	* instance members
+
+- Pegar todos os diretorios (pastas) em um determinado caminho:
+	Directory.EnumerateDirectories(path, "*.*", SearchOption.AllDirectories);
+
+	// vai retornar uma colecao com todas as pastas naquele caminho, com aquela configuracao de escolha ("*.*", todos as pastas) com a configuracao de procura de todos os diretorios, ate as subpastas (SearchOption.AllDirectories)
+
+- Pegar todos os arquivos em um determinado caminho:
+
+	folders = Directory.EnumerateFiles(path, "*.*", SearchOption.AllDirectories);
+
+	// vai retornar uma colecao com todos os arquivos naquele caminho, com aquela configuracao de escolha ("*.*", todos os arquivos) com a configuracao de procura em todos os diretorios, ate as subpastas (SearchOption.AllDirectories)
+
+- Criar uma pasta:
+	Directory.CreateDirectory(path + @"\newfolder");
+
+	// criar uma nova pasta com o caminho inserido, podemos tambem concatenar o caminho com o nome da pasta
+
+
+//////////////////////////// Path ////////////////////////////
+
+- Namespace Ssytem.IO
+- Realiza operacoes com strings que contem informacoes de arquivos ou pastas
+
+- Console.WriteLine("DirectorySeparatorChar: " + Path.DirectorySeparatorChar);
+	// retorna o caracter de separacao de diretorios
+
+- Console.WriteLine("PathSeparator: " + Path.PathSeparator);
+	// retorna o caracter separador de caminhos
+
+- Console.WriteLine("GetDirectoryName: " + Path.GetDirectoryName(path));
+	// retorna o nome do diretorio daquele arquivo
+	
+- Console.WriteLine("GetFileName: " + Path.GetFileName(path));
+	// retorna o nome de arquivo
+
+- Console.WriteLine("GetFileNameWithoutExtension: " + Path.GetFileNameWithoutExtension(path));
+	// retorna o nome de arquivo sem a extensao do arquivo
+
+- Console.WriteLine("GetExtension: " + Path.GetExtension(path));
+	// retorna a extensao do arquivo
+
+- Console.WriteLine("GetFullPath: " + Path.GetFullPath(path));
+	// retorna o caminho inteiro
+
+- Console.WriteLine("GetTempPath: " + Path.GetTempPath());
+	// retorna o caminho da pasta Temp do seu computador

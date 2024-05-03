@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Exception\bin\Debug\net8.0\Tratramento_Exception.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Exception\bin\Debug\net8.0\Tratramento_Exception.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Exception\bin\Debug\net8.0\Tratramento_Exception.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Exception\bin\Debug\net8.0\Tratramento_Exception.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Exception\bin\Debug\net8.0\Tratramento_Exception.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Exception\obj\Debug\net8.0\Tratramento_Exception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Exception\obj\Debug\net8.0\Tratramento_Exception.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Exception\obj\Debug\net8.0\Tratramento_Exception.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Exception\obj\Debug\net8.0\Tratramento_Exception.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Exception\obj\Debug\net8.0\Tratramento_Exception.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Exception\obj\Debug\net8.0\Tratramento_Exception.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Exception\obj\Debug\net8.0\refint\Tratramento_Exception.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Exception\obj\Debug\net8.0\Tratramento_Exception.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Exception\obj\Debug\net8.0\Tratramento_Exception.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 11 - Tratamento de Excecoes\Exception\obj\Debug\net8.0\ref\Tratramento_Exception.dll

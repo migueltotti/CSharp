@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\using-block\using-block\bin\Debug\net8.0\using-block.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\using-block\using-block\bin\Debug\net8.0\using-block.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\using-block\using-block\bin\Debug\net8.0\using-block.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\using-block\using-block\bin\Debug\net8.0\using-block.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\using-block\using-block\bin\Debug\net8.0\using-block.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\using-block\using-block\obj\Debug\net8.0\using-block.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\using-block\using-block\obj\Debug\net8.0\using-block.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\using-block\using-block\obj\Debug\net8.0\using-block.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\using-block\using-block\obj\Debug\net8.0\using-block.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\using-block\using-block\obj\Debug\net8.0\using-block.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\using-block\using-block\obj\Debug\net8.0\using-block.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\using-block\using-block\obj\Debug\net8.0\refint\using-block.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\using-block\using-block\obj\Debug\net8.0\using-block.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\using-block\using-block\obj\Debug\net8.0\using-block.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\using-block\using-block\obj\Debug\net8.0\ref\using-block.dll

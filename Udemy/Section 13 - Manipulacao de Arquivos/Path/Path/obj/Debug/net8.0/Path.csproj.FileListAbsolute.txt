@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Path\Path\bin\Debug\net8.0\Path.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Path\Path\bin\Debug\net8.0\Path.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Path\Path\bin\Debug\net8.0\Path.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Path\Path\bin\Debug\net8.0\Path.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Path\Path\bin\Debug\net8.0\Path.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Path\Path\obj\Debug\net8.0\Path.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Path\Path\obj\Debug\net8.0\Path.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Path\Path\obj\Debug\net8.0\Path.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Path\Path\obj\Debug\net8.0\Path.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Path\Path\obj\Debug\net8.0\Path.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Path\Path\obj\Debug\net8.0\Path.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Path\Path\obj\Debug\net8.0\refint\Path.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Path\Path\obj\Debug\net8.0\Path.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Path\Path\obj\Debug\net8.0\Path.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 13 - Manipulacao de Arquivos\Path\Path\obj\Debug\net8.0\ref\Path.dll

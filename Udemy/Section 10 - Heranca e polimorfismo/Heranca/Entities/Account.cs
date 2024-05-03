@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Heranca.Entities
 {
-    internal class Account
+    abstract internal class Account
     {
         public int Number { get; private set; }
         public string Holder { get; private set; }
@@ -22,9 +22,9 @@ namespace Heranca.Entities
             Holder = holder;
             Balance = balance;
         }
-        public void Withdraw(double amount)
+        public virtual void Withdraw(double amount)
         {
-            Balance -= amount;
+            Balance -= amount + 5.0;
         }
 
         public void Deposit(double amount)

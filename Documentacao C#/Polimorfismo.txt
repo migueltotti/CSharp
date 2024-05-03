@@ -1,0 +1,18 @@
+Polimorfismo
+
+- Recurso que permite que variaveis de um mesmo tipo mais generico possam apontar para objetos de tipos especificos diferentes, tendo assim comportamentos diferentes conforme cada tipo especifico
+
+- Importante:
+	-> A associacao do tipo especifico com tipo generico eh feita em tempo de excucao (upcasting)
+	-> O compilador nao sabe para qual tipo especifico a chamada do metodo Withdraw esta sendo feita (ele so sabe que sao duas variaveis do tipo Account)
+	Account acc1 = new Account(1001, "Alex", 500);
+	Account acc2 = new SavingsAccount(1002, "Isadora", 500, 0.01);
+	Account acc3 = new BusinessAccount(1003, "Miguel", 500, 100);
+
+	acc1.Withdraw(10); 
+	acc2.Withdraw(10); 
+	acc3.Withdraw(10); 
+
+	Console.WriteLine(acc1.Balance);
+	Console.WriteLine(acc2.Balance);
+	Console.WriteLine(acc3.Balance);

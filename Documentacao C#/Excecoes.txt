@@ -1,0 +1,61 @@
+Tratamento de Excecoes
+
+- Uma excessao é qualquer condicão de erro ou comportamento inesperado encontrado por um programa em execucão
+- No .NET, uma excecão é um objeto herdado de classe Sytem.Exception 
+- Quando uma excecão é lancada, ela é propagada na pilha de chamadas de métodos em execucão, até que seja capturada (tratada) ou o programa seja encerrado.
+
+- Vantagens:
+* permite que erros sejam tratados de forma consistente e flexível, usando boas práticas.
+* delega a lógica do ero para a classe / método reponsável por conhecer as regras que podem ocasionar o erro.
+* trata de forma organizada (inclusive hierárquica) excecões de tipos diferentes
+* a excecão pode carregar dados quaisquer.  
+
+//////////////////// Try - Catch //////////////////////
+
+- Bloco try:
+	* contem o codigo que representa a execucão normal do trecho de código que pode acarretar em uma excecão
+
+- Bloco catch:
+	* contem o codigo a ser executado caso uma excecão ocorra
+	* deve ser especificado o tipo de excecão a ser tratada (upcasting é permitido)
+
+- Bloco finally:
+	* contem o codigo a ser executado independentemente de ter ocorrido ou nao uma excecao.
+	* Exemplo classico: fechar um arquivo ou conexao de banco de dados ao final do processamento
+
+- Sintaxe:
+
+	try{
+	
+	}
+	catch (ExceptionType e) {
+	
+	}
+	catch (ExceptionType e) {
+	
+	}
+	catch (ExceptionType e) {
+	
+	}
+	(...) 
+
+//////////////////// Excecoes Personalisadas //////////////////////
+
+Podemos criar Excecoes personalisadas de acordo com possiveis erros que podem acontecer no nosso sistema.
+Para isso precisamos serguir alguns passos:
+
+- Criar uma pasta chamada 'Exceptions' dentro da pasta 'Entities'
+- Criar uma classe chamada 'DomainExceptions' que eh uma subclasse/eh herdada de 'ApplicationException' que diz respeito as possiveis excecoes no posso projeto.
+- Criar o construtor da seguinte maneira:
+	public DomainException(string message) : base (message)
+	{
+	}
+- Dentro da classe que fara as operacoes com possiveis excecoes devemos criar 'if's que vao verificar as condicoes e 'retornar' um erro. Esse tipo de retorno devera ser 'lancado' utilizando 'throw' e instanciando um objeto da classe 'DomainExceptions' com a mensagem que queremos mostrar quando aquela excecao acontecer.
+	Ex.:
+		if (checkOut <= checkIn)
+		{
+    			throw new DomainException("Check-out date must be after Check-in date ");
+		}
+* Criar essas verificacaoes com throw new DomainException(""); em construtores de classes eh permitido e recomendado.
+
+- No corpo do codigo principal, deve ser colocado um 'try-catch' com catch recebendo como parametro (DomainException e) e dado um Console.WriteLine("...." + e.Message) para mostrar a mensagem quando uma excecao for capturada

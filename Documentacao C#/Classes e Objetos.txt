@@ -79,5 +79,32 @@ Encapsulamento:
 
 	- a utilizacao do 'private set' indica que o valor daquela variavel nao pode ser alterado por outro arquivo ou classe, apenas com isntrucoes da propria classe
 
+/////////////////////////// Tipo de classes /////////////////////////
+
+-> sealed:
+
+- Utilizado em Classes: evita que a classe seja herdada
+	Namespace Course {
+		sealed class SavingsAccount { (...)
+
+- Utilizado em Metodos: evita que metodos sobreescritos sejam sobreescritos novamentente em outras classes derivadas a esta.
+	-> so funciona com metodos que ja foram sobreescritos de uma superclasse.
+
+-> abstracts:
+
+- Utilizando em Classes:
+* nao podem ser instanciadas.
+* uma forma de garantir heranca total: somente classes nao abstratas podem ser instanciadas, mas nunca a superclasse abstrata
+	Namespace Course {
+		abstract class Account { (...)
+
+	Notacao UML: italico
+
+- Utilizando em Metodos:
+* metodos que nao possuem implementacao
+* metodos precisam ser abstratos quando a sua classe eh generica demais para implementa-los
+* se uma classe possuir pelo menos um metodo abstrato, entao esta classe tambem eh abstrata
+* Notacao UML: italico
+	-> para implementar metodos abstratos em outras classes utilizados o 'override', como uma forma de heranca
 
 	
