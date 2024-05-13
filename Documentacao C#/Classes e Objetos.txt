@@ -17,6 +17,55 @@ Object:
 	- sb.Append(conteudo); : adiciona o conteudo no StringBuilder
 	- sb.AppendLine(conteudo); : adiciona o conteudo com quebra de linha no StringBuilder
 
+-> GetHashCode e Equals:
+	- operacoes da classe Object utilizadas para comparar se um objeto é igual a outro
+	- Equals: lento, resposta 100%
+	- GetHashCode: rapido, porem resposta positiva nao é 100%
+	- os tipos pre definidos ja possuem implementacao para essas operacoes. Classes e structs personalizadas precisam sobrepo-las.
+
+*-> Equals:
+	- Metodo que compara se um objeto é igual ao outro retornando true ou false.
+	- Ex.:
+		string a = "Maria";
+		string b = "Alex";
+		Console.WriteLine(a.Equals(b)); // false
+
+*-> GetHashCode:
+	- Metodo que retorna um numero inteiro representando um codigo gerado a partir das informacoes do objeto
+	- Ex.:
+		string a = "Maria";
+		string b = "Alex";
+		Console.WriteLine(a.GetHashCode()); // 098102378167
+		Console.WriteLine(b.GetHashCode()); // -891923861233
+
+	- Dois objetos iguais SEMPRE teram HashCodes iguais
+	- Porem se o HashCode de dois objetos forem iguais, MUITO PROVAVELMENTE os objetos sao iguais (pode haver colisao)
+	- Muito comum utilizar o GetHashCode para fazer comparacoes RAPIDAS e depois certificar que a comparacao esta certa com o Equals.
+
+*-> Exemplos de GetHashCode e Equals personalizados:
+
+	public override bool Equals(object? obj)
+	{
+    		if(!(obj is Client))
+    		{
+        		return false;
+    		}
+
+    		Client other = obj as Client;
+
+    		return Email.Equals(other.Email);
+	}
+
+	public override int GetHashCode()
+	{
+    		return Email.GetHashCode();
+	}
+
+- Diferenca entre '==' e 'Equals':
+	* == compara a referencia do ponteiro na memoria
+	* Equals compara a partir de uma logica definida
+	* Assim dois objetos podem sem diferentes pelo '==' porem iguais pelo 'Equals'
+
 /////////////////////////////////////////////////////////////////////////////////////
 Modificadores de Acesso:
 		     |	propria classe 	subclasses do  	classes do   subclasses fora   classes fora	

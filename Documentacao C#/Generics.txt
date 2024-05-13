@@ -1,0 +1,42 @@
+Generics
+
+- Permite que classes, intrerfaces e metodos possam ser parametrizados por tipo.
+- Utiliza o tipo '<T>' para permitir que qualquer valor seja manipulado. Torna aquela classe, interface ou metodo "generico" para qualquer uso. Na sua instanciacao eh preciso passar o tipo que sera utilizado, "<string> , <int> ..."
+- Assim toda propriedade/metodo, que fara parte da logica "generica", sera do tipo 'T'
+- Permite o:
+	* Reuso
+	* Type safety
+	* Performance
+- Uso comuns:
+	List<string> list = new List<string>();
+	list.Add("Miguel");
+	string name = list[0];
+
+- Ex.:
+	internal class PrintService<T>
+	{
+    		private T[] _values = new T[10];
+    		private int _count = 0;
+    		public void addValue(T value)
+    		{
+        		if(_count == 10)
+        		{
+            			throw new 					InvalidOperationException("PrintService is full");
+        		}
+        		_values[_count] = value;
+        		_count++;
+    		}
+	}
+
+- Para criar metodos genericos sem necessariamente utilizar classes genericas podemos apenas especificar no seu nome e tipo:
+	* public T encontrarMaior<T>(List<T> list){}
+
+- Restricao ao Generics:
+	* ex: Quando vamos criar algum metodo generico que vai fazer a comparacao de objetos em uma lista para retornar qual o "maior" objeto nao podemos inserir no metodo uma lista de qualquer objeto, pois la na hora da comparacao ocorrera um problema entre tipos, logo precisamos RESTRINGIR o tipo da lista no metodo generico fznd assim:
+	-> public T Max<T>(List<T> list) where T : IComparable {}
+
+	* Isso faz com que apenas objetos 'T' que sejam herdados do namespace IComparable (que permite a comparacao) possam funcionar no metodo 
+	* Podemos restringir com o 'where' outros tipos alem de um namespace. struct, class, new(), U ...
+
+- IEnumerable<T>: interface de todas as colecoes que permite percorrer-las. Pode ser utilizado como argumento de alguma funcao para realizar alguma operacao com qualquer colecao (List, SortedList, SortedSet, HashSet, ...). Mais uma forma de tornar um metodo generico para colecoes
+	

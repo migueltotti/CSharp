@@ -1,0 +1,61 @@
+Interfaces
+
+- eh um tipo que define um conjunto de operacoes que uma classe (ou  struct) deve implementar
+
+- ela estabelece um contato que a classe (ou struct) deve cumprir
+
+- Diferenca entre interface e heranca:
+	* heranca => reuso de metodos e propriedades
+	* interface => contrato a ser cumprido, classes que recebem tal interface sao obrrigadas a implementar tais metodos
+
+- Nomenclatura Usual:
+	interface I_nome-interface_ {
+		...
+	}
+
+	// dessa forma uma classe vai "assumir" o contrato com aquela interface e necessita que seus metodos sejam implementados
+
+	public class _OutraClasse : I_nome-interface_ {
+	
+	}
+
+- vantagens:
+	* criar sistemas com baixo acoplamento e flexiveis
+	* Inversao de controle:
+		-> retirar da classe a responsabilidade de instanciar suas dependencias
+	* Injecao de dependencia:
+		-> uma forma de realizar a inversao de controle: um componente externo instancia a dependencia, que eh entao injetada no objeto "pai".
+		-> Ex.: Construtor, Objeto de instanciacao (builder/ factory), Container / Framework
+
+
+- Interface IComparable
+	* padrao da linguagem para comparar um objeto com outro.
+	* public interface IComparable {
+		int CompareTo(object other);
+	}
+	*  Ex.: quando vamos ordenar uma List de objetos precisamos implementar a interface na classe e implementar o metodo monstrado acima:
+	public int CompareTo(object? obj)
+	{
+    		if(!(obj is Employee))
+    		{
+        			throw new ArgumentException("Comparing error: Argument is not an Employee");
+    		}
+
+    		Employee other = obj as Employee;
+
+    		return Name.CompareTo(other.Name);
+	}
+
+	// Assim toda a logica de comparacao entre os objetos sera realizada dentro do metodo CompareTo(). Nesse caso os objetos estao sendo comparados pelo nome utilizando um metodo de comparacao ja existente da classe String.
+	
+
+
+- Heranca Multipla:
+	* NAO EH POSSIVEL REALIZAR HERANCAS MULTIPLAS DE CLASSES QUE IMPLEMENTAM METODOS IGUAIS
+	* Para resolver isso e o problema do diamante (ambiguidade), eh preciso transformar as classes em interfaces porem mantendo o metodo sobreescrito na superclasse apenas e nas interfaces implementar apenas os metodos mais especificos que ja existiam anteriormente nas classes.
+
+/////////////////////////// Exemplo ////////////////////////////
+
+- Um exemplo da utilizacao de interfaces eh na verificacao de alguma coisa dentro do programa, instanciacao de um novo usuario.... Diversas classes derivadas daquela interface sao criadas com suas logicas de verificacao e assim passadas uma por uma fazendo seus metodos. Ex.: pasta Interface_Strategy em Doc -> C# -> CSharp -> Udemy -> Section 14...
+
+- Caso seja preciso transformar alguma classe com propriedades e metodos que fosse herdada para uma interface eh preciso criar uma interface apenas com os metodos e depois uma classe abstract com as propriedades e que recebe a interface.

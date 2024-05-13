@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Problema_resolvido_1\Problema_resolvido_1\bin\Debug\net8.0\Problema_resolvido_1.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Problema_resolvido_1\Problema_resolvido_1\bin\Debug\net8.0\Problema_resolvido_1.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Problema_resolvido_1\Problema_resolvido_1\bin\Debug\net8.0\Problema_resolvido_1.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Problema_resolvido_1\Problema_resolvido_1\bin\Debug\net8.0\Problema_resolvido_1.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Problema_resolvido_1\Problema_resolvido_1\bin\Debug\net8.0\Problema_resolvido_1.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Problema_resolvido_1\Problema_resolvido_1\obj\Debug\net8.0\Problema_resolvido_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Problema_resolvido_1\Problema_resolvido_1\obj\Debug\net8.0\Problema_resolvido_1.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Problema_resolvido_1\Problema_resolvido_1\obj\Debug\net8.0\Problema_resolvido_1.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Problema_resolvido_1\Problema_resolvido_1\obj\Debug\net8.0\Problema_resolvido_1.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Problema_resolvido_1\Problema_resolvido_1\obj\Debug\net8.0\Problema_resolvido_1.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Problema_resolvido_1\Problema_resolvido_1\obj\Debug\net8.0\Problema_resolvido_1.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Problema_resolvido_1\Problema_resolvido_1\obj\Debug\net8.0\refint\Problema_resolvido_1.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Problema_resolvido_1\Problema_resolvido_1\obj\Debug\net8.0\Problema_resolvido_1.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Problema_resolvido_1\Problema_resolvido_1\obj\Debug\net8.0\Problema_resolvido_1.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Problema_resolvido_1\Problema_resolvido_1\obj\Debug\net8.0\ref\Problema_resolvido_1.dll

@@ -1,0 +1,42 @@
+Conjuntos:
+
+* HashSet<T> e SortedSet<T>
+- Repesenta um conjunto de elementos (similar ao da Algebra)
+	-> nao admite repeticoes
+	-> elementos nao possuem posicao
+	-> Acesso, insercao e remocao de elementos sao rapidos
+	-> oferece operacoes eficientes de conjunto: intersecao, uniao e diferenca.
+
+* Diferencas:
+- HashSet
+	-> Armazenamento em tabela hash (codigo especifico gerado pelo proprio conjunto)
+	-> Extremamente rapido: insersao, remocao e busca O(1)
+	-> A ordem dos elementos nao eh garantida
+
+- SortedSet
+	-> Armazenamento em arvore
+	-> Rapido: insersao, remocao e busca O(log(n))
+	-> Os elementos sao armazenadas ordenadamente conforme a implementacao IComparer<T>
+
+* Alguns metodos Importantes dos Conjuntos:
+- Add
+- Clear
+- Contains
+- UnionWith(other): adiciona ao conjunto os elementos do outro conjunto sem repeticao
+- IntersectWith(other): remove do conjunto os elementos nao contidos em other
+- ExceptWith(other): remove do conjunto os elementos contidos em other
+- Remove(T)
+- RemoveWhere(predicate)
+
+* IEnumerable<T>: interface de todas as colecoes que permite percorrer-las. Pode ser utilizado como argumento de alguma funcao para realizar alguma operacao com qualquer colecao (List, SortedList, SortedSet, HashSet, ...)
+
+* Como colecoes Hash comparam igualdades?
+- Se o GetHashCode e Equals estiverem implementados:
+	-> Primeiro GetHashCode. Se der igual, usa o Equals para confirmar.
+
+- Se o GetHashCode e Equals NAO estiverem implementados: 
+	-> Tipos referencia: compara a referencia dos objetos
+	-> Tipos valor: compara os valores dos atributos
+
+- Ex.: O metodo Contains() realiza essas operacoes
+	

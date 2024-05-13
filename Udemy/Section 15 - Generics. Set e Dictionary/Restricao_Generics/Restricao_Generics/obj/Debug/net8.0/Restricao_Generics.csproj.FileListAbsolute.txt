@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Restricao_Generics\Restricao_Generics\bin\Debug\net8.0\Restricao_Generics.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Restricao_Generics\Restricao_Generics\bin\Debug\net8.0\Restricao_Generics.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Restricao_Generics\Restricao_Generics\bin\Debug\net8.0\Restricao_Generics.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Restricao_Generics\Restricao_Generics\bin\Debug\net8.0\Restricao_Generics.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Restricao_Generics\Restricao_Generics\bin\Debug\net8.0\Restricao_Generics.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Restricao_Generics\Restricao_Generics\obj\Debug\net8.0\Restricao_Generics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Restricao_Generics\Restricao_Generics\obj\Debug\net8.0\Restricao_Generics.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Restricao_Generics\Restricao_Generics\obj\Debug\net8.0\Restricao_Generics.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Restricao_Generics\Restricao_Generics\obj\Debug\net8.0\Restricao_Generics.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Restricao_Generics\Restricao_Generics\obj\Debug\net8.0\Restricao_Generics.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Restricao_Generics\Restricao_Generics\obj\Debug\net8.0\Restricao_Generics.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Restricao_Generics\Restricao_Generics\obj\Debug\net8.0\refint\Restricao_Generics.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Restricao_Generics\Restricao_Generics\obj\Debug\net8.0\Restricao_Generics.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Restricao_Generics\Restricao_Generics\obj\Debug\net8.0\Restricao_Generics.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Restricao_Generics\Restricao_Generics\obj\Debug\net8.0\ref\Restricao_Generics.dll

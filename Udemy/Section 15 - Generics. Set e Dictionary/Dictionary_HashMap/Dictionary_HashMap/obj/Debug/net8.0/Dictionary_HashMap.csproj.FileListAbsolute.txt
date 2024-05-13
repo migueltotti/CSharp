@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Dictionary_HashMap\Dictionary_HashMap\bin\Debug\net8.0\Dictionary_HashMap.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Dictionary_HashMap\Dictionary_HashMap\bin\Debug\net8.0\Dictionary_HashMap.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Dictionary_HashMap\Dictionary_HashMap\bin\Debug\net8.0\Dictionary_HashMap.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Dictionary_HashMap\Dictionary_HashMap\bin\Debug\net8.0\Dictionary_HashMap.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Dictionary_HashMap\Dictionary_HashMap\bin\Debug\net8.0\Dictionary_HashMap.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Dictionary_HashMap\Dictionary_HashMap\obj\Debug\net8.0\Dictionary_HashMap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Dictionary_HashMap\Dictionary_HashMap\obj\Debug\net8.0\Dictionary_HashMap.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Dictionary_HashMap\Dictionary_HashMap\obj\Debug\net8.0\Dictionary_HashMap.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Dictionary_HashMap\Dictionary_HashMap\obj\Debug\net8.0\Dictionary_HashMap.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Dictionary_HashMap\Dictionary_HashMap\obj\Debug\net8.0\Dictionary_HashMap.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Dictionary_HashMap\Dictionary_HashMap\obj\Debug\net8.0\Dictionary_HashMap.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Dictionary_HashMap\Dictionary_HashMap\obj\Debug\net8.0\refint\Dictionary_HashMap.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Dictionary_HashMap\Dictionary_HashMap\obj\Debug\net8.0\Dictionary_HashMap.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Dictionary_HashMap\Dictionary_HashMap\obj\Debug\net8.0\Dictionary_HashMap.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 15 - Generics. Set e Dictionary\Dictionary_HashMap\Dictionary_HashMap\obj\Debug\net8.0\ref\Dictionary_HashMap.dll

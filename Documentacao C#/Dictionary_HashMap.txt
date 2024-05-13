@@ -1,0 +1,35 @@
+* Dictionary<TKey, TValue> e SortedDictionary<TKey, TValue>
+- É uma colecao de pares chave/ valor
+	-> Nao admite repeticoes do objeto chave
+	-> Os elementos sao indexados pelo objeto chave (nao possuem posicao)
+	-> Acesso, insercao e remocao de elementos sao rapidos
+
+- Uso comum: cookies, local storage, qualquer modelo chave-valor
+
+* Diferencas
+- Dictionary:
+	-> Armazenamento em tabela Hash
+	-> Extremamente rapido: insercao, remocao e busca O(1)
+	-> A ordem dos elementos nao eh garantida
+
+- SortedDictionary:
+	-> Armazenamento em arvore
+	-> Rapido: Insersao, remocao e busca O(log(n))
+	-> Os elementos sao armazenados ordenadamente conforme implementacao IComparer<T>
+
+* Alguns metodos importantes:
+- dictionary[key] - acessa o elemento pela chave informada
+- Add(Key, Value) - adiciona elemento (excecao em caso de repeticao)
+- Clear() - esvazia a colecao
+- Count - quantidade de elementos
+- Contains(value) - verifica se o dado valor existe
+- Remove(key) - remove um elemento pela chave
+
+* Para imprimir os valores contidos em um Dictionary eh preciso utilizar o foreach com o tipo:
+	- KeyValuePair<TKey, TValue> item ...
+	- Ex.:
+	foreach(KeyValuePair<string, string> item in cookies)
+	{
+    		Console.WriteLine(item.Key + ": " + item.Value);
+	}
+	
