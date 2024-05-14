@@ -99,6 +99,16 @@ ou
 	};
 
 /////////////////////////////////////////////////////////////////////////////////////
+Objetos Anonimos:
+- podemos instanciar objetos anonimos em qualquer parte do projeto.
+- sao objetos que nao pertencem a classe nenhuma criada no projeto.
+- podemos inserir valores no objeto na instanciacao
+- Ex.:
+	new { x.Name, x.Price, CategoryName = x.Category.Name }
+
+	// aqui ele vai receber como propriedades o Name, Price e o Category.Name com o ‘apelido’ de CategoryName;
+
+/////////////////////////////////////////////////////////////////////////////////////
 
 Encapsulamento:
 

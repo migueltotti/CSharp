@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_Lambda\LINQ_com_Lambda\bin\Debug\net8.0\LINQ_com_Lambda.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_Lambda\LINQ_com_Lambda\bin\Debug\net8.0\LINQ_com_Lambda.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_Lambda\LINQ_com_Lambda\bin\Debug\net8.0\LINQ_com_Lambda.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_Lambda\LINQ_com_Lambda\bin\Debug\net8.0\LINQ_com_Lambda.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_Lambda\LINQ_com_Lambda\bin\Debug\net8.0\LINQ_com_Lambda.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_Lambda\LINQ_com_Lambda\obj\Debug\net8.0\LINQ_com_Lambda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_Lambda\LINQ_com_Lambda\obj\Debug\net8.0\LINQ_com_Lambda.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_Lambda\LINQ_com_Lambda\obj\Debug\net8.0\LINQ_com_Lambda.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_Lambda\LINQ_com_Lambda\obj\Debug\net8.0\LINQ_com_Lambda.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_Lambda\LINQ_com_Lambda\obj\Debug\net8.0\LINQ_com_Lambda.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_Lambda\LINQ_com_Lambda\obj\Debug\net8.0\LINQ_com_Lambda.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_Lambda\LINQ_com_Lambda\obj\Debug\net8.0\refint\LINQ_com_Lambda.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_Lambda\LINQ_com_Lambda\obj\Debug\net8.0\LINQ_com_Lambda.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_Lambda\LINQ_com_Lambda\obj\Debug\net8.0\LINQ_com_Lambda.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_Lambda\LINQ_com_Lambda\obj\Debug\net8.0\ref\LINQ_com_Lambda.dll

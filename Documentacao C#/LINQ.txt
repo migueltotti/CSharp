@@ -1,0 +1,102 @@
+LINQ - Language Integrate Query
+
+- É um conjunto de tecnologias baseadas na integracao de funcionalidades de consulta diretamente na linguagem C#
+	-> Operacões chamdas diretamente a partir das colecoes
+	-> Consultas são objetos de primeira calsse
+	-> Suporte do compilador e IntelliSense da IDE
+- Namespace: System.Linq
+- Possui diversas operacões de consulta, cujos paramentros tipicamente são expressões lambda ou expressões de sintaxe similar à SQL
+
+* Trabalhar com LINQ, tres passos:
+- Criar um data source (colecao, array, recurso de E/S, etc.)
+- Definir a query
+- Executar a query (foreach ou alguma operacão terminal)
+	      _______________________________________
+	     |  DataSource ---> Query ---> Execution |
+             |_______________________________________|
+
+- Ex.:
+	// Specify the data source
+	int[] numbers = new int[] {2, 3, 4, 5};
+
+	// Define the query expression
+	var result = numbers
+    		.Where(x => x % 2 == 0)
+    		.Select(x => x * 10);
+
+	// Execute query
+	foreach (int x in result)
+	{
+    		Console.WriteLine(x);
+	}
+
+// mesmo que a query ‘result’ a tenha sido implementada, ela só sera executada quando algum metodo FORCAR a execucao dela, nesse caso o foreach(). “Lazy”
+
+//////////////////////// Operacoes do LINQ ///////////////////////////
+Operações do LINQ:
+• Filtering: 
+	- filtram a fonte de dados.
+	-> Where, OfType
+
+• Sorting: 
+	- ordernar
+	-> OrderBy, OrderByDescending, ThenBy, ThenByDescending, Reverse
+
+• Set: 
+	- opercoes de conjunto
+	-> Distinct, Except, Intersect, Union
+
+• Quantification: 
+	- Operacoes para verificar elementos que satisfazem alguma condicao
+	-> All, Any, Contains
+
+• Projection:  
+	- vai selecionar elementos e realizar alguma acao
+	-> Select, SelectMany
+
+• Partition:  
+	- operacao de pular tantos elementos e pegar tantos elementos
+	-> Skip, Take
+
+• Join:  
+	- operacao de juncao
+	-> Join, GroupJoin
+
+• Grouping:  
+	- operacao de grupamento
+	-> GroupBy
+
+• Generational:  
+	- operacao de criar uma fonte de dados vazia
+	-> Empty
+
+• Equality:  
+	- operacao de igualdade
+	-> SequenceEquals
+
+• Element:  
+	- operacao para pegar elementos
+	-> ElementAt, First, FirstOrDefault
+Last, LastOrDefault, Single, SingleOrDefault
+
+• Conversions:  
+	- conversao
+	-> AsEnumerable, AsQueryable
+
+• Concatenation:  
+	- concatenacao
+	-> Concat
+
+• Aggregation:  
+	- soma, media, min, max...
+	->Aggregate, Average, Count, LongCount, Max, Min, Sum
+	
+	- usar quando for verificar se um conjunto numero for vazio, ex: calcular a media usando Average().
+	-> DefaultIfEmpty()
+
+- Algumas referencias importantes de LINQ:
+	• https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b/view/SamplePack/1?sortBy=Popularity
+	• https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b/view/SamplePack/2?sortBy=Popularity
+	• https://odetocode.com/articles/739.aspx
+
+

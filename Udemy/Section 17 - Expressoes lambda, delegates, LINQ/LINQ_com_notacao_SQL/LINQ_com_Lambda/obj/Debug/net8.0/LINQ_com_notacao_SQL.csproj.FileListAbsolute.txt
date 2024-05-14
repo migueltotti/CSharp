@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_notacao_SQL\LINQ_com_Lambda\bin\Debug\net8.0\LINQ_com_notacao_SQL.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_notacao_SQL\LINQ_com_Lambda\bin\Debug\net8.0\LINQ_com_notacao_SQL.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_notacao_SQL\LINQ_com_Lambda\bin\Debug\net8.0\LINQ_com_notacao_SQL.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_notacao_SQL\LINQ_com_Lambda\bin\Debug\net8.0\LINQ_com_notacao_SQL.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_notacao_SQL\LINQ_com_Lambda\bin\Debug\net8.0\LINQ_com_notacao_SQL.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_notacao_SQL\LINQ_com_Lambda\obj\Debug\net8.0\LINQ_com_notacao_SQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_notacao_SQL\LINQ_com_Lambda\obj\Debug\net8.0\LINQ_com_notacao_SQL.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_notacao_SQL\LINQ_com_Lambda\obj\Debug\net8.0\LINQ_com_notacao_SQL.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_notacao_SQL\LINQ_com_Lambda\obj\Debug\net8.0\LINQ_com_notacao_SQL.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_notacao_SQL\LINQ_com_Lambda\obj\Debug\net8.0\LINQ_com_notacao_SQL.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_notacao_SQL\LINQ_com_Lambda\obj\Debug\net8.0\LINQ_com_notacao_SQL.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_notacao_SQL\LINQ_com_Lambda\obj\Debug\net8.0\refint\LINQ_com_notacao_SQL.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_notacao_SQL\LINQ_com_Lambda\obj\Debug\net8.0\LINQ_com_notacao_SQL.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_notacao_SQL\LINQ_com_Lambda\obj\Debug\net8.0\LINQ_com_notacao_SQL.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\LINQ_com_notacao_SQL\LINQ_com_Lambda\obj\Debug\net8.0\ref\LINQ_com_notacao_SQL.dll

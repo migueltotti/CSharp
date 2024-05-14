@@ -1,0 +1,72 @@
+SQL
+* Algebra Relacional
+- Operacoes basicas da algebra relacional
+	-> Restricao
+	-> Projecao
+	-> Produto Cartesiano
+	-> Juncao (produto cartesiano + restricao de chaves correspondentes)
+
+
+/////////////// Produto cartesiano ///////////////
+- vai juntar tudo de uma tabela com outra, todas as possibilidades
+	SELECT *
+	FROM PRODUCT, CATEGORY
+
+// selecionar tudo TUDO das tabelass PRODUCT e CATEGORY
+
+
+/////////////// Juncao ///////////////
+- vai juntar tudo de uma tabela com outra porem com alguma restricao
+	SELECT *
+	FROM PRODUCT, CATEGORY
+	WHERE
+	   PRODUCT.CATEGORY_ID = CATEGORY.ID
+
+	ou
+
+	SELECT *
+	FROM PRODUCT
+	INNER JOIN CATEGORY cat
+	   ON PRODUCT.CATEGORY_ID = cat.ID
+
+// vai selecionar tudo das categorias aonde o id da categoria de um produto seja igual ao id de uma outra categoria
+// no segundo exemplo o INNER JOIN realiza a juncao da tabela PRODUCT com CATEGORY com um apelido cat, realiza a mesma acao do exemplo acima
+
+
+/////////////// Restricao ///////////////
+- vai selecionar tudo com mais restricao ainda que a juncao
+	SELECT *
+	FROM PRODUCTS
+	INNER JOIN CATEGORY cat ON PRODUCT.CATEGORY_ID = cat.ID
+	WHERE CATEGORY.NAME = ‘Computers’
+
+// vai selecionar tudo de PRODUCTS juntando com a CATEGORY pegando apenas aonde o id da CATEGORY eh igual e ainda apenas aonde o nome da CATEGORY for ‘Computers’
+
+/////////////// Projecao ///////////////
+- vai selecionar tudo com mais restricao e mostrando apenas o desejado
+	SELECT PRODUCT.*, CATEGORY.NAME
+	FROM PRODUCTS
+	INNER JOIN CATEGORY cat ON PRODUCT.CATEGORY_ID = cat.ID
+	WHERE CATEGORY.NAME = ‘Computers’
+
+// vai selecionar tudo de PRODUCTS e selecionando apenas o nome em CATEGORY juntando com a CATEGORY pegando apenas aonde o id da CATEGORY eh igual e ainda apenas aonde o nome da CATEGORY for ‘Computers’
+
+//////////////////////////////////////////////////////////////////////
+Podemos usar a algebra relacional com LINQ
+- Ex.:
+
+var r1 = products.Where(x => x.Category.Tier == 1 && x.Price < 900);
+
+var r1 = 
+    from p in products
+    where p.Category.Tier == 1 && p.Price < 900.00
+    select p;
+
+- Ex. 2:
+
+var r2 = products.Where(x => x.Category.Name == "Tool").Select(x => x.Name);
+
+var r2 =
+    from p in products
+    where p.Category.Name == "Tool"
+    select p.Name;
