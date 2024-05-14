@@ -1,0 +1,34 @@
+Extension methods
+- Sao metodos que estendem a funcionalidade de um tipo, sem precisar alterar o codigo fonte deste tipo, nem herdar desse tipo
+
+- Como fazer um extension method?
+	-> Criar uma pasta Extension
+	-> Criar uma classe estatica
+	-> Na classe, criar um metodo estatico
+	-> O primeiro parametro do metodo devera ter o prefixo this, seguido da declaracao de um parametro do tipo que se deseja estender. Esta sera uma referencia para o proprio objeto e nao eh preciso colocar um argumento na hora de chamar o metodo
+
+	-> MACETE: quando formos utilizar extension methods, eles pertencem a outro namespace por padrao (sla ao namespace nome da aplicacao.pasta...), dai podemos mudar o namespace da classe que armazena o extension method para o namespace do tipo que estamos estentendo, assim a chamada do metodo eh mais 'limpa', sem precisar de importar um outro namespace
+
+- Ex.: 
+////////////////// Class //////////////////////////
+internal static class DateTimeExtensions
+{
+	public static string ElapsedTime(this DateTime thisObj)
+	{
+    		TimeSpan duration = DateTime.Now.Subtract(thisObj);
+
+    		if(duration.TotalHours > 24)
+    		{
+       	 		return duration.TotalHours.ToString("F1", System.Globalization.CultureInfo.InvariantCulture) + " hours";
+    		}
+    		else
+    		{
+       			 return duration.TotalDays.ToString("F1", System.Globalization.CultureInfo.InvariantCulture) + " days";
+    		}
+	}
+}
+////////////////////////// main //////////////////////////
+	DateTime dt = new DateTime(2018, 11, 16, 8, 10, 45);
+	Console.WriteLine(dt.ElapsedTime());
+
+	// o metodo ElapsedTime() nao existia na struct DateTime, logo ele eh um 'extension method' de DateTime

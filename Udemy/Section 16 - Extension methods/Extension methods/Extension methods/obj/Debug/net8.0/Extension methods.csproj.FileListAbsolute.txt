@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 16 - Extension methods\Extension methods\Extension methods\bin\Debug\net8.0\Extension methods.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 16 - Extension methods\Extension methods\Extension methods\bin\Debug\net8.0\Extension methods.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 16 - Extension methods\Extension methods\Extension methods\bin\Debug\net8.0\Extension methods.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 16 - Extension methods\Extension methods\Extension methods\bin\Debug\net8.0\Extension methods.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 16 - Extension methods\Extension methods\Extension methods\bin\Debug\net8.0\Extension methods.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 16 - Extension methods\Extension methods\Extension methods\obj\Debug\net8.0\Extension methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 16 - Extension methods\Extension methods\Extension methods\obj\Debug\net8.0\Extension methods.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 16 - Extension methods\Extension methods\Extension methods\obj\Debug\net8.0\Extension methods.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 16 - Extension methods\Extension methods\Extension methods\obj\Debug\net8.0\Extension methods.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 16 - Extension methods\Extension methods\Extension methods\obj\Debug\net8.0\Extension methods.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 16 - Extension methods\Extension methods\Extension methods\obj\Debug\net8.0\Extension methods.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 16 - Extension methods\Extension methods\Extension methods\obj\Debug\net8.0\refint\Extension methods.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 16 - Extension methods\Extension methods\Extension methods\obj\Debug\net8.0\Extension methods.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 16 - Extension methods\Extension methods\Extension methods\obj\Debug\net8.0\Extension methods.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 16 - Extension methods\Extension methods\Extension methods\obj\Debug\net8.0\ref\Extension methods.dll
