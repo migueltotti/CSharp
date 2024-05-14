@@ -45,6 +45,8 @@ List:
 
 .RemoveRange(p, n): remove um total de 'n' elementos a partir de uma determinada posicao 'p'
 
+.Sort(): ordena a lista com base em uma logica do metodo CompareTo() utilizada da interface IComparable<> sobreescrita na classe do objeto da lista.
+
 
 
 

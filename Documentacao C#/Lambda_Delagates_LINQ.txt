@@ -1,0 +1,197 @@
+//////////////////////// Programacao Funcional ///////////////////////
+
+- Calculo Lambda (Church 1930): formalismo matematico base da programacao funcional
+- Expressao lambda: funcao anonima de primeira classe
+
+- vantagens da programacao funcional:
+	-> A forma de se descrever algo a ser computado é feito a partir de expressoes ("o que" - declarativa) e nao por comando ("como" - iperativa)
+	-> Funcoes possuem transparencia forte (ausencia de efeitos colaterais, é facil de entender a funcao apenas olhando para a expressao)
+	-> Objetos sao imutaveis
+	-> São objetos de primeira ordem
+	-> Bastante expressividade / codigo conciso (escreve pouco para fazer muito)
+	-> Tipagem dinamica / inferencia de tipos (nao é necessario indicar o tipo que estamos trabalhando)
+	-> Execucao tardia (lazy) (ex: LINQ, só sera executado quando realmente o resultado for utilizado pelo programa)
+
+
+//////////////////////// Delegate //////////////////////////
+
+* Delegate
+
+- É um tipo referencia (com type safety) para um ou mais metodos/ funcoes. (É um tipo referencia)
+
+- Usos comuns: 
+	-> Comunicacao entre objetos de forma flexivel e extensivel (eventos / callbacks).
+	-> Parametrizacao de operacoes por metodos (programacao funcional)(passar uma funcao como parametro para outra funcao)
+	-> Muito utilizado para ordenar listas, criando uma funcao auxiliar com a logica de ordenacao e passando apenas o nome para dentro do metodo que vai ordenar.
+
+- Delegates pre-definidos:
+	* Action
+	* Func
+	* Predicate
+
+- Declaracao:
+	delegate _tipo-retorno_ _NomeDelegate_(_argumentos_);
+
+	// como delegates sao referencias para metodos, podemos criar uma variavel do tipo do delegate criado e atribuir um metodo a ele. Assim podemos acessar/chamar aquele metodo a partir do delegate.
+	// Ex.:
+
+	delegate double BinaryNumericOperation(double n1, double n2);
+	
+	BinaryNumericOperation op = CalculationService.Sum;
+
+	double result = op(a, b);
+
+	Console.WriteLine(result);
+
+	// o metodo CalculationService.Sum, assim como o delegate, possue dois numeros double como argumento e retorna um double, assim é possivel atribuir o metodo ao delegate op do tipo BinaryNumericOperation.
+
+	-> Sintaxe alternativa para atribuicao de delegates:
+
+	* BinaryNumericOperation op = CalculationService.Max;
+
+	* BinaryNumericOperation op = new BinaryNumericOperation(CalculationService.Max);
+
+	E
+
+	* double result = op(a, b);
+	
+	* double result = op.Invoke(a, b);
+
+- Multicast Delegates:
+	-> Delegates que guardam a referencia para mais de um metodo
+	-> Para adicionar uma referencia, pode-se usar o operador '+='
+	-> A chamada Invoke (ou sintaxe reduzida) executa todos os metodos na ordem em que foram adicionados
+	-> Seu uso faz sentido para metodos void
+
+//// Predicates ////
+
+- Representa um metodo que recebe um objeto do tipo T e retorna um valor booleano
+- public delegate bool Predicate<in T>(T obj);
+- Ex.:
+	public static bool ProductTest(Product P)
+	{
+    		return P.Price >= 100.00;
+	}
+
+	list.RemoveAll(ProductTest);
+
+	// vai remover todos os produtos da lista que seu valor seja maior ou igual a 100.
+
+//// Action (System) ////
+
+- Representa um metodo void que recebe zero ou mais argumentos
+- Realiza uma acao
+- public delegate void Action();
+public delegate void Action<in T>(T obj);
+public delegate void Action<in T1, in T2>(T1 arg1, T2 arg2);
+public delegate void Action<in T1, in T2, in T3>(T1 arg1, T2 arg2, T3 arg3);
+(16 sobrecargas)
+
+- Ex.: 
+	list.ForEach(UpdatePrice);
+
+	static void UpdatePrice(Product p)
+ 	{
+     		p.Price += p.Price * 0.1;
+ 	}
+
+	// o delegate actions 'UpdatePrice()' vai aumentar o valor de cada produto em 10%. Um metodo que retorna void
+
+	Action<Product> act = UpdatePrice;
+
+	// podemos tbm atribuir a referencia de um delegate Actions a uma variavel do tipo Actions<T> e passar ela como parametro de um metodo
+
+//// Func (System) ////
+
+- Representa um metodo que recebe zero ou mais argumentos, e retorna um valor
+- public delegate TResult Func<out TResult>();
+public delegate TResult Func<in T, out TResult>(T obj);
+public delegate TResult Func<in T1, in T2, out TResult>(T1 arg1, T2 arg2);
+public delegate TResult Func<in T1, in T2, in T3, out TResult>(T1 arg1, T2
+arg2, T3 arg3);
+(16 sobrecargas)
+
+- Ex.: 
+	Func<Product, string> func = NameUpper;
+	//Func<Product, string> func = x => x.Name.ToUpper();
+
+    	//List<string> list2 = list.Select(NameUpper).ToList();
+    	List<string> list2 = list.Select(func).ToList();
+
+	static string NameUpper(Product p)
+	{
+    		return p.Name.ToUpper();
+	}
+
+
+//// Atribuicoes ////
+Como utilizar um metodo que tem como argumento um Delegate:
+- Metodo por referencia: passa a referencia direta do metodo (apenas o nome).
+
+- Metodo da atribuicao de um metodo para uma variavel: cria um delegate, action, func ou predicate que recebe a referencia do metodo.
+
+- Metodo de atribuicao de uma expressao lambda para uma variavel: cria um delegate, action, func ou predicate que recebe uma expressao lambda.
+
+- Metodo lambda inline: passa a expressao lambda diretamente como argumento do metodo.
+
+//////////////////////// LAMBDA //////////////////////////
+
+* Expressao Lambda
+- É a declaracao de uma funcao anonima, sem a necessidade de implementar uma funcao verbosa separada e depois passar como delegate para um metodo.
+- Ex.:
+	Comparison<Product> comp = (p1, p2) => p1.Name.ToUpper().CompareTo(p2.Name.ToUpper());
+
+	// '(p1, p2)' sao os argumentos da funcao e toda a implementacao depois do '=>' é a logica de ordenacao.
+
+- Ex. 2:
+	list.RemoveAll(x => x.Price >= 100);
+
+	// vai remover todos os produtos da lista que seu valor seja maior ou igual a 100.
+	// aqui nao eh preciso colocar entre parenteses pois esta fazendo uma verificacao retornando um bool diretamente
+
+- Ex. 3:
+	list.ForEach(p => { p.Price += p.Price * 0.1; });
+
+	// vai aumentar o valor do preco de cada produto em 10%, uma expressao lambda representando um delegate Actions
+	// dessa vez precisamos colocar entre parenteses a logica pois ela representa o corpo da funcao/ um comando a ser executado, é uma acao e retorna void
+
+- Ex. 4:
+	List<string> list2 = list.Select(x => x.Name.ToUpper()).ToList();
+
+	// essa expressao lambda esta selecionando todo Name de Product x na list de Product e retornando em caixa alta para uma outra lista de string
+
+**--> SE A EXPRESSAO LAMBDA RETORNA ALGO, NAO PRECISA DOS PARENTESES <--**
+
+
+/////////////////////////// Comparison<T> ///////////////////////////
+
+*-> Comparison<T>
+- É um delegate que serve para criar uma condicao de comparacao, utilizado por exemplo no metodo Sort() em Listas, uma sobrecarga de Sort().
+- Assim não eh necessario entrar na classe da lista para mudar toda vez o metodo de comparacao utilizando a interface IComparable<> e o metodo sobreescrito CompareTo();
+
+- Ex.:
+	static int CompareProducts(Product product1, Product product2)
+	{
+    		return 	product1.Name.ToUpper().CompareTo(product2.Name.ToUpper());
+	}
+
+	products.Sort(CompareProducts);
+
+	OU
+
+	Comparison<Products> comp = CompareProducts;
+
+	products.Sort(comp);
+
+	// A funcao CompareProducts foi diretamente atribuida ao metodo Sort() funcionando como um delegate no primeiro exemplo e Atribuida a uma varaivel do delegate para o metodo Sort(), que vai utilizar a funcao como criterio de ordenacao
+
+- É possivel trocar a implementacao verbosa e extensa de uma funcao PARA uma declaracao de funcao anonima, Expressao Lambda.
+- Ex. anterior com lambda:
+	Comparison<Product> comp = (p1, p2) => p1.Name.ToUpper().CompareTo(p2.Name.ToUpper());
+
+	products.Sort(comp);
+
+	// comp do tipo Comparison<Product> carrega a referencia para a expressao lambda criada e depois passada para o metodo Sort().
+
+- Como a varivel comp esta carregando a referencia daquela expressao lambda podemos apenas passar ela inteira como argumento do metood Sort():
+	products.Sort((p1, p2) => p1.Name.ToUpper().CompareTo(p2.Name.ToUpper()));

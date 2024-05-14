@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Comparison_\Comparison_\bin\Debug\net8.0\Comparison_.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Comparison_\Comparison_\bin\Debug\net8.0\Comparison_.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Comparison_\Comparison_\bin\Debug\net8.0\Comparison_.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Comparison_\Comparison_\bin\Debug\net8.0\Comparison_.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Comparison_\Comparison_\bin\Debug\net8.0\Comparison_.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Comparison_\Comparison_\obj\Debug\net8.0\Comparison_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Comparison_\Comparison_\obj\Debug\net8.0\Comparison_.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Comparison_\Comparison_\obj\Debug\net8.0\Comparison_.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Comparison_\Comparison_\obj\Debug\net8.0\Comparison_.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Comparison_\Comparison_\obj\Debug\net8.0\Comparison_.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Comparison_\Comparison_\obj\Debug\net8.0\Comparison_.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Comparison_\Comparison_\obj\Debug\net8.0\refint\Comparison_.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Comparison_\Comparison_\obj\Debug\net8.0\Comparison_.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Comparison_\Comparison_\obj\Debug\net8.0\Comparison_.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Comparison_\Comparison_\obj\Debug\net8.0\ref\Comparison_.dll

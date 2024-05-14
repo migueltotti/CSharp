@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Action\Action\bin\Debug\net8.0\Action.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Action\Action\bin\Debug\net8.0\Action.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Action\Action\bin\Debug\net8.0\Action.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Action\Action\bin\Debug\net8.0\Action.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Action\Action\bin\Debug\net8.0\Action.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Action\Action\obj\Debug\net8.0\Action.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Action\Action\obj\Debug\net8.0\Action.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Action\Action\obj\Debug\net8.0\Action.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Action\Action\obj\Debug\net8.0\Action.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Action\Action\obj\Debug\net8.0\Action.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Action\Action\obj\Debug\net8.0\Action.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Action\Action\obj\Debug\net8.0\refint\Action.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Action\Action\obj\Debug\net8.0\Action.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Action\Action\obj\Debug\net8.0\Action.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Action\Action\obj\Debug\net8.0\ref\Action.dll

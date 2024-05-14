@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Predicate_\Predicate_\bin\Debug\net8.0\Predicate_.exe
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Predicate_\Predicate_\bin\Debug\net8.0\Predicate_.deps.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Predicate_\Predicate_\bin\Debug\net8.0\Predicate_.runtimeconfig.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Predicate_\Predicate_\bin\Debug\net8.0\Predicate_.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Predicate_\Predicate_\bin\Debug\net8.0\Predicate_.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Predicate_\Predicate_\obj\Debug\net8.0\Predicate_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Predicate_\Predicate_\obj\Debug\net8.0\Predicate_.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Predicate_\Predicate_\obj\Debug\net8.0\Predicate_.AssemblyInfo.cs
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Predicate_\Predicate_\obj\Debug\net8.0\Predicate_.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Predicate_\Predicate_\obj\Debug\net8.0\Predicate_.sourcelink.json
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Predicate_\Predicate_\obj\Debug\net8.0\Predicate_.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Predicate_\Predicate_\obj\Debug\net8.0\refint\Predicate_.dll
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Predicate_\Predicate_\obj\Debug\net8.0\Predicate_.pdb
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Predicate_\Predicate_\obj\Debug\net8.0\Predicate_.genruntimeconfig.cache
+C:\Users\User\Documents\C#\CSharp\Udemy\Section 17 - Expressoes lambda, delegates, LINQ\Predicate_\Predicate_\obj\Debug\net8.0\ref\Predicate_.dll
